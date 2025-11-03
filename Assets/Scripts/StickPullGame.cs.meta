@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: cea40b6246d021146b2602ed2f1a59ef
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - commonPrize: {fileID: 891255836560010422, guid: 2d5b6749c527e664cbf95849b6578c5c, type: 3}
+  - rarePrize: {fileID: 3642833386796219162, guid: a50ee28e727c1f34e9295925c35027c3, type: 3}
+  - legendaryPrize: {fileID: 5835447176062924700, guid: 4ff59b2a8dd78334caa142fb438ce8c1, type: 3}
+  - bonusPrize: {fileID: 8754583806029676922, guid: 9a43b10f5408fba4f884dec5f69cc204, type: 3}
+  - prizeSpawnPoint: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
