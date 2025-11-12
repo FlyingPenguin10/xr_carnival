@@ -4,7 +4,15 @@
 TagManager:
   serializedVersion: 3
   tags:
-  - CinemachineTarget
+  - Balloon
+  - Can
+  - Peg
+  - Ring
+  - Basketball
+  - Baseball
+  - playerStartPosition
+  - Mole
+  - Hammer
   layers:
   - Default
   - TransparentFX
