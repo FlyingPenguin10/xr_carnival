@@ -23,7 +23,7 @@ public class RingTossManager : MonoBehaviour
         rings = new GameObject[ringCount];
         for (int i = 0; i < ringCount; i++)
         {
-            Vector3 offset = new Vector3(i * 0.25f, 0, 0);
+            Vector3 offset = new(i * 0.25f, 0, 0); // Simplified 'new' expression
             rings[i] = Instantiate(ringPrefab, ringStartPoint.position + offset, ringStartPoint.rotation);
         }
     }
