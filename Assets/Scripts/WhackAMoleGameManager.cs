@@ -9,7 +9,6 @@ public class WhackAMoleGameManager : MonoBehaviour
     public float gameDuration = 30f; // Total game length
 
     private bool gameRunning = false;
-
     void Start()
     {
         StartCoroutine(GameLoop());

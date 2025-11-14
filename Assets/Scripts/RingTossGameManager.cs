@@ -1,78 +1,67 @@
 using UnityEngine;
+using UnityEngine.UI;
+using UnityEngine.XR.Interaction.Toolkit;
+using System.Collections;
 
-public class RingTossGameManager : MonoBehaviour
+public class RingTossManager : MonoBehaviour
 {
-    [Header("References")]
-    public Transform[] ringSpawnPoints; // Where rings start from
-    public GameObject ringPrefab;       // The ring prefab to spawn
-    public Transform playerStartPoint;  // Where the player stands or teleports
-    public Transform pegArea;           // The peg target area
+    public Transform ringStartPoint;
+    public GameObject ringPrefab;
+    public int ringCount = 3;
+    public Canvas uiCanvas;
 
-    [Header("Settings")]
-    public int ringsPerRound = 3;
-    public float resetDelay = 3f;
-
-    private GameObject[] activeRings;
-    private bool gameActive = false;
+    private GameObject[] rings;
 
     void Start()
     {
-        StartNewRound();
+        SpawnRings();
+        uiCanvas.gameObject.SetActive(false);
     }
 
-    public void StartNewRound()
+    void SpawnRings()
     {
-        ClearRings();
-
-        activeRings = new GameObject[ringsPerRound];
-        for (int i = 0; i < ringsPerRound; i++)
+        rings = new GameObject[ringCount];
+        for (int i = 0; i < ringCount; i++)
         {
-            Transform spawnPoint = ringSpawnPoints[i % ringSpawnPoints.Length];
-            activeRings[i] = Instantiate(ringPrefab, spawnPoint.position, spawnPoint.rotation);
-        }
-
-        gameActive = true;
-        Debug.Log("Ring Toss round started.");
-    }
-
-    public void ResetRingsAfterDelay()
-    {
-        Invoke(nameof(StartNewRound), resetDelay);
-    }
-
-    private void ClearRings()
-    {
-        if (activeRings == null) return;
-        foreach (var ring in activeRings)
-        {
-            if (ring != null)
-                Destroy(ring);
+            Vector3 offset = new Vector3(i * 0.25f, 0, 0);
+            rings[i] = Instantiate(ringPrefab, ringStartPoint.position + offset, ringStartPoint.rotation);
         }
     }
 
-    public void EndRound()
+    void Update()
     {
-        gameActive = false;
-        ResetRingsAfterDelay();
+        if (AllRingsThrown())
+        {
+            StartCoroutine(ShowRestartUI());
+        }
+    }
+
+    bool AllRingsThrown()
+    {
+        foreach (var ring in rings)
+        {
+            if (ring != null && ring.transform.position.y > 0.2f)
+                return false;
+        }
+        return true;
+    }
+
+    IEnumerator ShowRestartUI()
+    {
+        yield return new WaitForSeconds(3f);
+        uiCanvas.gameObject.SetActive(true);
+    }
+
+    public void PlayAgain()
+    {
+        foreach (var ring in rings)
+            if (ring != null) Destroy(ring);
+        uiCanvas.gameObject.SetActive(false);
+        SpawnRings();
+    }
+
+    public void QuitGame()
+    {
+        Application.Quit();
     }
 }
-
-public class RingTarget : MonoBehaviour
-{
-    public RingTossGameManager gameManager;
-
-    private void OnTriggerEnter(Collider other)
-    {
-        if (other.CompareTag("Ring"))
-        {
-            // Replace or remove the call to AddScore
-            // For example, you could call EndRound if you want to end the round when a ring hits the target:
-            // gameManager.EndRound();
-
-            // Or simply remove the line if no action is needed:
-            // (No code here)
-        }
-    }
-}
-
-
