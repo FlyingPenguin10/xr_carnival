@@ -1,67 +1,65 @@
 using UnityEngine;
-using UnityEngine.UI;
-using UnityEngine.XR.Interaction.Toolkit;
-using System.Collections;
+using System.Collections.Generic;
 
-public class RingTossManager : MonoBehaviour
+public class RingTossGameManager : MonoBehaviour
 {
-    public Transform ringStartPoint;
-    public GameObject ringPrefab;
-    public int ringCount = 3;
-    public Canvas uiCanvas;
+    [Header("Rings")]
+    public Transform[] ringStartPositions;
+    private Rigidbody[] rings;
 
-    private GameObject[] rings;
+    [Header("Prize")]
+    public GameObject prizePrefab;
+    public Transform prizeSpawnPoint;
 
-    void Start()
+    private HashSet<GameObject> ringsScored = new HashSet<GameObject>();
+    private bool prizeGiven = false;
+
+    private void Start()
     {
-        SpawnRings();
-        uiCanvas.gameObject.SetActive(false);
-    }
+        GameObject[] ringObjects = GameObject.FindGameObjectsWithTag("Ring");
+        rings = new Rigidbody[ringObjects.Length];
 
-    void SpawnRings()
-    {
-        rings = new GameObject[ringCount];
-        for (int i = 0; i < ringCount; i++)
+        for (int i = 0; i < ringObjects.Length; i++)
         {
-            Vector3 offset = new(i * 0.25f, 0, 0); // Simplified 'new' expression
-            rings[i] = Instantiate(ringPrefab, ringStartPoint.position + offset, ringStartPoint.rotation);
+            rings[i] = ringObjects[i].GetComponent<Rigidbody>();
         }
     }
 
-    void Update()
+    public void ResetGame()
     {
-        if (AllRingsThrown())
+        ResetRings();
+        ringsScored.Clear();
+        prizeGiven = false;
+    }
+
+    private void ResetRings()
+    {
+        for (int i = 0; i < rings.Length; i++)
         {
-            StartCoroutine(ShowRestartUI());
+            rings[i].linearVelocity = Vector3.zero; // Updated from velocity to linearVelocity
+            rings[i].angularVelocity = Vector3.zero;
+            rings[i].transform.position = ringStartPositions[i].position;
+            rings[i].transform.rotation = ringStartPositions[i].rotation;
         }
     }
 
-    bool AllRingsThrown()
+    // Called by PegRingDetector
+    public void RingScored(GameObject ring)
     {
-        foreach (var ring in rings)
+        if (prizeGiven) return;
+
+        ringsScored.Add(ring);
+
+        // All 3 rings scored?
+        if (ringsScored.Count >= rings.Length)
         {
-            if (ring != null && ring.transform.position.y > 0.2f)
-                return false;
+            GivePrize();
         }
-        return true;
     }
 
-    IEnumerator ShowRestartUI()
+    private void GivePrize()
     {
-        yield return new WaitForSeconds(3f);
-        uiCanvas.gameObject.SetActive(true);
-    }
-
-    public void PlayAgain()
-    {
-        foreach (var ring in rings)
-            if (ring != null) Destroy(ring);
-        uiCanvas.gameObject.SetActive(false);
-        SpawnRings();
-    }
-
-    public void QuitGame()
-    {
-        Application.Quit();
+        Instantiate(prizePrefab, prizeSpawnPoint.position, prizeSpawnPoint.rotation);
+        prizeGiven = true;
     }
 }

@@ -13,6 +13,7 @@ TagManager:
   - playerStartPosition
   - Mole
   - Hammer
+  - Ball
   layers:
   - Default
   - TransparentFX
