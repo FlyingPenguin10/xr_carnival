@@ -2058,8 +2058,8 @@ struct Vector4MaterialPropertyAffordanceReceiver_t58D45980CB21A466D1AC4BCBCE4F6C
 };
 struct U3CPrivateImplementationDetailsU3E_t0A0443F6D9922784F911CA2BEBC7571840D3CA7C_StaticFields
 {
-	__StaticArrayInitTypeSizeU3D44884_t28C0D49D6F4C2DF851DDB6E0CC7AED7824BE2D19 ___78A7E742FAA05D96EED2E1AD475F51ADF5A60D61B5687266597CF8B313A48E6D;
 	__StaticArrayInitTypeSizeU3D38501_tA1179D4D02443D438FA4C7DE6D7439FE5CA1B82D ___9241C66EAFD2A620CCE63B9994A76E012139458E8AF8F07B4E8E259FD1661AA1;
+	__StaticArrayInitTypeSizeU3D44884_t28C0D49D6F4C2DF851DDB6E0CC7AED7824BE2D19 ___9987D60589E73E619BE9EAC7C1A93F6D29FC930A031278A19BA99EAD34F9231C;
 };
 struct AffordanceStateShortcuts_t7A59ACF9B6B40EBA55C1B04AB596C869777F496D_StaticFields
 {
@@ -2734,20 +2734,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool U3CClickAnimationU3Ed__98_MoveNext_m8F9A
 IL_0022:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/State/Provider/XRInteractorAffordanceStateProvider.cs:687>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/State/Provider/XRInteractorAffordanceStateProvider.cs:687>
 		__this->___U3CelapsedTimeU3E5__2 = (0.0f);
 		goto IL_009a;
 	}
 
 IL_0036:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/State/Provider/XRInteractorAffordanceStateProvider.cs:690>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/State/Provider/XRInteractorAffordanceStateProvider.cs:690>
 		float L_3 = __this->___U3CelapsedTimeU3E5__2;
 		float L_4 = __this->___duration;
 		float L_5;
 		L_5 = Mathf_Clamp01_mA7E048DBDA832D399A581BE4D6DED9FA44CE0F14_inline(((float)(L_3/L_4)), NULL);
 		V_2 = L_5;
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/State/Provider/XRInteractorAffordanceStateProvider.cs:691>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/State/Provider/XRInteractorAffordanceStateProvider.cs:691>
 		XRInteractorAffordanceStateProvider_t1B1A108AE550E6EC8AE503076E1EF20F85C59085* L_6 = V_1;
 		NullCheck(L_6);
 		AnimationCurveDatumProperty_t3E647A9E4598F5D7E85766A3449759FA74DBC485* L_7 = L_6->___m_ClickAnimationCurve;
@@ -2759,16 +2759,16 @@ IL_0036:
 		float L_10;
 		L_10 = AnimationCurve_Evaluate_m50B857043DE251A186032ADBCBB4CEF817F4EE3C(L_8, L_9, NULL);
 		V_3 = L_10;
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/State/Provider/XRInteractorAffordanceStateProvider.cs:692>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/State/Provider/XRInteractorAffordanceStateProvider.cs:692>
 		uint8_t L_11 = __this->___targetStateIndex;
 		float L_12 = V_3;
 		AffordanceStateData__ctor_m695A3C3F8B8F787DB7D61CD6AD42F263CAF06DF2((&V_4), L_11, L_12, NULL);
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/State/Provider/XRInteractorAffordanceStateProvider.cs:693>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/State/Provider/XRInteractorAffordanceStateProvider.cs:693>
 		XRInteractorAffordanceStateProvider_t1B1A108AE550E6EC8AE503076E1EF20F85C59085* L_13 = V_1;
 		AffordanceStateData_t925209B85B56D04F7F178061B1C91280DA6DBC69 L_14 = V_4;
 		NullCheck(L_13);
 		BaseAffordanceStateProvider_UpdateAffordanceState_m0F77A9C08F271BF579E983B8ADB912D84E018553(L_13, L_14, NULL);
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/State/Provider/XRInteractorAffordanceStateProvider.cs:695>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/State/Provider/XRInteractorAffordanceStateProvider.cs:695>
 		__this->___U3CU3E2__current = NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)NULL);
 		__this->___U3CU3E1__state = 1;
@@ -2778,7 +2778,7 @@ IL_0036:
 IL_0081:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/State/Provider/XRInteractorAffordanceStateProvider.cs:696>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/State/Provider/XRInteractorAffordanceStateProvider.cs:696>
 		float L_15 = __this->___U3CelapsedTimeU3E5__2;
 		float L_16;
 		L_16 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
@@ -2787,7 +2787,7 @@ IL_0081:
 
 IL_009a:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/State/Provider/XRInteractorAffordanceStateProvider.cs:688>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/State/Provider/XRInteractorAffordanceStateProvider.cs:688>
 		float L_17 = __this->___U3CelapsedTimeU3E5__2;
 		float L_18 = __this->___duration;
 		if ((((float)L_17) < ((float)L_18)))
@@ -2796,7 +2796,7 @@ IL_009a:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/State/Provider/XRInteractorAffordanceStateProvider.cs:699>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/State/Provider/XRInteractorAffordanceStateProvider.cs:699>
 		__this->___U3CU3E2__current = NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)NULL);
 		__this->___U3CU3E1__state = 2;
@@ -2806,11 +2806,11 @@ IL_009a:
 IL_00b8:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/State/Provider/XRInteractorAffordanceStateProvider.cs:701>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/State/Provider/XRInteractorAffordanceStateProvider.cs:701>
 		XRInteractorAffordanceStateProvider_t1B1A108AE550E6EC8AE503076E1EF20F85C59085* L_19 = V_1;
 		NullCheck(L_19);
 		XRInteractorAffordanceStateProvider_RefreshState_m44624705BE6974722D11BC1C303475B2A261F23E(L_19, NULL);
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/State/Provider/XRInteractorAffordanceStateProvider.cs:702>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/State/Provider/XRInteractorAffordanceStateProvider.cs:702>
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_20 = __this->___onComplete;
 		Action_tD00B0A84D7945E50C2DFFC28EFEE6ED44ED2AD07* L_21 = L_20;
 		if (L_21)
@@ -2832,7 +2832,7 @@ IL_00d1:
 
 IL_00d6:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/State/Provider/XRInteractorAffordanceStateProvider.cs:703>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/State/Provider/XRInteractorAffordanceStateProvider.cs:703>
 		return (bool)0;
 	}
 }
@@ -2939,7 +2939,7 @@ IL_0017:
 
 IL_001e:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/State/Provider/XRInteractorAffordanceStateProvider.cs:709>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/State/Provider/XRInteractorAffordanceStateProvider.cs:709>
 		__this->___U3CU3E2__current = NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___U3CU3E2__current), (void*)NULL);
 		__this->___U3CU3E1__state = 1;
@@ -2949,7 +2949,7 @@ IL_001e:
 IL_002e:
 	{
 		__this->___U3CU3E1__state = (-1);
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/State/Provider/XRInteractorAffordanceStateProvider.cs:712>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/State/Provider/XRInteractorAffordanceStateProvider.cs:712>
 		XRInteractorAffordanceStateProvider_t1B1A108AE550E6EC8AE503076E1EF20F85C59085* L_4 = V_1;
 		NullCheck(L_4);
 		bool L_5 = L_4->___m_HasCurveInteractionDataProvider;
@@ -2970,11 +2970,11 @@ IL_002e:
 
 IL_0045:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/State/Provider/XRInteractorAffordanceStateProvider.cs:714>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/State/Provider/XRInteractorAffordanceStateProvider.cs:714>
 		V_2 = (bool)0;
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/State/Provider/XRInteractorAffordanceStateProvider.cs:715>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/State/Provider/XRInteractorAffordanceStateProvider.cs:715>
 		V_3 = (bool)0;
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/State/Provider/XRInteractorAffordanceStateProvider.cs:717>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/State/Provider/XRInteractorAffordanceStateProvider.cs:717>
 		XRInteractorAffordanceStateProvider_t1B1A108AE550E6EC8AE503076E1EF20F85C59085* L_8 = V_1;
 		NullCheck(L_8);
 		bool L_9 = L_8->___m_IgnoreHoverEvents;
@@ -2995,9 +2995,9 @@ IL_0045:
 
 IL_005c:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/State/Provider/XRInteractorAffordanceStateProvider.cs:719>
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/State/Provider/XRInteractorAffordanceStateProvider.cs:720>
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/State/Provider/XRInteractorAffordanceStateProvider.cs:721>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/State/Provider/XRInteractorAffordanceStateProvider.cs:719>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/State/Provider/XRInteractorAffordanceStateProvider.cs:720>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/State/Provider/XRInteractorAffordanceStateProvider.cs:721>
 		XRInteractorAffordanceStateProvider_t1B1A108AE550E6EC8AE503076E1EF20F85C59085* L_12 = V_1;
 		NullCheck(L_12);
 		bool L_13 = L_12->___m_HasCurveInteractionDataProvider;
@@ -3043,14 +3043,14 @@ IL_007f:
 
 IL_0091:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/State/Provider/XRInteractorAffordanceStateProvider.cs:722>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/State/Provider/XRInteractorAffordanceStateProvider.cs:722>
 		if (!G_B14_0)
 		{
 			goto IL_00e4;
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/State/Provider/XRInteractorAffordanceStateProvider.cs:724>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/State/Provider/XRInteractorAffordanceStateProvider.cs:724>
 		XRInteractorAffordanceStateProvider_t1B1A108AE550E6EC8AE503076E1EF20F85C59085* L_21 = V_1;
 		NullCheck(L_21);
 		bool L_22 = L_21->___m_IgnoreSelectEvents;
@@ -3069,9 +3069,9 @@ IL_0091:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/State/Provider/XRInteractorAffordanceStateProvider.cs:726>
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/State/Provider/XRInteractorAffordanceStateProvider.cs:727>
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/State/Provider/XRInteractorAffordanceStateProvider.cs:728>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/State/Provider/XRInteractorAffordanceStateProvider.cs:726>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/State/Provider/XRInteractorAffordanceStateProvider.cs:727>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/State/Provider/XRInteractorAffordanceStateProvider.cs:728>
 		XRInteractorAffordanceStateProvider_t1B1A108AE550E6EC8AE503076E1EF20F85C59085* L_25 = V_1;
 		NullCheck(L_25);
 		bool L_26 = L_25->___m_HasCurveInteractionDataProvider;
@@ -3124,7 +3124,7 @@ IL_00d1:
 
 IL_00d2:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/State/Provider/XRInteractorAffordanceStateProvider.cs:731>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/State/Provider/XRInteractorAffordanceStateProvider.cs:731>
 		XRInteractorAffordanceStateProvider_t1B1A108AE550E6EC8AE503076E1EF20F85C59085* L_34 = V_1;
 		NullCheck(L_34);
 		bool L_35 = L_34->___m_IgnoreHoverEvents;
@@ -3143,13 +3143,13 @@ IL_00d2:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/State/Provider/XRInteractorAffordanceStateProvider.cs:733>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/State/Provider/XRInteractorAffordanceStateProvider.cs:733>
 		V_2 = (bool)1;
 	}
 
 IL_00e4:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/State/Provider/XRInteractorAffordanceStateProvider.cs:738>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/State/Provider/XRInteractorAffordanceStateProvider.cs:738>
 		bool L_38 = V_2;
 		XRInteractorAffordanceStateProvider_t1B1A108AE550E6EC8AE503076E1EF20F85C59085* L_39 = V_1;
 		NullCheck(L_39);
@@ -3175,28 +3175,28 @@ IL_00fb:
 
 IL_00fc:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/State/Provider/XRInteractorAffordanceStateProvider.cs:740>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/State/Provider/XRInteractorAffordanceStateProvider.cs:740>
 		XRInteractorAffordanceStateProvider_t1B1A108AE550E6EC8AE503076E1EF20F85C59085* L_44 = V_1;
 		bool L_45 = V_2;
 		NullCheck(L_44);
 		L_44->___m_UIHovering = L_45;
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/State/Provider/XRInteractorAffordanceStateProvider.cs:741>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/State/Provider/XRInteractorAffordanceStateProvider.cs:741>
 		XRInteractorAffordanceStateProvider_t1B1A108AE550E6EC8AE503076E1EF20F85C59085* L_46 = V_1;
 		bool L_47 = V_3;
 		NullCheck(L_46);
 		L_46->___m_UISelecting = L_47;
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/State/Provider/XRInteractorAffordanceStateProvider.cs:743>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/State/Provider/XRInteractorAffordanceStateProvider.cs:743>
 		if (!G_B29_0)
 		{
 			goto IL_001e;
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/State/Provider/XRInteractorAffordanceStateProvider.cs:744>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/State/Provider/XRInteractorAffordanceStateProvider.cs:744>
 		XRInteractorAffordanceStateProvider_t1B1A108AE550E6EC8AE503076E1EF20F85C59085* L_48 = V_1;
 		NullCheck(L_48);
 		XRInteractorAffordanceStateProvider_RefreshState_m44624705BE6974722D11BC1C303475B2A261F23E(L_48, NULL);
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/State/Provider/XRInteractorAffordanceStateProvider.cs:707>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/State/Provider/XRInteractorAffordanceStateProvider.cs:707>
 		goto IL_001e;
 	}
 }
@@ -3237,7 +3237,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* U3CUIUpdateCheckCoroutineU3Ed_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* MaterialHelperBase_get_rendererTarget_m474C957F3E8755060E353F812EBC7948AE186662 (MaterialHelperBase_t3607D7278FC398FF21452C066DF80326054C9461* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Rendering/MaterialHelperBase.cs:23>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Rendering/MaterialHelperBase.cs:23>
 		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_0 = __this->___m_Renderer;
 		return L_0;
 	}
@@ -3246,7 +3246,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Renderer_t320575F223BCB177A982E5DDB5DB19FAA89
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaterialHelperBase_set_rendererTarget_m200D29FA9A3C5B065912D8754D76C168E6346DE7 (MaterialHelperBase_t3607D7278FC398FF21452C066DF80326054C9461* __this, Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Rendering/MaterialHelperBase.cs:24>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Rendering/MaterialHelperBase.cs:24>
 		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_0 = ___0_value;
 		__this->___m_Renderer = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Renderer), (void*)L_0);
@@ -3257,7 +3257,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaterialHelperBase_set_rendererTarget_m2
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MaterialHelperBase_get_materialIndex_m743A06AAA51020FA435C690F3468D4B7B31F5485 (MaterialHelperBase_t3607D7278FC398FF21452C066DF80326054C9461* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Rendering/MaterialHelperBase.cs:38>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Rendering/MaterialHelperBase.cs:38>
 		int32_t L_0 = __this->___m_MaterialIndex;
 		return L_0;
 	}
@@ -3266,7 +3266,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t MaterialHelperBase_get_materialIndex_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaterialHelperBase_set_materialIndex_mAE6BA65380CE7A1B1C903B497013392C1A4D1ACE (MaterialHelperBase_t3607D7278FC398FF21452C066DF80326054C9461* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Rendering/MaterialHelperBase.cs:39>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Rendering/MaterialHelperBase.cs:39>
 		int32_t L_0 = ___0_value;
 		__this->___m_MaterialIndex = L_0;
 		return;
@@ -3276,7 +3276,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaterialHelperBase_set_materialIndex_mAE
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MaterialHelperBase_get_isInitialized_m1C6E8A30050B1D7B43FA2B8E74E73DE32EDE9F57 (MaterialHelperBase_t3607D7278FC398FF21452C066DF80326054C9461* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Rendering/MaterialHelperBase.cs:46>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Rendering/MaterialHelperBase.cs:46>
 		bool L_0 = __this->___U3CisInitializedU3Ek__BackingField;
 		return L_0;
 	}
@@ -3285,7 +3285,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MaterialHelperBase_get_isInitialized_m1C
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaterialHelperBase_set_isInitialized_m4D06A38DDCEA8DCC10EA0F9BE2A5EED65A3E50B1 (MaterialHelperBase_t3607D7278FC398FF21452C066DF80326054C9461* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Rendering/MaterialHelperBase.cs:46>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Rendering/MaterialHelperBase.cs:46>
 		bool L_0 = ___0_value;
 		__this->___U3CisInitializedU3Ek__BackingField = L_0;
 		return;
@@ -3307,7 +3307,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaterialHelperBase_OnEnable_m9730FCA01B8
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Rendering/MaterialHelperBase.cs:54>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Rendering/MaterialHelperBase.cs:54>
 		bool L_0;
 		L_0 = MaterialHelperBase_get_isInitialized_m1C6E8A30050B1D7B43FA2B8E74E73DE32EDE9F57_inline(__this, NULL);
 		if (!L_0)
@@ -3316,13 +3316,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaterialHelperBase_OnEnable_m9730FCA01B8
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Rendering/MaterialHelperBase.cs:55>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Rendering/MaterialHelperBase.cs:55>
 		return;
 	}
 
 IL_0009:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Rendering/MaterialHelperBase.cs:57>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Rendering/MaterialHelperBase.cs:57>
 		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_1 = __this->___m_Renderer;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_2;
@@ -3333,7 +3333,7 @@ IL_0009:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Rendering/MaterialHelperBase.cs:58>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Rendering/MaterialHelperBase.cs:58>
 		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_3;
 		L_3 = Component_GetComponentInParent_TisRenderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF_m3DC4DA65EFF6B49420B78DFF7E93E0A4395B33A7(__this, Component_GetComponentInParent_TisRenderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF_m3DC4DA65EFF6B49420B78DFF7E93E0A4395B33A7_RuntimeMethod_var);
 		__this->___m_Renderer = L_3;
@@ -3342,7 +3342,7 @@ IL_0009:
 
 IL_0023:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Rendering/MaterialHelperBase.cs:60>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Rendering/MaterialHelperBase.cs:60>
 		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_4 = __this->___m_Renderer;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_5;
@@ -3353,20 +3353,20 @@ IL_0023:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Rendering/MaterialHelperBase.cs:62>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Rendering/MaterialHelperBase.cs:62>
 		String_t* L_6;
 		L_6 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteralBA4A54C96468CB876063E343F193FB1CCC756E52, __this, NULL);
 		il2cpp_codegen_runtime_class_init_inline(XRLoggingUtils_tF0C63DB5488367266FC58DF3AA1D3E98B361A7B5_il2cpp_TypeInfo_var);
 		XRLoggingUtils_LogError_mC5522AB4200CD87E6677D2E59C51BA5824070B63(L_6, __this, NULL);
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Rendering/MaterialHelperBase.cs:63>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Rendering/MaterialHelperBase.cs:63>
 		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(__this, (bool)0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Rendering/MaterialHelperBase.cs:64>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Rendering/MaterialHelperBase.cs:64>
 		return;
 	}
 
 IL_004a:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Rendering/MaterialHelperBase.cs:67>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Rendering/MaterialHelperBase.cs:67>
 		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_7 = __this->___m_Renderer;
 		NullCheck(L_7);
 		MaterialU5BU5D_t2B1D11C42DB07A4400C0535F92DBB87A2E346D3D* L_8;
@@ -3378,20 +3378,20 @@ IL_004a:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Rendering/MaterialHelperBase.cs:69>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Rendering/MaterialHelperBase.cs:69>
 		String_t* L_9;
 		L_9 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteral922FFC0C5ED643779A42F9B73E65E835E4D1CE08, __this, NULL);
 		il2cpp_codegen_runtime_class_init_inline(XRLoggingUtils_tF0C63DB5488367266FC58DF3AA1D3E98B361A7B5_il2cpp_TypeInfo_var);
 		XRLoggingUtils_LogError_mC5522AB4200CD87E6677D2E59C51BA5824070B63(L_9, __this, NULL);
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Rendering/MaterialHelperBase.cs:70>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Rendering/MaterialHelperBase.cs:70>
 		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(__this, (bool)0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Rendering/MaterialHelperBase.cs:71>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Rendering/MaterialHelperBase.cs:71>
 		return;
 	}
 
 IL_0071:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Rendering/MaterialHelperBase.cs:74>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Rendering/MaterialHelperBase.cs:74>
 		int32_t L_10 = __this->___m_MaterialIndex;
 		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_11 = __this->___m_Renderer;
 		NullCheck(L_11);
@@ -3404,25 +3404,25 @@ IL_0071:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Rendering/MaterialHelperBase.cs:76>
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Rendering/MaterialHelperBase.cs:77>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Rendering/MaterialHelperBase.cs:76>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Rendering/MaterialHelperBase.cs:77>
 		String_t* L_13;
 		L_13 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteralEFE2395B09083FB4FA93AFBE31C508787CAC4FB6, __this, NULL);
 		String_t* L_14;
 		L_14 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(L_13, _stringLiteralE5328E9A5BD8B9DF07FE49CC7C09BE3094956906, NULL);
 		il2cpp_codegen_runtime_class_init_inline(XRLoggingUtils_tF0C63DB5488367266FC58DF3AA1D3E98B361A7B5_il2cpp_TypeInfo_var);
 		XRLoggingUtils_LogWarning_m58F15039BFEC116B7AE4555A526AC7CB9EDABB7A(L_14, __this, NULL);
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Rendering/MaterialHelperBase.cs:78>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Rendering/MaterialHelperBase.cs:78>
 		__this->___m_MaterialIndex = 0;
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Rendering/MaterialHelperBase.cs:79>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Rendering/MaterialHelperBase.cs:79>
 		return;
 	}
 
 IL_00a9:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Rendering/MaterialHelperBase.cs:82>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Rendering/MaterialHelperBase.cs:82>
 		VirtualActionInvoker0::Invoke(4, __this);
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Rendering/MaterialHelperBase.cs:83>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Rendering/MaterialHelperBase.cs:83>
 		return;
 	}
 }
@@ -3430,9 +3430,9 @@ IL_00a9:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaterialHelperBase_Initialize_mFBBBB3EE3E21F49BB225E800A04A67F29E0CE02D (MaterialHelperBase_t3607D7278FC398FF21452C066DF80326054C9461* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Rendering/MaterialHelperBase.cs:90>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Rendering/MaterialHelperBase.cs:90>
 		MaterialHelperBase_set_isInitialized_m4D06A38DDCEA8DCC10EA0F9BE2A5EED65A3E50B1_inline(__this, (bool)1, NULL);
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Rendering/MaterialHelperBase.cs:91>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Rendering/MaterialHelperBase.cs:91>
 		return;
 	}
 }
@@ -3440,7 +3440,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaterialHelperBase_Initialize_mFBBBB3EE3
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* MaterialHelperBase_GetSharedMaterialForTarget_m5244AE4FB08AB143575D757894C1674014009E28 (MaterialHelperBase_t3607D7278FC398FF21452C066DF80326054C9461* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Rendering/MaterialHelperBase.cs:99>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Rendering/MaterialHelperBase.cs:99>
 		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_0 = __this->___m_Renderer;
 		NullCheck(L_0);
 		MaterialU5BU5D_t2B1D11C42DB07A4400C0535F92DBB87A2E346D3D* L_1;
@@ -3479,7 +3479,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaterialInstanceHelper_OnDestroy_mC1F957
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Rendering/MaterialInstanceHelper.cs:20>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Rendering/MaterialInstanceHelper.cs:20>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_0 = __this->___m_MaterialInstance;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -3490,18 +3490,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaterialInstanceHelper_OnDestroy_mC1F957
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Rendering/MaterialInstanceHelper.cs:22>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Rendering/MaterialInstanceHelper.cs:22>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_2 = __this->___m_MaterialInstance;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		Object_Destroy_mE97D0A766419A81296E8D4E5C23D01D3FE91ACBB(L_2, NULL);
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Rendering/MaterialInstanceHelper.cs:23>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Rendering/MaterialInstanceHelper.cs:23>
 		__this->___m_MaterialInstance = (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_MaterialInstance), (void*)(Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3*)NULL);
 	}
 
 IL_0020:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Rendering/MaterialInstanceHelper.cs:25>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Rendering/MaterialInstanceHelper.cs:25>
 		return;
 	}
 }
@@ -3509,7 +3509,7 @@ IL_0020:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MaterialInstanceHelper_TryGetMaterialInstance_mDD652A2C0DB2909880DC82D7FC6AF27B51A08B9C (MaterialInstanceHelper_t3BC206955B6B76A5DF842600A5ACAC47ED0295DC* __this, Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3** ___0_materialInstance, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Rendering/MaterialInstanceHelper.cs:34>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Rendering/MaterialInstanceHelper.cs:34>
 		bool L_0;
 		L_0 = MaterialHelperBase_get_isInitialized_m1C6E8A30050B1D7B43FA2B8E74E73DE32EDE9F57_inline(__this, NULL);
 		if (L_0)
@@ -3518,22 +3518,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool MaterialInstanceHelper_TryGetMaterialIns
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Rendering/MaterialInstanceHelper.cs:36>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Rendering/MaterialInstanceHelper.cs:36>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3** L_1 = ___0_materialInstance;
 		*((RuntimeObject**)L_1) = (RuntimeObject*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(RuntimeObject**)L_1, (void*)(RuntimeObject*)NULL);
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Rendering/MaterialInstanceHelper.cs:37>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Rendering/MaterialInstanceHelper.cs:37>
 		return (bool)0;
 	}
 
 IL_000d:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Rendering/MaterialInstanceHelper.cs:40>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Rendering/MaterialInstanceHelper.cs:40>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3** L_2 = ___0_materialInstance;
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_3 = __this->___m_MaterialInstance;
 		*((RuntimeObject**)L_2) = (RuntimeObject*)L_3;
 		Il2CppCodeGenWriteBarrier((void**)(RuntimeObject**)L_2, (void*)(RuntimeObject*)L_3);
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Rendering/MaterialInstanceHelper.cs:41>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Rendering/MaterialInstanceHelper.cs:41>
 		return (bool)1;
 	}
 }
@@ -3549,7 +3549,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaterialInstanceHelper_Initialize_m46D1E
 	}
 	MaterialU5BU5D_t2B1D11C42DB07A4400C0535F92DBB87A2E346D3D* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Rendering/MaterialInstanceHelper.cs:47>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Rendering/MaterialInstanceHelper.cs:47>
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_0 = __this->___m_MaterialInstance;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -3560,14 +3560,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaterialInstanceHelper_Initialize_m46D1E
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Rendering/MaterialInstanceHelper.cs:49>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Rendering/MaterialInstanceHelper.cs:49>
 		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_2;
 		L_2 = MaterialHelperBase_get_rendererTarget_m474C957F3E8755060E353F812EBC7948AE186662_inline(__this, NULL);
 		NullCheck(L_2);
 		MaterialU5BU5D_t2B1D11C42DB07A4400C0535F92DBB87A2E346D3D* L_3;
 		L_3 = Renderer_get_sharedMaterials_m0B61AFD8EDA35A70C796FFB2F28BB62380051ABF(L_2, NULL);
 		V_0 = L_3;
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Rendering/MaterialInstanceHelper.cs:50>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Rendering/MaterialInstanceHelper.cs:50>
 		MaterialU5BU5D_t2B1D11C42DB07A4400C0535F92DBB87A2E346D3D* L_4 = V_0;
 		int32_t L_5;
 		L_5 = MaterialHelperBase_get_materialIndex_m743A06AAA51020FA435C690F3468D4B7B31F5485_inline(__this, NULL);
@@ -3578,7 +3578,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaterialInstanceHelper_Initialize_m46D1E
 		Material__ctor_mFCC42FB90257F1E8F7516A8640A79C465A39961C(L_8, L_7, NULL);
 		__this->___m_MaterialInstance = L_8;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_MaterialInstance), (void*)L_8);
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Rendering/MaterialInstanceHelper.cs:51>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Rendering/MaterialInstanceHelper.cs:51>
 		MaterialU5BU5D_t2B1D11C42DB07A4400C0535F92DBB87A2E346D3D* L_9 = V_0;
 		int32_t L_10;
 		L_10 = MaterialHelperBase_get_materialIndex_m743A06AAA51020FA435C690F3468D4B7B31F5485_inline(__this, NULL);
@@ -3586,19 +3586,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaterialInstanceHelper_Initialize_m46D1E
 		NullCheck(L_9);
 		ArrayElementTypeCheck (L_9, L_11);
 		(L_9)->SetAt(static_cast<il2cpp_array_size_t>(L_10), (Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3*)L_11);
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Rendering/MaterialInstanceHelper.cs:52>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Rendering/MaterialInstanceHelper.cs:52>
 		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_12;
 		L_12 = MaterialHelperBase_get_rendererTarget_m474C957F3E8755060E353F812EBC7948AE186662_inline(__this, NULL);
 		MaterialU5BU5D_t2B1D11C42DB07A4400C0535F92DBB87A2E346D3D* L_13 = V_0;
 		NullCheck(L_12);
 		Renderer_set_sharedMaterials_m665ADE4190214CC2AC52490B4A7373D7EE75DEB2(L_12, L_13, NULL);
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Rendering/MaterialInstanceHelper.cs:53>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Rendering/MaterialInstanceHelper.cs:53>
 		MaterialHelperBase_Initialize_mFBBBB3EE3E21F49BB225E800A04A67F29E0CE02D(__this, NULL);
 	}
 
 IL_004d:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Rendering/MaterialInstanceHelper.cs:55>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Rendering/MaterialInstanceHelper.cs:55>
 		return;
 	}
 }
@@ -3622,10 +3622,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaterialInstanceHelper__ctor_mB65764DC3B
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaterialPropertyBlockHelper_OnDestroy_mA826E57E68B3FD9012ED1372281029235366D66F (MaterialPropertyBlockHelper_t3B1728C9688AC3C86D741F2EC81CED0EC0E90815* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Rendering/MaterialPropertyBlockHelper.cs:22>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Rendering/MaterialPropertyBlockHelper.cs:22>
 		__this->___m_PropertyBlock = (MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_PropertyBlock), (void*)(MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D*)NULL);
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Rendering/MaterialPropertyBlockHelper.cs:23>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Rendering/MaterialPropertyBlockHelper.cs:23>
 		return;
 	}
 }
@@ -3633,7 +3633,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaterialPropertyBlockHelper_OnDestroy_mA
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaterialPropertyBlockHelper_LateUpdate_mDE4EA01A2B9F3BA5DA5E6F1E433326E30D6A5B37 (MaterialPropertyBlockHelper_t3B1728C9688AC3C86D741F2EC81CED0EC0E90815* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Rendering/MaterialPropertyBlockHelper.cs:30>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Rendering/MaterialPropertyBlockHelper.cs:30>
 		bool L_0 = __this->___m_IsDirty;
 		if (!L_0)
 		{
@@ -3651,13 +3651,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaterialPropertyBlockHelper_LateUpdate_m
 
 IL_0010:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Rendering/MaterialPropertyBlockHelper.cs:31>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Rendering/MaterialPropertyBlockHelper.cs:31>
 		return;
 	}
 
 IL_0011:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Rendering/MaterialPropertyBlockHelper.cs:33>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Rendering/MaterialPropertyBlockHelper.cs:33>
 		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_2;
 		L_2 = MaterialHelperBase_get_rendererTarget_m474C957F3E8755060E353F812EBC7948AE186662_inline(__this, NULL);
 		MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D* L_3 = __this->___m_PropertyBlock;
@@ -3665,9 +3665,9 @@ IL_0011:
 		L_4 = MaterialHelperBase_get_materialIndex_m743A06AAA51020FA435C690F3468D4B7B31F5485_inline(__this, NULL);
 		NullCheck(L_2);
 		Renderer_SetPropertyBlock_mCE0B215ACED38420979148A6B00496F07345162B(L_2, L_3, L_4, NULL);
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Rendering/MaterialPropertyBlockHelper.cs:34>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Rendering/MaterialPropertyBlockHelper.cs:34>
 		__this->___m_IsDirty = (bool)0;
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Rendering/MaterialPropertyBlockHelper.cs:35>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Rendering/MaterialPropertyBlockHelper.cs:35>
 		return;
 	}
 }
@@ -3675,7 +3675,7 @@ IL_0011:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D* MaterialPropertyBlockHelper_GetMaterialPropertyBlock_m2A77147C137A92ECAA4E64996AF6DA7D1F004759 (MaterialPropertyBlockHelper_t3B1728C9688AC3C86D741F2EC81CED0EC0E90815* __this, bool ___0_markPropertyBlockAsDirty, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Rendering/MaterialPropertyBlockHelper.cs:44>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Rendering/MaterialPropertyBlockHelper.cs:44>
 		bool L_0 = ___0_markPropertyBlockAsDirty;
 		if (!L_0)
 		{
@@ -3683,13 +3683,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MaterialPropertyBlock_t2308669579033A857EFE6E
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Rendering/MaterialPropertyBlockHelper.cs:45>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Rendering/MaterialPropertyBlockHelper.cs:45>
 		__this->___m_IsDirty = (bool)1;
 	}
 
 IL_000a:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Rendering/MaterialPropertyBlockHelper.cs:46>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Rendering/MaterialPropertyBlockHelper.cs:46>
 		MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D* L_1 = __this->___m_PropertyBlock;
 		return L_1;
 	}
@@ -3704,14 +3704,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaterialPropertyBlockHelper_Initialize_m
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Rendering/MaterialPropertyBlockHelper.cs:52>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Rendering/MaterialPropertyBlockHelper.cs:52>
 		MaterialHelperBase_Initialize_mFBBBB3EE3E21F49BB225E800A04A67F29E0CE02D(__this, NULL);
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Rendering/MaterialPropertyBlockHelper.cs:53>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Rendering/MaterialPropertyBlockHelper.cs:53>
 		MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D* L_0 = (MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D*)il2cpp_codegen_object_new(MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D_il2cpp_TypeInfo_var);
 		MaterialPropertyBlock__ctor_m14C3432585F7BB65028BCD64A0FD6607A1B490FB(L_0, NULL);
 		__this->___m_PropertyBlock = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_PropertyBlock), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Rendering/MaterialPropertyBlockHelper.cs:54>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Rendering/MaterialPropertyBlockHelper.cs:54>
 		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_1;
 		L_1 = MaterialHelperBase_get_rendererTarget_m474C957F3E8755060E353F812EBC7948AE186662_inline(__this, NULL);
 		MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D* L_2 = __this->___m_PropertyBlock;
@@ -3719,7 +3719,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaterialPropertyBlockHelper_Initialize_m
 		L_3 = MaterialHelperBase_get_materialIndex_m743A06AAA51020FA435C690F3468D4B7B31F5485_inline(__this, NULL);
 		NullCheck(L_1);
 		Renderer_GetPropertyBlock_mCC3D46300E381252C78196AA3DBDB0BB1D280B23(L_1, L_2, L_3, NULL);
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Rendering/MaterialPropertyBlockHelper.cs:55>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Rendering/MaterialPropertyBlockHelper.cs:55>
 		return;
 	}
 }
@@ -3743,7 +3743,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MaterialPropertyBlockHelper__ctor_mB47BC
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* ImageColorAffordanceReceiver_get_image_m9ECA362E18CCC84EFCE80D4C870A9832ACDB8EEF (ImageColorAffordanceReceiver_t755C4A293A4DF7D1C4E04209BE2BF97797942C51* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/UI/ImageColorAffordanceReceiver.cs:24>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/UI/ImageColorAffordanceReceiver.cs:24>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_0 = __this->___m_Image;
 		return L_0;
 	}
@@ -3752,7 +3752,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Image_tBC1D03F63BF71132E9A5E472B8742F172A011E
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImageColorAffordanceReceiver_set_image_m05FFB90DC6D3D977ED051130E818F685845FAD5D (ImageColorAffordanceReceiver_t755C4A293A4DF7D1C4E04209BE2BF97797942C51* __this, Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/UI/ImageColorAffordanceReceiver.cs:25>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/UI/ImageColorAffordanceReceiver.cs:25>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_0 = ___0_value;
 		__this->___m_Image = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Image), (void*)L_0);
@@ -3763,7 +3763,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImageColorAffordanceReceiver_set_image_m
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* ImageColorAffordanceReceiver_get_canvasGroup_m73DD3F37D95B43761BB3CA13C8C865033AA43A7A (ImageColorAffordanceReceiver_t755C4A293A4DF7D1C4E04209BE2BF97797942C51* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/UI/ImageColorAffordanceReceiver.cs:37>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/UI/ImageColorAffordanceReceiver.cs:37>
 		CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_0 = __this->___m_CanvasGroup;
 		return L_0;
 	}
@@ -3772,7 +3772,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImageColorAffordanceReceiver_set_canvasGroup_m436D7DBAC0BD88F9772F1985BF905534552B77D4 (ImageColorAffordanceReceiver_t755C4A293A4DF7D1C4E04209BE2BF97797942C51* __this, CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/UI/ImageColorAffordanceReceiver.cs:38>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/UI/ImageColorAffordanceReceiver.cs:38>
 		CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_0 = ___0_value;
 		__this->___m_CanvasGroup = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_CanvasGroup), (void*)L_0);
@@ -3783,7 +3783,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImageColorAffordanceReceiver_set_canvasG
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ImageColorAffordanceReceiver_get_ignoreAlpha_mF26436400616765F715483CE62223587196ED2FB (ImageColorAffordanceReceiver_t755C4A293A4DF7D1C4E04209BE2BF97797942C51* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/UI/ImageColorAffordanceReceiver.cs:50>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/UI/ImageColorAffordanceReceiver.cs:50>
 		bool L_0 = __this->___m_IgnoreAlpha;
 		return L_0;
 	}
@@ -3792,7 +3792,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ImageColorAffordanceReceiver_get_ignoreA
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImageColorAffordanceReceiver_set_ignoreAlpha_m45572D44B7252BFB4517ADD76507DA953F8F693D (ImageColorAffordanceReceiver_t755C4A293A4DF7D1C4E04209BE2BF97797942C51* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/UI/ImageColorAffordanceReceiver.cs:51>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/UI/ImageColorAffordanceReceiver.cs:51>
 		bool L_0 = ___0_value;
 		__this->___m_IgnoreAlpha = L_0;
 		return;
@@ -3809,20 +3809,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImageColorAffordanceReceiver_OnEnable_mB
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/UI/ImageColorAffordanceReceiver.cs:62>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/UI/ImageColorAffordanceReceiver.cs:62>
 		BaseAffordanceStateReceiver_1_OnEnable_mBE24173F01AA78D975BB9E92C8DDCC1265D37AB4(__this, BaseAffordanceStateReceiver_1_OnEnable_mBE24173F01AA78D975BB9E92C8DDCC1265D37AB4_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/UI/ImageColorAffordanceReceiver.cs:63>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/UI/ImageColorAffordanceReceiver.cs:63>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_0 = __this->___m_Image;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
 		L_1 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
 		__this->___m_HasImage = L_1;
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/UI/ImageColorAffordanceReceiver.cs:64>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/UI/ImageColorAffordanceReceiver.cs:64>
 		CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_2 = __this->___m_CanvasGroup;
 		bool L_3;
 		L_3 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_2, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
 		__this->___m_HasCanvasGroup = L_3;
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/UI/ImageColorAffordanceReceiver.cs:65>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/UI/ImageColorAffordanceReceiver.cs:65>
 		return;
 	}
 }
@@ -3835,7 +3835,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImageColorAffordanceReceiver_OnAffordanc
 	memset((&G_B7_0), 0, sizeof(G_B7_0));
 	Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* G_B7_1 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/UI/ImageColorAffordanceReceiver.cs:70>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/UI/ImageColorAffordanceReceiver.cs:70>
 		bool L_0 = __this->___m_HasImage;
 		if (!L_0)
 		{
@@ -3843,7 +3843,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImageColorAffordanceReceiver_OnAffordanc
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/UI/ImageColorAffordanceReceiver.cs:72>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/UI/ImageColorAffordanceReceiver.cs:72>
 		bool L_1 = __this->___m_HasCanvasGroup;
 		if (!L_1)
 		{
@@ -3851,7 +3851,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImageColorAffordanceReceiver_OnAffordanc
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/UI/ImageColorAffordanceReceiver.cs:74>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/UI/ImageColorAffordanceReceiver.cs:74>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_2 = __this->___m_Image;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_3 = ___0_newValue;
 		float L_4 = L_3.___r;
@@ -3864,7 +3864,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImageColorAffordanceReceiver_OnAffordanc
 		Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline((&L_9), L_4, L_6, L_8, (1.0f), NULL);
 		NullCheck(L_2);
 		VirtualActionInvoker1< Color_tD001788D726C3A7F1379BEED0260B9591F440C1F >::Invoke(23, L_2, L_9);
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/UI/ImageColorAffordanceReceiver.cs:75>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/UI/ImageColorAffordanceReceiver.cs:75>
 		bool L_10 = __this->___m_IgnoreAlpha;
 		if (L_10)
 		{
@@ -3872,7 +3872,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImageColorAffordanceReceiver_OnAffordanc
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/UI/ImageColorAffordanceReceiver.cs:76>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/UI/ImageColorAffordanceReceiver.cs:76>
 		CanvasGroup_t048C1461B14628CFAEBE6E7353093ADB04EBC094* L_11 = __this->___m_CanvasGroup;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_12 = ___0_newValue;
 		float L_13 = L_12.___a;
@@ -3883,7 +3883,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImageColorAffordanceReceiver_OnAffordanc
 
 IL_0052:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/UI/ImageColorAffordanceReceiver.cs:80>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/UI/ImageColorAffordanceReceiver.cs:80>
 		Image_tBC1D03F63BF71132E9A5E472B8742F172A011E7E* L_14 = __this->___m_Image;
 		bool L_15 = __this->___m_IgnoreAlpha;
 		if (L_15)
@@ -3923,10 +3923,10 @@ IL_007f:
 
 IL_0084:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/UI/ImageColorAffordanceReceiver.cs:84>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/UI/ImageColorAffordanceReceiver.cs:84>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_24 = ___0_newValue;
 		ColorAffordanceReceiver_OnAffordanceValueUpdated_m08A82137DB2FAADD5ADCB2393468E03116644337(__this, L_24, NULL);
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/UI/ImageColorAffordanceReceiver.cs:85>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/UI/ImageColorAffordanceReceiver.cs:85>
 		return;
 	}
 }
@@ -3940,7 +3940,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/UI/ImageColorAffordanceReceiver.cs:90>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/UI/ImageColorAffordanceReceiver.cs:90>
 		bool L_0 = __this->___m_HasImage;
 		if (L_0)
 		{
@@ -3982,7 +3982,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImageColorAffordanceReceiver__ctor_m2CFC
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* UniformTransformScaleAffordanceReceiver_get_transformToScale_mAA39583CD24794F5F5A3D3695B7DA846EA66A7B2 (UniformTransformScaleAffordanceReceiver_t403990AA7598093FDA974D4870EF8D0F2DBB8A9D* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Transformation/UniformTransformScaleAffordanceReceiver.cs:23>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Transformation/UniformTransformScaleAffordanceReceiver.cs:23>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->___m_TransformToScale;
 		return L_0;
 	}
@@ -3997,17 +3997,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniformTransformScaleAffordanceReceiver_
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Transformation/UniformTransformScaleAffordanceReceiver.cs:26>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Transformation/UniformTransformScaleAffordanceReceiver.cs:26>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = ___0_value;
 		__this->___m_TransformToScale = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_TransformToScale), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Transformation/UniformTransformScaleAffordanceReceiver.cs:27>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Transformation/UniformTransformScaleAffordanceReceiver.cs:27>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1 = __this->___m_TransformToScale;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_2;
 		L_2 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_1, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
 		__this->___m_HasTransformToScale = L_2;
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Transformation/UniformTransformScaleAffordanceReceiver.cs:28>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Transformation/UniformTransformScaleAffordanceReceiver.cs:28>
 		return;
 	}
 }
@@ -4022,15 +4022,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniformTransformScaleAffordanceReceiver_
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Transformation/UniformTransformScaleAffordanceReceiver.cs:37>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Transformation/UniformTransformScaleAffordanceReceiver.cs:37>
 		BaseAffordanceStateReceiver_1_OnEnable_mF2E3D0A1E54794B3EC217C4176E796E80C2D5ED4(__this, BaseAffordanceStateReceiver_1_OnEnable_mF2E3D0A1E54794B3EC217C4176E796E80C2D5ED4_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Transformation/UniformTransformScaleAffordanceReceiver.cs:38>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Transformation/UniformTransformScaleAffordanceReceiver.cs:38>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->___m_TransformToScale;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
 		L_1 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_0, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
 		__this->___m_HasTransformToScale = L_1;
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Transformation/UniformTransformScaleAffordanceReceiver.cs:39>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Transformation/UniformTransformScaleAffordanceReceiver.cs:39>
 		return;
 	}
 }
@@ -4038,7 +4038,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniformTransformScaleAffordanceReceiver_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float UniformTransformScaleAffordanceReceiver_GetCurrentValueForCapture_m5C1BB8D13A4BBE93340012DF5EF4EC4AB55CFC6D (UniformTransformScaleAffordanceReceiver_t403990AA7598093FDA974D4870EF8D0F2DBB8A9D* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Transformation/UniformTransformScaleAffordanceReceiver.cs:44>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Transformation/UniformTransformScaleAffordanceReceiver.cs:44>
 		bool L_0 = __this->___m_HasTransformToScale;
 		if (!L_0)
 		{
@@ -4046,7 +4046,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float UniformTransformScaleAffordanceReceiver
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Transformation/UniformTransformScaleAffordanceReceiver.cs:46>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Transformation/UniformTransformScaleAffordanceReceiver.cs:46>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1 = __this->___m_TransformToScale;
 		NullCheck(L_1);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2;
@@ -4056,7 +4056,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float UniformTransformScaleAffordanceReceiver
 
 IL_0019:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Transformation/UniformTransformScaleAffordanceReceiver.cs:48>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Transformation/UniformTransformScaleAffordanceReceiver.cs:48>
 		return (1.0f);
 	}
 }
@@ -4064,7 +4064,7 @@ IL_0019:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniformTransformScaleAffordanceReceiver_OnAffordanceValueUpdated_mEFF2A4C88B2949F4D9C47802DF936EF0123F28AF (UniformTransformScaleAffordanceReceiver_t403990AA7598093FDA974D4870EF8D0F2DBB8A9D* __this, float ___0_newValue, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Transformation/UniformTransformScaleAffordanceReceiver.cs:54>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Transformation/UniformTransformScaleAffordanceReceiver.cs:54>
 		bool L_0 = __this->___m_HasTransformToScale;
 		if (!L_0)
 		{
@@ -4072,7 +4072,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniformTransformScaleAffordanceReceiver_
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Transformation/UniformTransformScaleAffordanceReceiver.cs:56>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Transformation/UniformTransformScaleAffordanceReceiver.cs:56>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1 = __this->___m_TransformToScale;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = __this->___m_InitialScale;
 		float L_3 = ___0_newValue;
@@ -4084,10 +4084,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniformTransformScaleAffordanceReceiver_
 
 IL_001f:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Transformation/UniformTransformScaleAffordanceReceiver.cs:58>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Transformation/UniformTransformScaleAffordanceReceiver.cs:58>
 		float L_5 = ___0_newValue;
 		FloatAffordanceReceiver_OnAffordanceValueUpdated_m8DFCD9A7C80FDE4B4A048FC63B57683AE9C27836(__this, L_5, NULL);
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Transformation/UniformTransformScaleAffordanceReceiver.cs:59>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Transformation/UniformTransformScaleAffordanceReceiver.cs:59>
 		return;
 	}
 }
@@ -4101,7 +4101,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniformTransformScaleAffordanceReceiver_
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Transformation/UniformTransformScaleAffordanceReceiver.cs:66>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Transformation/UniformTransformScaleAffordanceReceiver.cs:66>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_0 = __this->___m_TransformToScale;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -4112,7 +4112,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniformTransformScaleAffordanceReceiver_
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Transformation/UniformTransformScaleAffordanceReceiver.cs:67>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Transformation/UniformTransformScaleAffordanceReceiver.cs:67>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_2;
 		L_2 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
 		__this->___m_TransformToScale = L_2;
@@ -4121,7 +4121,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniformTransformScaleAffordanceReceiver_
 
 IL_001a:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Transformation/UniformTransformScaleAffordanceReceiver.cs:68>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Transformation/UniformTransformScaleAffordanceReceiver.cs:68>
 		return;
 	}
 }
@@ -4129,7 +4129,7 @@ IL_001a:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniformTransformScaleAffordanceReceiver__ctor_m8B11EB30BD38E84BDB117F93684ED87B4EFD3301 (UniformTransformScaleAffordanceReceiver_t403990AA7598093FDA974D4870EF8D0F2DBB8A9D* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Transformation/UniformTransformScaleAffordanceReceiver.cs:32>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Transformation/UniformTransformScaleAffordanceReceiver.cs:32>
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0;
 		L_0 = Vector3_get_one_mC9B289F1E15C42C597180C9FE6FB492495B51D02_inline(NULL);
 		__this->___m_InitialScale = L_0;
@@ -4149,7 +4149,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UniformTransformScaleAffordanceReceiver_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SkinnedMeshRenderer_t020C4E8648EA1C4C6BA5C41502919B387E7E1C2E* BlendShapeAffordanceReceiver_get_skinnedMeshRenderer_mA8EFC99E67377B83F4E3215F12B7E50EFB2840D1 (BlendShapeAffordanceReceiver_t6692E46E98283817CD27A6E3B0469003768B25B8* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/BlendShapeAffordanceReceiver.cs:24>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/BlendShapeAffordanceReceiver.cs:24>
 		SkinnedMeshRenderer_t020C4E8648EA1C4C6BA5C41502919B387E7E1C2E* L_0 = __this->___m_SkinnedMeshRenderer;
 		return L_0;
 	}
@@ -4158,7 +4158,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR SkinnedMeshRenderer_t020C4E8648EA1C4C6BA5C415
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BlendShapeAffordanceReceiver_set_skinnedMeshRenderer_m44EC23A85028B1D14EEE9EBD8643F14629209CAA (BlendShapeAffordanceReceiver_t6692E46E98283817CD27A6E3B0469003768B25B8* __this, SkinnedMeshRenderer_t020C4E8648EA1C4C6BA5C41502919B387E7E1C2E* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/BlendShapeAffordanceReceiver.cs:25>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/BlendShapeAffordanceReceiver.cs:25>
 		SkinnedMeshRenderer_t020C4E8648EA1C4C6BA5C41502919B387E7E1C2E* L_0 = ___0_value;
 		__this->___m_SkinnedMeshRenderer = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_SkinnedMeshRenderer), (void*)L_0);
@@ -4169,7 +4169,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BlendShapeAffordanceReceiver_set_skinned
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BlendShapeAffordanceReceiver_get_blendShapeIndex_m0C4BCA029F135814C863235F7A934D8538E59076 (BlendShapeAffordanceReceiver_t6692E46E98283817CD27A6E3B0469003768B25B8* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/BlendShapeAffordanceReceiver.cs:37>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/BlendShapeAffordanceReceiver.cs:37>
 		int32_t L_0 = __this->___m_BlendShapeIndex;
 		return L_0;
 	}
@@ -4178,7 +4178,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t BlendShapeAffordanceReceiver_get_blen
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BlendShapeAffordanceReceiver_set_blendShapeIndex_m4FA03CC6265AF2CA674D6284936B7132B07E7DD3 (BlendShapeAffordanceReceiver_t6692E46E98283817CD27A6E3B0469003768B25B8* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/BlendShapeAffordanceReceiver.cs:38>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/BlendShapeAffordanceReceiver.cs:38>
 		int32_t L_0 = ___0_value;
 		__this->___m_BlendShapeIndex = L_0;
 		return;
@@ -4203,7 +4203,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BlendShapeAffordanceReceiver_OnEnable_m7
 	String_t* G_B4_0 = NULL;
 	String_t* G_B4_1 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/BlendShapeAffordanceReceiver.cs:44>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/BlendShapeAffordanceReceiver.cs:44>
 		SkinnedMeshRenderer_t020C4E8648EA1C4C6BA5C41502919B387E7E1C2E* L_0 = __this->___m_SkinnedMeshRenderer;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -4214,7 +4214,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BlendShapeAffordanceReceiver_OnEnable_m7
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/BlendShapeAffordanceReceiver.cs:46>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/BlendShapeAffordanceReceiver.cs:46>
 		if (__this)
 		{
 			G_B3_0 = __this;
@@ -4245,17 +4245,17 @@ IL_0020:
 		L_3 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(G_B4_1, G_B4_0, NULL);
 		il2cpp_codegen_runtime_class_init_inline(XRLoggingUtils_tF0C63DB5488367266FC58DF3AA1D3E98B361A7B5_il2cpp_TypeInfo_var);
 		XRLoggingUtils_LogError_mC5522AB4200CD87E6677D2E59C51BA5824070B63(L_3, __this, NULL);
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/BlendShapeAffordanceReceiver.cs:47>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/BlendShapeAffordanceReceiver.cs:47>
 		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(__this, (bool)0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/BlendShapeAffordanceReceiver.cs:48>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/BlendShapeAffordanceReceiver.cs:48>
 		return;
 	}
 
 IL_0033:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/BlendShapeAffordanceReceiver.cs:51>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/BlendShapeAffordanceReceiver.cs:51>
 		BaseAffordanceStateReceiver_1_OnEnable_mF2E3D0A1E54794B3EC217C4176E796E80C2D5ED4(__this, BaseAffordanceStateReceiver_1_OnEnable_mF2E3D0A1E54794B3EC217C4176E796E80C2D5ED4_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/BlendShapeAffordanceReceiver.cs:52>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/BlendShapeAffordanceReceiver.cs:52>
 		return;
 	}
 }
@@ -4263,16 +4263,16 @@ IL_0033:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BlendShapeAffordanceReceiver_OnAffordanceValueUpdated_mE6EA2E34E6AD7B6DF9AA291869F5D0871C839177 (BlendShapeAffordanceReceiver_t6692E46E98283817CD27A6E3B0469003768B25B8* __this, float ___0_newValue, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/BlendShapeAffordanceReceiver.cs:57>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/BlendShapeAffordanceReceiver.cs:57>
 		SkinnedMeshRenderer_t020C4E8648EA1C4C6BA5C41502919B387E7E1C2E* L_0 = __this->___m_SkinnedMeshRenderer;
 		int32_t L_1 = __this->___m_BlendShapeIndex;
 		float L_2 = ___0_newValue;
 		NullCheck(L_0);
 		SkinnedMeshRenderer_SetBlendShapeWeight_mD5724DB29A33F007E42F3666BF4B7ABC9C7F6F5E(L_0, L_1, L_2, NULL);
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/BlendShapeAffordanceReceiver.cs:58>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/BlendShapeAffordanceReceiver.cs:58>
 		float L_3 = ___0_newValue;
 		FloatAffordanceReceiver_OnAffordanceValueUpdated_m8DFCD9A7C80FDE4B4A048FC63B57683AE9C27836(__this, L_3, NULL);
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/BlendShapeAffordanceReceiver.cs:59>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/BlendShapeAffordanceReceiver.cs:59>
 		return;
 	}
 }
@@ -4280,7 +4280,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BlendShapeAffordanceReceiver_OnAffordanc
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float BlendShapeAffordanceReceiver_GetCurrentValueForCapture_m5A73A00E0638DC71544D50010D1A56515C2CAE27 (BlendShapeAffordanceReceiver_t6692E46E98283817CD27A6E3B0469003768B25B8* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/BlendShapeAffordanceReceiver.cs:64>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/BlendShapeAffordanceReceiver.cs:64>
 		SkinnedMeshRenderer_t020C4E8648EA1C4C6BA5C41502919B387E7E1C2E* L_0 = __this->___m_SkinnedMeshRenderer;
 		int32_t L_1 = __this->___m_BlendShapeIndex;
 		NullCheck(L_0);
@@ -4309,7 +4309,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BlendShapeAffordanceReceiver__ctor_m4C2F
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D* ColorGradientLineRendererAffordanceReceiver_get_lineRenderer_m7CB885506F85E8CDFE2E31829D1B0039B736A0FA (ColorGradientLineRendererAffordanceReceiver_t2FF881DB0D8CBCE739F2922157A2834956A12CCB* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/ColorGradientLineRendererAffordanceReceiver.cs:44>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/ColorGradientLineRendererAffordanceReceiver.cs:44>
 		LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D* L_0 = __this->___m_LineRenderer;
 		return L_0;
 	}
@@ -4318,7 +4318,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR LineRenderer_tEFEF960672DB69CB14B6D181FAE6292
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ColorGradientLineRendererAffordanceReceiver_set_lineRenderer_m9FD1CBED6AB8460CCFD6E098AE0529F859035E9E (ColorGradientLineRendererAffordanceReceiver_t2FF881DB0D8CBCE739F2922157A2834956A12CCB* __this, LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/ColorGradientLineRendererAffordanceReceiver.cs:45>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/ColorGradientLineRendererAffordanceReceiver.cs:45>
 		LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D* L_0 = ___0_value;
 		__this->___m_LineRenderer = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_LineRenderer), (void*)L_0);
@@ -4329,7 +4329,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ColorGradientLineRendererAffordanceRecei
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ColorGradientLineRendererAffordanceReceiver_get_lineColorProperty_mCCD4E591DFD0745D5B9A94CF72E9081C9442F471 (ColorGradientLineRendererAffordanceReceiver_t2FF881DB0D8CBCE739F2922157A2834956A12CCB* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/ColorGradientLineRendererAffordanceReceiver.cs:58>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/ColorGradientLineRendererAffordanceReceiver.cs:58>
 		int32_t L_0 = __this->___m_LineColorProperty;
 		return L_0;
 	}
@@ -4338,12 +4338,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t ColorGradientLineRendererAffordanceRe
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ColorGradientLineRendererAffordanceReceiver_set_lineColorProperty_m57CDD2595964D76A898ECA78B122C890889EE377 (ColorGradientLineRendererAffordanceReceiver_t2FF881DB0D8CBCE739F2922157A2834956A12CCB* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/ColorGradientLineRendererAffordanceReceiver.cs:61>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/ColorGradientLineRendererAffordanceReceiver.cs:61>
 		int32_t L_0 = ___0_value;
 		__this->___m_LineColorProperty = L_0;
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/ColorGradientLineRendererAffordanceReceiver.cs:62>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/ColorGradientLineRendererAffordanceReceiver.cs:62>
 		VirtualActionInvoker0::Invoke(19, __this);
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/ColorGradientLineRendererAffordanceReceiver.cs:63>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/ColorGradientLineRendererAffordanceReceiver.cs:63>
 		return;
 	}
 }
@@ -4351,7 +4351,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ColorGradientLineRendererAffordanceRecei
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ColorGradientLineRendererAffordanceReceiver_get_disableXRInteractorLineVisualColorControlIfPresent_mDA5AE8967A2DB92EE4834491E52B9D5483580AF0 (ColorGradientLineRendererAffordanceReceiver_t2FF881DB0D8CBCE739F2922157A2834956A12CCB* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/ColorGradientLineRendererAffordanceReceiver.cs:76>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/ColorGradientLineRendererAffordanceReceiver.cs:76>
 		bool L_0 = __this->___m_DisableXRInteractorLineVisualColorControlIfPresent;
 		return L_0;
 	}
@@ -4360,7 +4360,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool ColorGradientLineRendererAffordanceRecei
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ColorGradientLineRendererAffordanceReceiver_set_disableXRInteractorLineVisualColorControlIfPresent_m012C1731B9989F5ACCE9501A4A4A3D38DB052FFF (ColorGradientLineRendererAffordanceReceiver_t2FF881DB0D8CBCE739F2922157A2834956A12CCB* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/ColorGradientLineRendererAffordanceReceiver.cs:77>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/ColorGradientLineRendererAffordanceReceiver.cs:77>
 		bool L_0 = ___0_value;
 		__this->___m_DisableXRInteractorLineVisualColorControlIfPresent = L_0;
 		return;
@@ -4386,9 +4386,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ColorGradientLineRendererAffordanceRecei
 	String_t* G_B5_0 = NULL;
 	String_t* G_B5_1 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/ColorGradientLineRendererAffordanceReceiver.cs:86>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/ColorGradientLineRendererAffordanceReceiver.cs:86>
 		BaseAffordanceStateReceiver_1_Awake_m7D962E8BB683222B6CFA69BB01D2FD1D1509054F(__this, BaseAffordanceStateReceiver_1_Awake_m7D962E8BB683222B6CFA69BB01D2FD1D1509054F_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/ColorGradientLineRendererAffordanceReceiver.cs:88>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/ColorGradientLineRendererAffordanceReceiver.cs:88>
 		LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D* L_0 = __this->___m_LineRenderer;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -4399,12 +4399,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ColorGradientLineRendererAffordanceRecei
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/ColorGradientLineRendererAffordanceReceiver.cs:90>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/ColorGradientLineRendererAffordanceReceiver.cs:90>
 		LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D* L_2;
 		L_2 = Component_GetComponentInParent_TisLineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D_m18375A788667B971841FCDAE9AD234993BAF98A6(__this, Component_GetComponentInParent_TisLineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D_m18375A788667B971841FCDAE9AD234993BAF98A6_RuntimeMethod_var);
 		__this->___m_LineRenderer = L_2;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_LineRenderer), (void*)L_2);
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/ColorGradientLineRendererAffordanceReceiver.cs:91>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/ColorGradientLineRendererAffordanceReceiver.cs:91>
 		LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D* L_3 = __this->___m_LineRenderer;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_4;
@@ -4415,7 +4415,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ColorGradientLineRendererAffordanceRecei
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/ColorGradientLineRendererAffordanceReceiver.cs:93>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/ColorGradientLineRendererAffordanceReceiver.cs:93>
 		if (__this)
 		{
 			G_B4_0 = __this;
@@ -4446,13 +4446,13 @@ IL_0040:
 		L_6 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(G_B5_1, G_B5_0, NULL);
 		il2cpp_codegen_runtime_class_init_inline(XRLoggingUtils_tF0C63DB5488367266FC58DF3AA1D3E98B361A7B5_il2cpp_TypeInfo_var);
 		XRLoggingUtils_LogError_mC5522AB4200CD87E6677D2E59C51BA5824070B63(L_6, __this, NULL);
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/ColorGradientLineRendererAffordanceReceiver.cs:94>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/ColorGradientLineRendererAffordanceReceiver.cs:94>
 		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(__this, (bool)0, NULL);
 	}
 
 IL_0052:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/ColorGradientLineRendererAffordanceReceiver.cs:97>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/ColorGradientLineRendererAffordanceReceiver.cs:97>
 		return;
 	}
 }
@@ -4469,9 +4469,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ColorGradientLineRendererAffordanceRecei
 	}
 	XRInteractorLineVisual_t5E2AB7AB814E981F6E309FA420D13DDBCF11D12E* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/ColorGradientLineRendererAffordanceReceiver.cs:102>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/ColorGradientLineRendererAffordanceReceiver.cs:102>
 		BaseAffordanceStateReceiver_1_Start_m124F8834A19C400C434BD70079A215C6A13847FD(__this, BaseAffordanceStateReceiver_1_Start_m124F8834A19C400C434BD70079A215C6A13847FD_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/ColorGradientLineRendererAffordanceReceiver.cs:105>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/ColorGradientLineRendererAffordanceReceiver.cs:105>
 		bool L_0 = __this->___m_DisableXRInteractorLineVisualColorControlIfPresent;
 		if (!L_0)
 		{
@@ -4479,11 +4479,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ColorGradientLineRendererAffordanceRecei
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/ColorGradientLineRendererAffordanceReceiver.cs:107>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/ColorGradientLineRendererAffordanceReceiver.cs:107>
 		XRInteractorLineVisual_t5E2AB7AB814E981F6E309FA420D13DDBCF11D12E* L_1;
 		L_1 = Component_GetComponentInParent_TisXRInteractorLineVisual_t5E2AB7AB814E981F6E309FA420D13DDBCF11D12E_m79AA40626BAAD2C7D8B7F699542EF10B01E8F66C(__this, Component_GetComponentInParent_TisXRInteractorLineVisual_t5E2AB7AB814E981F6E309FA420D13DDBCF11D12E_m79AA40626BAAD2C7D8B7F699542EF10B01E8F66C_RuntimeMethod_var);
 		V_0 = L_1;
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/ColorGradientLineRendererAffordanceReceiver.cs:108>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/ColorGradientLineRendererAffordanceReceiver.cs:108>
 		XRInteractorLineVisual_t5E2AB7AB814E981F6E309FA420D13DDBCF11D12E* L_2 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_3;
@@ -4494,7 +4494,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ColorGradientLineRendererAffordanceRecei
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/ColorGradientLineRendererAffordanceReceiver.cs:110>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/ColorGradientLineRendererAffordanceReceiver.cs:110>
 		XRInteractorLineVisual_t5E2AB7AB814E981F6E309FA420D13DDBCF11D12E* L_4 = V_0;
 		NullCheck(L_4);
 		XRInteractorLineVisual_set_setLineColorGradient_m4F03DE89A558CFC91231B3019E90C2F3346FDC40_inline(L_4, (bool)0, NULL);
@@ -4502,7 +4502,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ColorGradientLineRendererAffordanceRecei
 
 IL_0025:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/ColorGradientLineRendererAffordanceReceiver.cs:113>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/ColorGradientLineRendererAffordanceReceiver.cs:113>
 		return;
 	}
 }
@@ -4511,10 +4511,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ColorGradientLineRendererAffordanceRecei
 {
 	int32_t V_0 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/ColorGradientLineRendererAffordanceReceiver.cs:118>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/ColorGradientLineRendererAffordanceReceiver.cs:118>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_0 = ___0_newValue;
 		ColorAffordanceReceiver_OnAffordanceValueUpdated_m08A82137DB2FAADD5ADCB2393468E03116644337(__this, L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/ColorGradientLineRendererAffordanceReceiver.cs:120>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/ColorGradientLineRendererAffordanceReceiver.cs:120>
 		int32_t L_1 = __this->___m_LineColorProperty;
 		V_0 = L_1;
 		int32_t L_2 = V_0;
@@ -4536,23 +4536,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ColorGradientLineRendererAffordanceRecei
 
 IL_0016:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/ColorGradientLineRendererAffordanceReceiver.cs:123>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/ColorGradientLineRendererAffordanceReceiver.cs:123>
 		LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D* L_4 = __this->___m_LineRenderer;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_5 = ___0_newValue;
 		NullCheck(L_4);
 		LineRenderer_set_startColor_mF72FAB20C09372FC8F2CBFCBD837FA02A87FBA91(L_4, L_5, NULL);
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/ColorGradientLineRendererAffordanceReceiver.cs:124>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/ColorGradientLineRendererAffordanceReceiver.cs:124>
 		return;
 	}
 
 IL_0023:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/ColorGradientLineRendererAffordanceReceiver.cs:126>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/ColorGradientLineRendererAffordanceReceiver.cs:126>
 		LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D* L_6 = __this->___m_LineRenderer;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_7 = ___0_newValue;
 		NullCheck(L_6);
 		LineRenderer_set_endColor_m6AF26E0174434828BC6EF1BAC1FE188084819D9D(L_6, L_7, NULL);
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/ColorGradientLineRendererAffordanceReceiver.cs:129>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/ColorGradientLineRendererAffordanceReceiver.cs:129>
 		return;
 	}
 }
@@ -4567,7 +4567,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ColorGradientLineRendererAffordanceRecei
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/ColorGradientLineRendererAffordanceReceiver.cs:134>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/ColorGradientLineRendererAffordanceReceiver.cs:134>
 		bool L_0;
 		L_0 = BaseAffordanceStateReceiver_1_get_initialValueCaptured_m33BACB66392942ACB851556D37F895DE40AEF367_inline(__this, BaseAffordanceStateReceiver_1_get_initialValueCaptured_m33BACB66392942ACB851556D37F895DE40AEF367_RuntimeMethod_var);
 		if (!L_0)
@@ -4576,27 +4576,27 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ColorGradientLineRendererAffordanceRecei
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/ColorGradientLineRendererAffordanceReceiver.cs:135>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/ColorGradientLineRendererAffordanceReceiver.cs:135>
 		return;
 	}
 
 IL_0009:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/ColorGradientLineRendererAffordanceReceiver.cs:137>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/ColorGradientLineRendererAffordanceReceiver.cs:137>
 		LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D* L_1 = __this->___m_LineRenderer;
 		NullCheck(L_1);
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_2;
 		L_2 = LineRenderer_get_startColor_mCC5701C7A15042DABA6E7CC6FE5CFA788572A304(L_1, NULL);
 		__this->___m_InitialStartColor = L_2;
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/ColorGradientLineRendererAffordanceReceiver.cs:138>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/ColorGradientLineRendererAffordanceReceiver.cs:138>
 		LineRenderer_tEFEF960672DB69CB14B6D181FAE6292F0CF8B63D* L_3 = __this->___m_LineRenderer;
 		NullCheck(L_3);
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_4;
 		L_4 = LineRenderer_get_endColor_m63ABB682B5E134AC1ACD5B087197202C3DF9D421(L_3, NULL);
 		__this->___m_InitialEndColor = L_4;
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/ColorGradientLineRendererAffordanceReceiver.cs:139>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/ColorGradientLineRendererAffordanceReceiver.cs:139>
 		BaseAffordanceStateReceiver_1_CaptureInitialValue_m857ED30EFAEB4E905266D2723AC0DF3D9F7FD36F(__this, BaseAffordanceStateReceiver_1_CaptureInitialValue_m857ED30EFAEB4E905266D2723AC0DF3D9F7FD36F_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/ColorGradientLineRendererAffordanceReceiver.cs:140>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/ColorGradientLineRendererAffordanceReceiver.cs:140>
 		return;
 	}
 }
@@ -4611,7 +4611,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C
 	}
 	int32_t V_0 = 0;
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/ColorGradientLineRendererAffordanceReceiver.cs:145>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/ColorGradientLineRendererAffordanceReceiver.cs:145>
 		int32_t L_0 = __this->___m_LineColorProperty;
 		V_0 = L_0;
 		int32_t L_1 = V_0;
@@ -4633,21 +4633,21 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C
 
 IL_0010:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/ColorGradientLineRendererAffordanceReceiver.cs:148>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/ColorGradientLineRendererAffordanceReceiver.cs:148>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_3 = __this->___m_InitialStartColor;
 		return L_3;
 	}
 
 IL_0017:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/ColorGradientLineRendererAffordanceReceiver.cs:150>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/ColorGradientLineRendererAffordanceReceiver.cs:150>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_4 = __this->___m_InitialEndColor;
 		return L_4;
 	}
 
 IL_001e:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/ColorGradientLineRendererAffordanceReceiver.cs:152>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/ColorGradientLineRendererAffordanceReceiver.cs:152>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_5;
 		L_5 = BaseAffordanceStateReceiver_1_GetCurrentValueForCapture_mD4E098737CF769B5002F79B62EA1953C59D459F7(__this, BaseAffordanceStateReceiver_1_GetCurrentValueForCapture_mD4E098737CF769B5002F79B62EA1953C59D459F7_RuntimeMethod_var);
 		return L_5;
@@ -4657,7 +4657,7 @@ IL_001e:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ColorGradientLineRendererAffordanceReceiver__ctor_m24CEF1CFA16EECE714258EFD82C87CB41078E95B (ColorGradientLineRendererAffordanceReceiver_t2FF881DB0D8CBCE739F2922157A2834956A12CCB* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/ColorGradientLineRendererAffordanceReceiver.cs:68>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/ColorGradientLineRendererAffordanceReceiver.cs:68>
 		__this->___m_DisableXRInteractorLineVisualColorControlIfPresent = (bool)1;
 		ColorAffordanceReceiver__ctor_m4C9B077296FC7E0D778711F078BD61343E32B050(__this, NULL);
 		return;
@@ -4683,7 +4683,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ColorGradientLineRendererAffordanceRecei
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MaterialPropertyBlockHelper_t3B1728C9688AC3C86D741F2EC81CED0EC0E90815* ColorMaterialPropertyAffordanceReceiver_get_materialPropertyBlockHelper_mE68CBE2744C7F0A27EA1FF0BEFD9C80CE4A316FD (ColorMaterialPropertyAffordanceReceiver_t627A8FFDF395764F569FEB9AD425D12C67FA939F* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/ColorMaterialPropertyAffordanceReceiver.cs:26>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/ColorMaterialPropertyAffordanceReceiver.cs:26>
 		MaterialPropertyBlockHelper_t3B1728C9688AC3C86D741F2EC81CED0EC0E90815* L_0 = __this->___m_MaterialPropertyBlockHelper;
 		return L_0;
 	}
@@ -4692,7 +4692,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MaterialPropertyBlockHelper_t3B1728C9688AC3C8
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ColorMaterialPropertyAffordanceReceiver_set_materialPropertyBlockHelper_mBCA6DF6925E21D5BA2227E1D33FC1A7668CC73A9 (ColorMaterialPropertyAffordanceReceiver_t627A8FFDF395764F569FEB9AD425D12C67FA939F* __this, MaterialPropertyBlockHelper_t3B1728C9688AC3C86D741F2EC81CED0EC0E90815* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/ColorMaterialPropertyAffordanceReceiver.cs:27>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/ColorMaterialPropertyAffordanceReceiver.cs:27>
 		MaterialPropertyBlockHelper_t3B1728C9688AC3C86D741F2EC81CED0EC0E90815* L_0 = ___0_value;
 		__this->___m_MaterialPropertyBlockHelper = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_MaterialPropertyBlockHelper), (void*)L_0);
@@ -4703,7 +4703,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ColorMaterialPropertyAffordanceReceiver_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* ColorMaterialPropertyAffordanceReceiver_get_colorPropertyName_mFC8B3E1A5C35574DA8D32981F293B39B27E3B6FF (ColorMaterialPropertyAffordanceReceiver_t627A8FFDF395764F569FEB9AD425D12C67FA939F* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/ColorMaterialPropertyAffordanceReceiver.cs:39>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/ColorMaterialPropertyAffordanceReceiver.cs:39>
 		String_t* L_0 = __this->___m_ColorPropertyName;
 		return L_0;
 	}
@@ -4712,13 +4712,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* ColorMaterialPropertyAffordanceRece
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ColorMaterialPropertyAffordanceReceiver_set_colorPropertyName_m689F75F9E1266EDBDF16177BC992E3F8325AA8AA (ColorMaterialPropertyAffordanceReceiver_t627A8FFDF395764F569FEB9AD425D12C67FA939F* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/ColorMaterialPropertyAffordanceReceiver.cs:42>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/ColorMaterialPropertyAffordanceReceiver.cs:42>
 		String_t* L_0 = ___0_value;
 		__this->___m_ColorPropertyName = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_ColorPropertyName), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/ColorMaterialPropertyAffordanceReceiver.cs:43>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/ColorMaterialPropertyAffordanceReceiver.cs:43>
 		ColorMaterialPropertyAffordanceReceiver_UpdateColorPropertyID_m0BE45D72B764CA83D267898BC8DCEB167FAD1B61(__this, NULL);
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/ColorMaterialPropertyAffordanceReceiver.cs:44>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/ColorMaterialPropertyAffordanceReceiver.cs:44>
 		return;
 	}
 }
@@ -4733,7 +4733,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ColorMaterialPropertyAffordanceReceiver_
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/ColorMaterialPropertyAffordanceReceiver.cs:54>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/ColorMaterialPropertyAffordanceReceiver.cs:54>
 		MaterialPropertyBlockHelper_t3B1728C9688AC3C86D741F2EC81CED0EC0E90815* L_0 = __this->___m_MaterialPropertyBlockHelper;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -4744,7 +4744,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ColorMaterialPropertyAffordanceReceiver_
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/ColorMaterialPropertyAffordanceReceiver.cs:55>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/ColorMaterialPropertyAffordanceReceiver.cs:55>
 		MaterialPropertyBlockHelper_t3B1728C9688AC3C86D741F2EC81CED0EC0E90815* L_2;
 		L_2 = Component_GetComponent_TisMaterialPropertyBlockHelper_t3B1728C9688AC3C86D741F2EC81CED0EC0E90815_m5D0339088DD26EAB06722B0F66ECD612818A56C3(__this, Component_GetComponent_TisMaterialPropertyBlockHelper_t3B1728C9688AC3C86D741F2EC81CED0EC0E90815_m5D0339088DD26EAB06722B0F66ECD612818A56C3_RuntimeMethod_var);
 		__this->___m_MaterialPropertyBlockHelper = L_2;
@@ -4753,7 +4753,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ColorMaterialPropertyAffordanceReceiver_
 
 IL_001a:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/ColorMaterialPropertyAffordanceReceiver.cs:56>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/ColorMaterialPropertyAffordanceReceiver.cs:56>
 		return;
 	}
 }
@@ -4769,9 +4769,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ColorMaterialPropertyAffordanceReceiver_
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/ColorMaterialPropertyAffordanceReceiver.cs:61>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/ColorMaterialPropertyAffordanceReceiver.cs:61>
 		BaseAffordanceStateReceiver_1_Awake_m7D962E8BB683222B6CFA69BB01D2FD1D1509054F(__this, BaseAffordanceStateReceiver_1_Awake_m7D962E8BB683222B6CFA69BB01D2FD1D1509054F_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/ColorMaterialPropertyAffordanceReceiver.cs:63>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/ColorMaterialPropertyAffordanceReceiver.cs:63>
 		MaterialPropertyBlockHelper_t3B1728C9688AC3C86D741F2EC81CED0EC0E90815* L_0 = __this->___m_MaterialPropertyBlockHelper;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -4782,7 +4782,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ColorMaterialPropertyAffordanceReceiver_
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/ColorMaterialPropertyAffordanceReceiver.cs:64>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/ColorMaterialPropertyAffordanceReceiver.cs:64>
 		MaterialPropertyBlockHelper_t3B1728C9688AC3C86D741F2EC81CED0EC0E90815* L_2;
 		L_2 = Component_GetComponent_TisMaterialPropertyBlockHelper_t3B1728C9688AC3C86D741F2EC81CED0EC0E90815_m5D0339088DD26EAB06722B0F66ECD612818A56C3(__this, Component_GetComponent_TisMaterialPropertyBlockHelper_t3B1728C9688AC3C86D741F2EC81CED0EC0E90815_m5D0339088DD26EAB06722B0F66ECD612818A56C3_RuntimeMethod_var);
 		__this->___m_MaterialPropertyBlockHelper = L_2;
@@ -4791,9 +4791,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ColorMaterialPropertyAffordanceReceiver_
 
 IL_0020:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/ColorMaterialPropertyAffordanceReceiver.cs:66>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/ColorMaterialPropertyAffordanceReceiver.cs:66>
 		ColorMaterialPropertyAffordanceReceiver_UpdateColorPropertyID_m0BE45D72B764CA83D267898BC8DCEB167FAD1B61(__this, NULL);
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/ColorMaterialPropertyAffordanceReceiver.cs:67>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/ColorMaterialPropertyAffordanceReceiver.cs:67>
 		return;
 	}
 }
@@ -4803,7 +4803,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ColorMaterialPropertyAffordanceReceiver_
 	MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D* G_B2_0 = NULL;
 	MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D* G_B1_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/ColorMaterialPropertyAffordanceReceiver.cs:72>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/ColorMaterialPropertyAffordanceReceiver.cs:72>
 		MaterialPropertyBlockHelper_t3B1728C9688AC3C86D741F2EC81CED0EC0E90815* L_0 = __this->___m_MaterialPropertyBlockHelper;
 		NullCheck(L_0);
 		MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D* L_1;
@@ -4830,10 +4830,10 @@ IL_0012:
 
 IL_001e:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/ColorMaterialPropertyAffordanceReceiver.cs:73>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/ColorMaterialPropertyAffordanceReceiver.cs:73>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_5 = ___0_newValue;
 		ColorAffordanceReceiver_OnAffordanceValueUpdated_m08A82137DB2FAADD5ADCB2393468E03116644337(__this, L_5, NULL);
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/ColorMaterialPropertyAffordanceReceiver.cs:74>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/ColorMaterialPropertyAffordanceReceiver.cs:74>
 		return;
 	}
 }
@@ -4841,7 +4841,7 @@ IL_001e:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ColorMaterialPropertyAffordanceReceiver_GetCurrentValueForCapture_mD964C6D4729013AEAE0D9BD722930982E7984BD8 (ColorMaterialPropertyAffordanceReceiver_t627A8FFDF395764F569FEB9AD425D12C67FA939F* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/ColorMaterialPropertyAffordanceReceiver.cs:79>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/ColorMaterialPropertyAffordanceReceiver.cs:79>
 		MaterialPropertyBlockHelper_t3B1728C9688AC3C86D741F2EC81CED0EC0E90815* L_0 = __this->___m_MaterialPropertyBlockHelper;
 		NullCheck(L_0);
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_1;
@@ -4869,7 +4869,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ColorMaterialPropertyAffordanceReceiver_
 	int32_t G_B5_0 = 0;
 	ColorMaterialPropertyAffordanceReceiver_t627A8FFDF395764F569FEB9AD425D12C67FA939F* G_B5_1 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/ColorMaterialPropertyAffordanceReceiver.cs:84>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/ColorMaterialPropertyAffordanceReceiver.cs:84>
 		String_t* L_0 = __this->___m_ColorPropertyName;
 		bool L_1;
 		L_1 = String_IsNullOrEmpty_mEA9E3FB005AC28FE02E69FCF95A7B8456192B478(L_0, NULL);
@@ -4879,7 +4879,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ColorMaterialPropertyAffordanceReceiver_
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/ColorMaterialPropertyAffordanceReceiver.cs:86>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/ColorMaterialPropertyAffordanceReceiver.cs:86>
 		String_t* L_2 = __this->___m_ColorPropertyName;
 		int32_t L_3;
 		L_3 = Shader_PropertyToID_mE98523D50F5656CAE89B30695C458253EB8956CA(L_2, NULL);
@@ -4889,7 +4889,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ColorMaterialPropertyAffordanceReceiver_
 
 IL_001f:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/ColorMaterialPropertyAffordanceReceiver.cs:90>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/ColorMaterialPropertyAffordanceReceiver.cs:90>
 		il2cpp_codegen_runtime_class_init_inline(GraphicsSettings_t01785CE5CB5C5105CB527619AF4D74BEF417EF1A_il2cpp_TypeInfo_var);
 		RenderPipelineAsset_t5F9BF815BF931E1314B184E7F9070FB649C7054E* L_4;
 		L_4 = GraphicsSettings_get_currentRenderPipeline_mEC94DC23DE4F901D6A629E2DE882982686AF75F1(NULL);
@@ -4923,7 +4923,7 @@ IL_0039:
 	{
 		NullCheck(G_B5_1);
 		G_B5_1->___m_ColorProperty = G_B5_0;
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/ColorMaterialPropertyAffordanceReceiver.cs:92>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/ColorMaterialPropertyAffordanceReceiver.cs:92>
 		return;
 	}
 }
@@ -4955,11 +4955,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ShaderPropertyLookup__cctor_m14104122E05
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/ColorMaterialPropertyAffordanceReceiver.cs:96>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/ColorMaterialPropertyAffordanceReceiver.cs:96>
 		int32_t L_0;
 		L_0 = Shader_PropertyToID_mE98523D50F5656CAE89B30695C458253EB8956CA(_stringLiteral51282E2AAC09AC6EDBC2C1C237C0183F97FEE379, NULL);
 		((ShaderPropertyLookup_t2A81A6D34F9E9D09EE54FCB39E02AE0A15A21AB6_StaticFields*)il2cpp_codegen_static_fields_for(ShaderPropertyLookup_t2A81A6D34F9E9D09EE54FCB39E02AE0A15A21AB6_il2cpp_TypeInfo_var))->___baseColor = L_0;
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/ColorMaterialPropertyAffordanceReceiver.cs:97>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/ColorMaterialPropertyAffordanceReceiver.cs:97>
 		int32_t L_1;
 		L_1 = Shader_PropertyToID_mE98523D50F5656CAE89B30695C458253EB8956CA(_stringLiteral47A3FAF17D89549FD0F0ECA7370B81F7C80DFCDE, NULL);
 		((ShaderPropertyLookup_t2A81A6D34F9E9D09EE54FCB39E02AE0A15A21AB6_StaticFields*)il2cpp_codegen_static_fields_for(ShaderPropertyLookup_t2A81A6D34F9E9D09EE54FCB39E02AE0A15A21AB6_il2cpp_TypeInfo_var))->___color = L_1;
@@ -4978,7 +4978,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ShaderPropertyLookup__cctor_m14104122E05
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MaterialPropertyBlockHelper_t3B1728C9688AC3C86D741F2EC81CED0EC0E90815* FloatMaterialPropertyAffordanceReceiver_get_materialPropertyBlockHelper_m4A69ABC5D36AC60441E391EEF04F9F4FCE6E1249 (FloatMaterialPropertyAffordanceReceiver_t0C20A38C8319B3043C68C2DF86E7CCDB0846A251* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/FloatMaterialPropertyAffordanceReceiver.cs:25>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/FloatMaterialPropertyAffordanceReceiver.cs:25>
 		MaterialPropertyBlockHelper_t3B1728C9688AC3C86D741F2EC81CED0EC0E90815* L_0 = __this->___m_MaterialPropertyBlockHelper;
 		return L_0;
 	}
@@ -4987,7 +4987,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MaterialPropertyBlockHelper_t3B1728C9688AC3C8
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FloatMaterialPropertyAffordanceReceiver_set_materialPropertyBlockHelper_m7D3810DE224B14950170E3F4B08F483A7F935400 (FloatMaterialPropertyAffordanceReceiver_t0C20A38C8319B3043C68C2DF86E7CCDB0846A251* __this, MaterialPropertyBlockHelper_t3B1728C9688AC3C86D741F2EC81CED0EC0E90815* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/FloatMaterialPropertyAffordanceReceiver.cs:26>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/FloatMaterialPropertyAffordanceReceiver.cs:26>
 		MaterialPropertyBlockHelper_t3B1728C9688AC3C86D741F2EC81CED0EC0E90815* L_0 = ___0_value;
 		__this->___m_MaterialPropertyBlockHelper = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_MaterialPropertyBlockHelper), (void*)L_0);
@@ -4998,7 +4998,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FloatMaterialPropertyAffordanceReceiver_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* FloatMaterialPropertyAffordanceReceiver_get_floatPropertyName_m8B1BEB2ABABB853C5DCE935D9B3EE81B8C393C28 (FloatMaterialPropertyAffordanceReceiver_t0C20A38C8319B3043C68C2DF86E7CCDB0846A251* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/FloatMaterialPropertyAffordanceReceiver.cs:38>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/FloatMaterialPropertyAffordanceReceiver.cs:38>
 		String_t* L_0 = __this->___m_FloatPropertyName;
 		return L_0;
 	}
@@ -5007,16 +5007,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* FloatMaterialPropertyAffordanceRece
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FloatMaterialPropertyAffordanceReceiver_set_floatPropertyName_m2873F657C5EFB51C5CCA12A16D2F916BC2F99AC2 (FloatMaterialPropertyAffordanceReceiver_t0C20A38C8319B3043C68C2DF86E7CCDB0846A251* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/FloatMaterialPropertyAffordanceReceiver.cs:41>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/FloatMaterialPropertyAffordanceReceiver.cs:41>
 		String_t* L_0 = ___0_value;
 		__this->___m_FloatPropertyName = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_FloatPropertyName), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/FloatMaterialPropertyAffordanceReceiver.cs:42>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/FloatMaterialPropertyAffordanceReceiver.cs:42>
 		String_t* L_1 = __this->___m_FloatPropertyName;
 		int32_t L_2;
 		L_2 = Shader_PropertyToID_mE98523D50F5656CAE89B30695C458253EB8956CA(L_1, NULL);
 		__this->___m_FloatProperty = L_2;
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/FloatMaterialPropertyAffordanceReceiver.cs:43>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/FloatMaterialPropertyAffordanceReceiver.cs:43>
 		return;
 	}
 }
@@ -5031,7 +5031,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FloatMaterialPropertyAffordanceReceiver_
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/FloatMaterialPropertyAffordanceReceiver.cs:53>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/FloatMaterialPropertyAffordanceReceiver.cs:53>
 		MaterialPropertyBlockHelper_t3B1728C9688AC3C86D741F2EC81CED0EC0E90815* L_0 = __this->___m_MaterialPropertyBlockHelper;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -5042,7 +5042,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FloatMaterialPropertyAffordanceReceiver_
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/FloatMaterialPropertyAffordanceReceiver.cs:54>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/FloatMaterialPropertyAffordanceReceiver.cs:54>
 		MaterialPropertyBlockHelper_t3B1728C9688AC3C86D741F2EC81CED0EC0E90815* L_2;
 		L_2 = Component_GetComponent_TisMaterialPropertyBlockHelper_t3B1728C9688AC3C86D741F2EC81CED0EC0E90815_m5D0339088DD26EAB06722B0F66ECD612818A56C3(__this, Component_GetComponent_TisMaterialPropertyBlockHelper_t3B1728C9688AC3C86D741F2EC81CED0EC0E90815_m5D0339088DD26EAB06722B0F66ECD612818A56C3_RuntimeMethod_var);
 		__this->___m_MaterialPropertyBlockHelper = L_2;
@@ -5051,7 +5051,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FloatMaterialPropertyAffordanceReceiver_
 
 IL_001a:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/FloatMaterialPropertyAffordanceReceiver.cs:55>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/FloatMaterialPropertyAffordanceReceiver.cs:55>
 		return;
 	}
 }
@@ -5067,9 +5067,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FloatMaterialPropertyAffordanceReceiver_
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/FloatMaterialPropertyAffordanceReceiver.cs:60>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/FloatMaterialPropertyAffordanceReceiver.cs:60>
 		BaseAffordanceStateReceiver_1_Awake_m97D0AE85BA4BEECCC1186299BF2DC1AF1B8C2975(__this, BaseAffordanceStateReceiver_1_Awake_m97D0AE85BA4BEECCC1186299BF2DC1AF1B8C2975_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/FloatMaterialPropertyAffordanceReceiver.cs:62>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/FloatMaterialPropertyAffordanceReceiver.cs:62>
 		MaterialPropertyBlockHelper_t3B1728C9688AC3C86D741F2EC81CED0EC0E90815* L_0 = __this->___m_MaterialPropertyBlockHelper;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -5080,7 +5080,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FloatMaterialPropertyAffordanceReceiver_
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/FloatMaterialPropertyAffordanceReceiver.cs:63>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/FloatMaterialPropertyAffordanceReceiver.cs:63>
 		MaterialPropertyBlockHelper_t3B1728C9688AC3C86D741F2EC81CED0EC0E90815* L_2;
 		L_2 = Component_GetComponent_TisMaterialPropertyBlockHelper_t3B1728C9688AC3C86D741F2EC81CED0EC0E90815_m5D0339088DD26EAB06722B0F66ECD612818A56C3(__this, Component_GetComponent_TisMaterialPropertyBlockHelper_t3B1728C9688AC3C86D741F2EC81CED0EC0E90815_m5D0339088DD26EAB06722B0F66ECD612818A56C3_RuntimeMethod_var);
 		__this->___m_MaterialPropertyBlockHelper = L_2;
@@ -5089,12 +5089,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FloatMaterialPropertyAffordanceReceiver_
 
 IL_0020:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/FloatMaterialPropertyAffordanceReceiver.cs:65>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/FloatMaterialPropertyAffordanceReceiver.cs:65>
 		String_t* L_3 = __this->___m_FloatPropertyName;
 		int32_t L_4;
 		L_4 = Shader_PropertyToID_mE98523D50F5656CAE89B30695C458253EB8956CA(L_3, NULL);
 		__this->___m_FloatProperty = L_4;
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/FloatMaterialPropertyAffordanceReceiver.cs:66>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/FloatMaterialPropertyAffordanceReceiver.cs:66>
 		return;
 	}
 }
@@ -5104,7 +5104,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FloatMaterialPropertyAffordanceReceiver_
 	MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D* G_B2_0 = NULL;
 	MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D* G_B1_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/FloatMaterialPropertyAffordanceReceiver.cs:71>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/FloatMaterialPropertyAffordanceReceiver.cs:71>
 		MaterialPropertyBlockHelper_t3B1728C9688AC3C86D741F2EC81CED0EC0E90815* L_0 = __this->___m_MaterialPropertyBlockHelper;
 		NullCheck(L_0);
 		MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D* L_1;
@@ -5131,10 +5131,10 @@ IL_0012:
 
 IL_001e:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/FloatMaterialPropertyAffordanceReceiver.cs:72>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/FloatMaterialPropertyAffordanceReceiver.cs:72>
 		float L_5 = ___0_newValue;
 		FloatAffordanceReceiver_OnAffordanceValueUpdated_m8DFCD9A7C80FDE4B4A048FC63B57683AE9C27836(__this, L_5, NULL);
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/FloatMaterialPropertyAffordanceReceiver.cs:73>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/FloatMaterialPropertyAffordanceReceiver.cs:73>
 		return;
 	}
 }
@@ -5142,7 +5142,7 @@ IL_001e:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float FloatMaterialPropertyAffordanceReceiver_GetCurrentValueForCapture_m0BB7BFF89E598EEEC030F807E82D5507980DF19C (FloatMaterialPropertyAffordanceReceiver_t0C20A38C8319B3043C68C2DF86E7CCDB0846A251* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/FloatMaterialPropertyAffordanceReceiver.cs:78>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/FloatMaterialPropertyAffordanceReceiver.cs:78>
 		MaterialPropertyBlockHelper_t3B1728C9688AC3C86D741F2EC81CED0EC0E90815* L_0 = __this->___m_MaterialPropertyBlockHelper;
 		NullCheck(L_0);
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_1;
@@ -5174,7 +5174,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FloatMaterialPropertyAffordanceReceiver_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MaterialPropertyBlockHelper_t3B1728C9688AC3C86D741F2EC81CED0EC0E90815* Vector2MaterialPropertyAffordanceReceiver_get_materialPropertyBlockHelper_m0A266AC2C74C2F82240C589550A5A442BEB6DC60 (Vector2MaterialPropertyAffordanceReceiver_t4CCDC775636139AF00BC7216BA23EF0852F0B755* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/Vector2MaterialPropertyAffordanceReceiver.cs:26>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/Vector2MaterialPropertyAffordanceReceiver.cs:26>
 		MaterialPropertyBlockHelper_t3B1728C9688AC3C86D741F2EC81CED0EC0E90815* L_0 = __this->___m_MaterialPropertyBlockHelper;
 		return L_0;
 	}
@@ -5183,7 +5183,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MaterialPropertyBlockHelper_t3B1728C9688AC3C8
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Vector2MaterialPropertyAffordanceReceiver_set_materialPropertyBlockHelper_m9B07053265D903AB970DACAA25838C6BDC7D131D (Vector2MaterialPropertyAffordanceReceiver_t4CCDC775636139AF00BC7216BA23EF0852F0B755* __this, MaterialPropertyBlockHelper_t3B1728C9688AC3C86D741F2EC81CED0EC0E90815* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/Vector2MaterialPropertyAffordanceReceiver.cs:27>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/Vector2MaterialPropertyAffordanceReceiver.cs:27>
 		MaterialPropertyBlockHelper_t3B1728C9688AC3C86D741F2EC81CED0EC0E90815* L_0 = ___0_value;
 		__this->___m_MaterialPropertyBlockHelper = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_MaterialPropertyBlockHelper), (void*)L_0);
@@ -5194,7 +5194,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Vector2MaterialPropertyAffordanceReceive
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Vector2MaterialPropertyAffordanceReceiver_get_vector2PropertyName_mC926315B4C7888D773187EE357A882107493D19A (Vector2MaterialPropertyAffordanceReceiver_t4CCDC775636139AF00BC7216BA23EF0852F0B755* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/Vector2MaterialPropertyAffordanceReceiver.cs:39>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/Vector2MaterialPropertyAffordanceReceiver.cs:39>
 		String_t* L_0 = __this->___m_Vector2PropertyName;
 		return L_0;
 	}
@@ -5203,16 +5203,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Vector2MaterialPropertyAffordanceRe
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Vector2MaterialPropertyAffordanceReceiver_set_vector2PropertyName_mD5A1853B109FDCE7C84AA04CC7AE13551ED6B18A (Vector2MaterialPropertyAffordanceReceiver_t4CCDC775636139AF00BC7216BA23EF0852F0B755* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/Vector2MaterialPropertyAffordanceReceiver.cs:42>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/Vector2MaterialPropertyAffordanceReceiver.cs:42>
 		String_t* L_0 = ___0_value;
 		__this->___m_Vector2PropertyName = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Vector2PropertyName), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/Vector2MaterialPropertyAffordanceReceiver.cs:43>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/Vector2MaterialPropertyAffordanceReceiver.cs:43>
 		String_t* L_1 = __this->___m_Vector2PropertyName;
 		int32_t L_2;
 		L_2 = Shader_PropertyToID_mE98523D50F5656CAE89B30695C458253EB8956CA(L_1, NULL);
 		__this->___m_Vector2Property = L_2;
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/Vector2MaterialPropertyAffordanceReceiver.cs:44>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/Vector2MaterialPropertyAffordanceReceiver.cs:44>
 		return;
 	}
 }
@@ -5227,7 +5227,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Vector2MaterialPropertyAffordanceReceive
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/Vector2MaterialPropertyAffordanceReceiver.cs:54>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/Vector2MaterialPropertyAffordanceReceiver.cs:54>
 		MaterialPropertyBlockHelper_t3B1728C9688AC3C86D741F2EC81CED0EC0E90815* L_0 = __this->___m_MaterialPropertyBlockHelper;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -5238,7 +5238,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Vector2MaterialPropertyAffordanceReceive
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/Vector2MaterialPropertyAffordanceReceiver.cs:55>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/Vector2MaterialPropertyAffordanceReceiver.cs:55>
 		MaterialPropertyBlockHelper_t3B1728C9688AC3C86D741F2EC81CED0EC0E90815* L_2;
 		L_2 = Component_GetComponent_TisMaterialPropertyBlockHelper_t3B1728C9688AC3C86D741F2EC81CED0EC0E90815_m5D0339088DD26EAB06722B0F66ECD612818A56C3(__this, Component_GetComponent_TisMaterialPropertyBlockHelper_t3B1728C9688AC3C86D741F2EC81CED0EC0E90815_m5D0339088DD26EAB06722B0F66ECD612818A56C3_RuntimeMethod_var);
 		__this->___m_MaterialPropertyBlockHelper = L_2;
@@ -5247,7 +5247,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Vector2MaterialPropertyAffordanceReceive
 
 IL_001a:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/Vector2MaterialPropertyAffordanceReceiver.cs:56>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/Vector2MaterialPropertyAffordanceReceiver.cs:56>
 		return;
 	}
 }
@@ -5263,9 +5263,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Vector2MaterialPropertyAffordanceReceive
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/Vector2MaterialPropertyAffordanceReceiver.cs:61>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/Vector2MaterialPropertyAffordanceReceiver.cs:61>
 		BaseAffordanceStateReceiver_1_Awake_m2635F5B57A0C0541B7B5D52110E203887F6F7F47(__this, BaseAffordanceStateReceiver_1_Awake_m2635F5B57A0C0541B7B5D52110E203887F6F7F47_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/Vector2MaterialPropertyAffordanceReceiver.cs:63>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/Vector2MaterialPropertyAffordanceReceiver.cs:63>
 		MaterialPropertyBlockHelper_t3B1728C9688AC3C86D741F2EC81CED0EC0E90815* L_0 = __this->___m_MaterialPropertyBlockHelper;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -5276,7 +5276,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Vector2MaterialPropertyAffordanceReceive
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/Vector2MaterialPropertyAffordanceReceiver.cs:64>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/Vector2MaterialPropertyAffordanceReceiver.cs:64>
 		MaterialPropertyBlockHelper_t3B1728C9688AC3C86D741F2EC81CED0EC0E90815* L_2;
 		L_2 = Component_GetComponent_TisMaterialPropertyBlockHelper_t3B1728C9688AC3C86D741F2EC81CED0EC0E90815_m5D0339088DD26EAB06722B0F66ECD612818A56C3(__this, Component_GetComponent_TisMaterialPropertyBlockHelper_t3B1728C9688AC3C86D741F2EC81CED0EC0E90815_m5D0339088DD26EAB06722B0F66ECD612818A56C3_RuntimeMethod_var);
 		__this->___m_MaterialPropertyBlockHelper = L_2;
@@ -5285,12 +5285,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Vector2MaterialPropertyAffordanceReceive
 
 IL_0020:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/Vector2MaterialPropertyAffordanceReceiver.cs:66>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/Vector2MaterialPropertyAffordanceReceiver.cs:66>
 		String_t* L_3 = __this->___m_Vector2PropertyName;
 		int32_t L_4;
 		L_4 = Shader_PropertyToID_mE98523D50F5656CAE89B30695C458253EB8956CA(L_3, NULL);
 		__this->___m_Vector2Property = L_4;
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/Vector2MaterialPropertyAffordanceReceiver.cs:67>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/Vector2MaterialPropertyAffordanceReceiver.cs:67>
 		return;
 	}
 }
@@ -5300,7 +5300,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Vector2MaterialPropertyAffordanceReceive
 	MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D* G_B2_0 = NULL;
 	MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D* G_B1_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/Vector2MaterialPropertyAffordanceReceiver.cs:72>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/Vector2MaterialPropertyAffordanceReceiver.cs:72>
 		MaterialPropertyBlockHelper_t3B1728C9688AC3C86D741F2EC81CED0EC0E90815* L_0 = __this->___m_MaterialPropertyBlockHelper;
 		NullCheck(L_0);
 		MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D* L_1;
@@ -5331,10 +5331,10 @@ IL_0012:
 
 IL_0028:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/Vector2MaterialPropertyAffordanceReceiver.cs:73>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/Vector2MaterialPropertyAffordanceReceiver.cs:73>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_7 = ___0_newValue;
 		Vector2AffordanceReceiver_OnAffordanceValueUpdated_m6F016190C9F8DFDEAA748FEE71204908C71FBACF(__this, L_7, NULL);
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/Vector2MaterialPropertyAffordanceReceiver.cs:74>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/Vector2MaterialPropertyAffordanceReceiver.cs:74>
 		return;
 	}
 }
@@ -5342,7 +5342,7 @@ IL_0028:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA Vector2MaterialPropertyAffordanceReceiver_GetCurrentValueForCapture_m2883B9C8F020F686C75D85692E70F962833C62AA (Vector2MaterialPropertyAffordanceReceiver_t4CCDC775636139AF00BC7216BA23EF0852F0B755* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/Vector2MaterialPropertyAffordanceReceiver.cs:79>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/Vector2MaterialPropertyAffordanceReceiver.cs:79>
 		MaterialPropertyBlockHelper_t3B1728C9688AC3C86D741F2EC81CED0EC0E90815* L_0 = __this->___m_MaterialPropertyBlockHelper;
 		NullCheck(L_0);
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_1;
@@ -5378,7 +5378,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Vector2MaterialPropertyAffordanceReceive
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MaterialPropertyBlockHelper_t3B1728C9688AC3C86D741F2EC81CED0EC0E90815* Vector3MaterialPropertyAffordanceReceiver_get_materialPropertyBlockHelper_m1461EAA914E02A26E3DA94F26FA46A276808F957 (Vector3MaterialPropertyAffordanceReceiver_tC2023FB08ABBE63DB1404C2CAD8F7681913CE508* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/Vector3MaterialPropertyAffordanceReceiver.cs:26>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/Vector3MaterialPropertyAffordanceReceiver.cs:26>
 		MaterialPropertyBlockHelper_t3B1728C9688AC3C86D741F2EC81CED0EC0E90815* L_0 = __this->___m_MaterialPropertyBlockHelper;
 		return L_0;
 	}
@@ -5387,7 +5387,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MaterialPropertyBlockHelper_t3B1728C9688AC3C8
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Vector3MaterialPropertyAffordanceReceiver_set_materialPropertyBlockHelper_mCB8145A3AC32ECDEEAFAC106AC0F062B719623ED (Vector3MaterialPropertyAffordanceReceiver_tC2023FB08ABBE63DB1404C2CAD8F7681913CE508* __this, MaterialPropertyBlockHelper_t3B1728C9688AC3C86D741F2EC81CED0EC0E90815* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/Vector3MaterialPropertyAffordanceReceiver.cs:27>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/Vector3MaterialPropertyAffordanceReceiver.cs:27>
 		MaterialPropertyBlockHelper_t3B1728C9688AC3C86D741F2EC81CED0EC0E90815* L_0 = ___0_value;
 		__this->___m_MaterialPropertyBlockHelper = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_MaterialPropertyBlockHelper), (void*)L_0);
@@ -5398,7 +5398,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Vector3MaterialPropertyAffordanceReceive
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Vector3MaterialPropertyAffordanceReceiver_get_vector3PropertyName_m16C29D66D137113E66457B0C026B0DD5774E72C9 (Vector3MaterialPropertyAffordanceReceiver_tC2023FB08ABBE63DB1404C2CAD8F7681913CE508* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/Vector3MaterialPropertyAffordanceReceiver.cs:39>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/Vector3MaterialPropertyAffordanceReceiver.cs:39>
 		String_t* L_0 = __this->___m_Vector3PropertyName;
 		return L_0;
 	}
@@ -5407,16 +5407,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Vector3MaterialPropertyAffordanceRe
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Vector3MaterialPropertyAffordanceReceiver_set_vector3PropertyName_m70B3904B6EE586F05EE07F5DFBE289326ADC9A59 (Vector3MaterialPropertyAffordanceReceiver_tC2023FB08ABBE63DB1404C2CAD8F7681913CE508* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/Vector3MaterialPropertyAffordanceReceiver.cs:42>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/Vector3MaterialPropertyAffordanceReceiver.cs:42>
 		String_t* L_0 = ___0_value;
 		__this->___m_Vector3PropertyName = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Vector3PropertyName), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/Vector3MaterialPropertyAffordanceReceiver.cs:43>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/Vector3MaterialPropertyAffordanceReceiver.cs:43>
 		String_t* L_1 = __this->___m_Vector3PropertyName;
 		int32_t L_2;
 		L_2 = Shader_PropertyToID_mE98523D50F5656CAE89B30695C458253EB8956CA(L_1, NULL);
 		__this->___m_Vector3Property = L_2;
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/Vector3MaterialPropertyAffordanceReceiver.cs:44>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/Vector3MaterialPropertyAffordanceReceiver.cs:44>
 		return;
 	}
 }
@@ -5431,7 +5431,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Vector3MaterialPropertyAffordanceReceive
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/Vector3MaterialPropertyAffordanceReceiver.cs:54>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/Vector3MaterialPropertyAffordanceReceiver.cs:54>
 		MaterialPropertyBlockHelper_t3B1728C9688AC3C86D741F2EC81CED0EC0E90815* L_0 = __this->___m_MaterialPropertyBlockHelper;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -5442,7 +5442,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Vector3MaterialPropertyAffordanceReceive
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/Vector3MaterialPropertyAffordanceReceiver.cs:55>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/Vector3MaterialPropertyAffordanceReceiver.cs:55>
 		MaterialPropertyBlockHelper_t3B1728C9688AC3C86D741F2EC81CED0EC0E90815* L_2;
 		L_2 = Component_GetComponent_TisMaterialPropertyBlockHelper_t3B1728C9688AC3C86D741F2EC81CED0EC0E90815_m5D0339088DD26EAB06722B0F66ECD612818A56C3(__this, Component_GetComponent_TisMaterialPropertyBlockHelper_t3B1728C9688AC3C86D741F2EC81CED0EC0E90815_m5D0339088DD26EAB06722B0F66ECD612818A56C3_RuntimeMethod_var);
 		__this->___m_MaterialPropertyBlockHelper = L_2;
@@ -5451,7 +5451,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Vector3MaterialPropertyAffordanceReceive
 
 IL_001a:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/Vector3MaterialPropertyAffordanceReceiver.cs:56>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/Vector3MaterialPropertyAffordanceReceiver.cs:56>
 		return;
 	}
 }
@@ -5467,9 +5467,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Vector3MaterialPropertyAffordanceReceive
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/Vector3MaterialPropertyAffordanceReceiver.cs:61>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/Vector3MaterialPropertyAffordanceReceiver.cs:61>
 		BaseAffordanceStateReceiver_1_Awake_mFB7025DB20B5F695328D18341338CF19463CC7B8(__this, BaseAffordanceStateReceiver_1_Awake_mFB7025DB20B5F695328D18341338CF19463CC7B8_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/Vector3MaterialPropertyAffordanceReceiver.cs:63>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/Vector3MaterialPropertyAffordanceReceiver.cs:63>
 		MaterialPropertyBlockHelper_t3B1728C9688AC3C86D741F2EC81CED0EC0E90815* L_0 = __this->___m_MaterialPropertyBlockHelper;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -5480,7 +5480,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Vector3MaterialPropertyAffordanceReceive
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/Vector3MaterialPropertyAffordanceReceiver.cs:64>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/Vector3MaterialPropertyAffordanceReceiver.cs:64>
 		MaterialPropertyBlockHelper_t3B1728C9688AC3C86D741F2EC81CED0EC0E90815* L_2;
 		L_2 = Component_GetComponent_TisMaterialPropertyBlockHelper_t3B1728C9688AC3C86D741F2EC81CED0EC0E90815_m5D0339088DD26EAB06722B0F66ECD612818A56C3(__this, Component_GetComponent_TisMaterialPropertyBlockHelper_t3B1728C9688AC3C86D741F2EC81CED0EC0E90815_m5D0339088DD26EAB06722B0F66ECD612818A56C3_RuntimeMethod_var);
 		__this->___m_MaterialPropertyBlockHelper = L_2;
@@ -5489,12 +5489,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Vector3MaterialPropertyAffordanceReceive
 
 IL_0020:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/Vector3MaterialPropertyAffordanceReceiver.cs:66>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/Vector3MaterialPropertyAffordanceReceiver.cs:66>
 		String_t* L_3 = __this->___m_Vector3PropertyName;
 		int32_t L_4;
 		L_4 = Shader_PropertyToID_mE98523D50F5656CAE89B30695C458253EB8956CA(L_3, NULL);
 		__this->___m_Vector3Property = L_4;
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/Vector3MaterialPropertyAffordanceReceiver.cs:67>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/Vector3MaterialPropertyAffordanceReceiver.cs:67>
 		return;
 	}
 }
@@ -5504,7 +5504,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Vector3MaterialPropertyAffordanceReceive
 	MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D* G_B2_0 = NULL;
 	MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D* G_B1_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/Vector3MaterialPropertyAffordanceReceiver.cs:72>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/Vector3MaterialPropertyAffordanceReceiver.cs:72>
 		MaterialPropertyBlockHelper_t3B1728C9688AC3C86D741F2EC81CED0EC0E90815* L_0 = __this->___m_MaterialPropertyBlockHelper;
 		NullCheck(L_0);
 		MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D* L_1;
@@ -5535,10 +5535,10 @@ IL_0012:
 
 IL_0028:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/Vector3MaterialPropertyAffordanceReceiver.cs:73>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/Vector3MaterialPropertyAffordanceReceiver.cs:73>
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_7 = ___0_newValue;
 		Vector3AffordanceReceiver_OnAffordanceValueUpdated_mBB5120B9FB6E709161DBD0AD58362174BC06F719(__this, L_7, NULL);
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/Vector3MaterialPropertyAffordanceReceiver.cs:74>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/Vector3MaterialPropertyAffordanceReceiver.cs:74>
 		return;
 	}
 }
@@ -5546,7 +5546,7 @@ IL_0028:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E Vector3MaterialPropertyAffordanceReceiver_GetCurrentValueForCapture_m25A55ABF783774C257B1694447C5B268FD417F01 (Vector3MaterialPropertyAffordanceReceiver_tC2023FB08ABBE63DB1404C2CAD8F7681913CE508* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/Vector3MaterialPropertyAffordanceReceiver.cs:79>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/Vector3MaterialPropertyAffordanceReceiver.cs:79>
 		MaterialPropertyBlockHelper_t3B1728C9688AC3C86D741F2EC81CED0EC0E90815* L_0 = __this->___m_MaterialPropertyBlockHelper;
 		NullCheck(L_0);
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_1;
@@ -5582,7 +5582,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Vector3MaterialPropertyAffordanceReceive
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MaterialPropertyBlockHelper_t3B1728C9688AC3C86D741F2EC81CED0EC0E90815* Vector4MaterialPropertyAffordanceReceiver_get_materialPropertyBlockHelper_m88B5C20613C2FC558F8740B8EA8B122D224CCB1D (Vector4MaterialPropertyAffordanceReceiver_t58D45980CB21A466D1AC4BCBCE4F6CC90D3C9EB8* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/Vector4MaterialPropertyAffordanceReceiver.cs:26>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/Vector4MaterialPropertyAffordanceReceiver.cs:26>
 		MaterialPropertyBlockHelper_t3B1728C9688AC3C86D741F2EC81CED0EC0E90815* L_0 = __this->___m_MaterialPropertyBlockHelper;
 		return L_0;
 	}
@@ -5591,7 +5591,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MaterialPropertyBlockHelper_t3B1728C9688AC3C8
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Vector4MaterialPropertyAffordanceReceiver_set_materialPropertyBlockHelper_m60DA761BB2C625327F0C7BA9A813A5CB1F176498 (Vector4MaterialPropertyAffordanceReceiver_t58D45980CB21A466D1AC4BCBCE4F6CC90D3C9EB8* __this, MaterialPropertyBlockHelper_t3B1728C9688AC3C86D741F2EC81CED0EC0E90815* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/Vector4MaterialPropertyAffordanceReceiver.cs:27>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/Vector4MaterialPropertyAffordanceReceiver.cs:27>
 		MaterialPropertyBlockHelper_t3B1728C9688AC3C86D741F2EC81CED0EC0E90815* L_0 = ___0_value;
 		__this->___m_MaterialPropertyBlockHelper = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_MaterialPropertyBlockHelper), (void*)L_0);
@@ -5602,7 +5602,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Vector4MaterialPropertyAffordanceReceive
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Vector4MaterialPropertyAffordanceReceiver_get_vector4PropertyName_m645DF351946332A93E0AF2EBE9820B0D2FEFBEAC (Vector4MaterialPropertyAffordanceReceiver_t58D45980CB21A466D1AC4BCBCE4F6CC90D3C9EB8* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/Vector4MaterialPropertyAffordanceReceiver.cs:39>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/Vector4MaterialPropertyAffordanceReceiver.cs:39>
 		String_t* L_0 = __this->___m_Vector4PropertyName;
 		return L_0;
 	}
@@ -5611,16 +5611,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Vector4MaterialPropertyAffordanceRe
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Vector4MaterialPropertyAffordanceReceiver_set_vector4PropertyName_m0773A8453BCA7783DD7CD0B68C9DC6314A96D414 (Vector4MaterialPropertyAffordanceReceiver_t58D45980CB21A466D1AC4BCBCE4F6CC90D3C9EB8* __this, String_t* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/Vector4MaterialPropertyAffordanceReceiver.cs:42>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/Vector4MaterialPropertyAffordanceReceiver.cs:42>
 		String_t* L_0 = ___0_value;
 		__this->___m_Vector4PropertyName = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Vector4PropertyName), (void*)L_0);
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/Vector4MaterialPropertyAffordanceReceiver.cs:43>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/Vector4MaterialPropertyAffordanceReceiver.cs:43>
 		String_t* L_1 = __this->___m_Vector4PropertyName;
 		int32_t L_2;
 		L_2 = Shader_PropertyToID_mE98523D50F5656CAE89B30695C458253EB8956CA(L_1, NULL);
 		__this->___m_Vector4Property = L_2;
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/Vector4MaterialPropertyAffordanceReceiver.cs:44>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/Vector4MaterialPropertyAffordanceReceiver.cs:44>
 		return;
 	}
 }
@@ -5635,7 +5635,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Vector4MaterialPropertyAffordanceReceive
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/Vector4MaterialPropertyAffordanceReceiver.cs:54>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/Vector4MaterialPropertyAffordanceReceiver.cs:54>
 		MaterialPropertyBlockHelper_t3B1728C9688AC3C86D741F2EC81CED0EC0E90815* L_0 = __this->___m_MaterialPropertyBlockHelper;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -5646,7 +5646,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Vector4MaterialPropertyAffordanceReceive
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/Vector4MaterialPropertyAffordanceReceiver.cs:55>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/Vector4MaterialPropertyAffordanceReceiver.cs:55>
 		MaterialPropertyBlockHelper_t3B1728C9688AC3C86D741F2EC81CED0EC0E90815* L_2;
 		L_2 = Component_GetComponent_TisMaterialPropertyBlockHelper_t3B1728C9688AC3C86D741F2EC81CED0EC0E90815_m5D0339088DD26EAB06722B0F66ECD612818A56C3(__this, Component_GetComponent_TisMaterialPropertyBlockHelper_t3B1728C9688AC3C86D741F2EC81CED0EC0E90815_m5D0339088DD26EAB06722B0F66ECD612818A56C3_RuntimeMethod_var);
 		__this->___m_MaterialPropertyBlockHelper = L_2;
@@ -5655,7 +5655,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Vector4MaterialPropertyAffordanceReceive
 
 IL_001a:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/Vector4MaterialPropertyAffordanceReceiver.cs:56>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/Vector4MaterialPropertyAffordanceReceiver.cs:56>
 		return;
 	}
 }
@@ -5671,9 +5671,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Vector4MaterialPropertyAffordanceReceive
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/Vector4MaterialPropertyAffordanceReceiver.cs:61>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/Vector4MaterialPropertyAffordanceReceiver.cs:61>
 		BaseAffordanceStateReceiver_1_Awake_mF0139C1319124E57FFC7C2D9E00D03648656413D(__this, BaseAffordanceStateReceiver_1_Awake_mF0139C1319124E57FFC7C2D9E00D03648656413D_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/Vector4MaterialPropertyAffordanceReceiver.cs:63>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/Vector4MaterialPropertyAffordanceReceiver.cs:63>
 		MaterialPropertyBlockHelper_t3B1728C9688AC3C86D741F2EC81CED0EC0E90815* L_0 = __this->___m_MaterialPropertyBlockHelper;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -5684,7 +5684,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Vector4MaterialPropertyAffordanceReceive
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/Vector4MaterialPropertyAffordanceReceiver.cs:64>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/Vector4MaterialPropertyAffordanceReceiver.cs:64>
 		MaterialPropertyBlockHelper_t3B1728C9688AC3C86D741F2EC81CED0EC0E90815* L_2;
 		L_2 = Component_GetComponent_TisMaterialPropertyBlockHelper_t3B1728C9688AC3C86D741F2EC81CED0EC0E90815_m5D0339088DD26EAB06722B0F66ECD612818A56C3(__this, Component_GetComponent_TisMaterialPropertyBlockHelper_t3B1728C9688AC3C86D741F2EC81CED0EC0E90815_m5D0339088DD26EAB06722B0F66ECD612818A56C3_RuntimeMethod_var);
 		__this->___m_MaterialPropertyBlockHelper = L_2;
@@ -5693,12 +5693,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Vector4MaterialPropertyAffordanceReceive
 
 IL_0020:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/Vector4MaterialPropertyAffordanceReceiver.cs:66>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/Vector4MaterialPropertyAffordanceReceiver.cs:66>
 		String_t* L_3 = __this->___m_Vector4PropertyName;
 		int32_t L_4;
 		L_4 = Shader_PropertyToID_mE98523D50F5656CAE89B30695C458253EB8956CA(L_3, NULL);
 		__this->___m_Vector4Property = L_4;
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/Vector4MaterialPropertyAffordanceReceiver.cs:67>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/Vector4MaterialPropertyAffordanceReceiver.cs:67>
 		return;
 	}
 }
@@ -5708,7 +5708,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Vector4MaterialPropertyAffordanceReceive
 	MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D* G_B2_0 = NULL;
 	MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D* G_B1_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/Vector4MaterialPropertyAffordanceReceiver.cs:72>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/Vector4MaterialPropertyAffordanceReceiver.cs:72>
 		MaterialPropertyBlockHelper_t3B1728C9688AC3C86D741F2EC81CED0EC0E90815* L_0 = __this->___m_MaterialPropertyBlockHelper;
 		NullCheck(L_0);
 		MaterialPropertyBlock_t2308669579033A857EFE6E4831909F638B27411D* L_1;
@@ -5737,10 +5737,10 @@ IL_0012:
 
 IL_0023:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/Vector4MaterialPropertyAffordanceReceiver.cs:73>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/Vector4MaterialPropertyAffordanceReceiver.cs:73>
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_6 = ___0_newValue;
 		Vector4AffordanceReceiver_OnAffordanceValueUpdated_m5213F46721A36369FD250DDA5EA52CBA601B7387(__this, L_6, NULL);
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/Vector4MaterialPropertyAffordanceReceiver.cs:74>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/Vector4MaterialPropertyAffordanceReceiver.cs:74>
 		return;
 	}
 }
@@ -5748,7 +5748,7 @@ IL_0023:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E Vector4MaterialPropertyAffordanceReceiver_GetCurrentValueForCapture_mA10B386AA3954DCBDB7DAA83E48006B2A5120ED8 (Vector4MaterialPropertyAffordanceReceiver_t58D45980CB21A466D1AC4BCBCE4F6CC90D3C9EB8* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Rendering/Vector4MaterialPropertyAffordanceReceiver.cs:79>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Rendering/Vector4MaterialPropertyAffordanceReceiver.cs:79>
 		MaterialPropertyBlockHelper_t3B1728C9688AC3C86D741F2EC81CED0EC0E90815* L_0 = __this->___m_MaterialPropertyBlockHelper;
 		NullCheck(L_0);
 		Material_t18053F08F347D0DCA5E1140EC7EC4533DD8A14E3* L_1;
@@ -5782,7 +5782,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Vector4MaterialPropertyAffordanceReceive
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ColorAffordanceThemeDatumProperty_t86EAD3012FFDD1B6F90F0174A64E6625D4C367B6* ColorAffordanceReceiver_get_affordanceThemeDatum_m997600C8B435FC30903B5B85C5F66582BBDBBF5A (ColorAffordanceReceiver_tF6D7D27BD9A735E1A10FC265ABA939C9B7CC1A73* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Primitives/ColorAffordanceReceiver.cs:33>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Primitives/ColorAffordanceReceiver.cs:33>
 		ColorAffordanceThemeDatumProperty_t86EAD3012FFDD1B6F90F0174A64E6625D4C367B6* L_0 = __this->___m_AffordanceThemeDatum;
 		return L_0;
 	}
@@ -5791,7 +5791,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ColorAffordanceThemeDatumProperty_t86EAD3012F
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ColorAffordanceReceiver_set_affordanceThemeDatum_mBAC41B9931A51F1D40595C90B2BCAB10EAA3A688 (ColorAffordanceReceiver_tF6D7D27BD9A735E1A10FC265ABA939C9B7CC1A73* __this, ColorAffordanceThemeDatumProperty_t86EAD3012FFDD1B6F90F0174A64E6625D4C367B6* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Primitives/ColorAffordanceReceiver.cs:34>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Primitives/ColorAffordanceReceiver.cs:34>
 		ColorAffordanceThemeDatumProperty_t86EAD3012FFDD1B6F90F0174A64E6625D4C367B6* L_0 = ___0_value;
 		__this->___m_AffordanceThemeDatum = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_AffordanceThemeDatum), (void*)L_0);
@@ -5802,7 +5802,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ColorAffordanceReceiver_set_affordanceTh
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ColorUnityEvent_t1510551EBFF284EDFF3987181C524A768F69A926* ColorAffordanceReceiver_get_valueUpdated_mFA9C28AFA7782F5B7B7086979818C43F691510A5 (ColorAffordanceReceiver_tF6D7D27BD9A735E1A10FC265ABA939C9B7CC1A73* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Primitives/ColorAffordanceReceiver.cs:46>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Primitives/ColorAffordanceReceiver.cs:46>
 		ColorUnityEvent_t1510551EBFF284EDFF3987181C524A768F69A926* L_0 = __this->___m_ValueUpdated;
 		return L_0;
 	}
@@ -5811,7 +5811,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ColorUnityEvent_t1510551EBFF284EDFF3987181C52
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ColorAffordanceReceiver_set_valueUpdated_m1197B6B7CAFFFF27199101B81A930F73BE131910 (ColorAffordanceReceiver_tF6D7D27BD9A735E1A10FC265ABA939C9B7CC1A73* __this, ColorUnityEvent_t1510551EBFF284EDFF3987181C524A768F69A926* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Primitives/ColorAffordanceReceiver.cs:47>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Primitives/ColorAffordanceReceiver.cs:47>
 		ColorUnityEvent_t1510551EBFF284EDFF3987181C524A768F69A926* L_0 = ___0_value;
 		__this->___m_ValueUpdated = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_ValueUpdated), (void*)L_0);
@@ -5828,7 +5828,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR BaseAffordanceTheme_1_t0E9523F1B0AB080EFF2F71
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Primitives/ColorAffordanceReceiver.cs:51>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Primitives/ColorAffordanceReceiver.cs:51>
 		ColorAffordanceThemeDatumProperty_t86EAD3012FFDD1B6F90F0174A64E6625D4C367B6* L_0 = __this->___m_AffordanceThemeDatum;
 		if (L_0)
 		{
@@ -5852,7 +5852,7 @@ IL_000a:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR BindableVariable_1_tB1E8CB1BE6FC0FC0ADBA23B797014B9E0D2BBEDB* ColorAffordanceReceiver_get_affordanceValue_mFB59F810B7CDEB7050F79C38CC08E445F75189F0 (ColorAffordanceReceiver_tF6D7D27BD9A735E1A10FC265ABA939C9B7CC1A73* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Primitives/ColorAffordanceReceiver.cs:54>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Primitives/ColorAffordanceReceiver.cs:54>
 		BindableVariable_1_tB1E8CB1BE6FC0FC0ADBA23B797014B9E0D2BBEDB* L_0 = __this->___U3CaffordanceValueU3Ek__BackingField;
 		return L_0;
 	}
@@ -5874,16 +5874,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE0
 	JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 V_2;
 	memset((&V_2), 0, sizeof(V_2));
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Primitives/ColorAffordanceReceiver.cs:59>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Primitives/ColorAffordanceReceiver.cs:59>
 		BaseAffordanceTheme_1_t0E9523F1B0AB080EFF2F713F31C00A868A4A3A80* L_0;
 		L_0 = BaseAffordanceStateReceiver_1_get_affordanceTheme_m30E4C2113C72A03A9B5474377FD4D5F2931B5F29_inline(__this, BaseAffordanceStateReceiver_1_get_affordanceTheme_m30E4C2113C72A03A9B5474377FD4D5F2931B5F29_RuntimeMethod_var);
 		V_0 = ((ColorAffordanceTheme_t3F700BEECAFF429ED6996818B1460BE3079943C1*)CastclassClass((RuntimeObject*)L_0, ColorAffordanceTheme_t3F700BEECAFF429ED6996818B1460BE3079943C1_il2cpp_TypeInfo_var));
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Primitives/ColorAffordanceReceiver.cs:60>
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Primitives/ColorAffordanceReceiver.cs:61>
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Primitives/ColorAffordanceReceiver.cs:62>
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Primitives/ColorAffordanceReceiver.cs:63>
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Primitives/ColorAffordanceReceiver.cs:64>
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Primitives/ColorAffordanceReceiver.cs:65>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Primitives/ColorAffordanceReceiver.cs:60>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Primitives/ColorAffordanceReceiver.cs:61>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Primitives/ColorAffordanceReceiver.cs:62>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Primitives/ColorAffordanceReceiver.cs:63>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Primitives/ColorAffordanceReceiver.cs:64>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Primitives/ColorAffordanceReceiver.cs:65>
 		il2cpp_codegen_initobj((&V_1), sizeof(ColorTweenJob_t1BEEC88338C32DADE1D0E383FB1E1327444022A4));
 		TweenJobData_1_t9932452930B7CDE5DC4DA408B50B8E4C7A3AAFB7* L_1 = ___0_jobData;
 		TweenJobData_1_t9932452930B7CDE5DC4DA408B50B8E4C7A3AAFB7 L_2 = (*(TweenJobData_1_t9932452930B7CDE5DC4DA408B50B8E4C7A3AAFB7*)L_1);
@@ -5899,7 +5899,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE0
 		L_6 = ColorAffordanceTheme_get_colorBlendMode_m58086A803205C3BF9C5654FC73510EC5FA82B90E_inline(L_5, NULL);
 		ColorTweenJob_set_colorBlendMode_m9794C87EAF0DF0DC3FCCD8FE779415EF9766BA9A_inline((&V_1), L_6, NULL);
 		ColorTweenJob_t1BEEC88338C32DADE1D0E383FB1E1327444022A4 L_7 = V_1;
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Primitives/ColorAffordanceReceiver.cs:66>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Primitives/ColorAffordanceReceiver.cs:66>
 		il2cpp_codegen_initobj((&V_2), sizeof(JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08));
 		JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 L_8 = V_2;
 		JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 L_9;
@@ -5917,7 +5917,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR BaseAffordanceTheme_1_t0E9523F1B0AB080EFF2F71
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Primitives/ColorAffordanceReceiver.cs:72>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Primitives/ColorAffordanceReceiver.cs:72>
 		ColorAffordanceTheme_t3F700BEECAFF429ED6996818B1460BE3079943C1* L_0 = (ColorAffordanceTheme_t3F700BEECAFF429ED6996818B1460BE3079943C1*)il2cpp_codegen_object_new(ColorAffordanceTheme_t3F700BEECAFF429ED6996818B1460BE3079943C1_il2cpp_TypeInfo_var);
 		ColorAffordanceTheme__ctor_m950972927FF91870E467F1A685C17217C60C4EDD(L_0, NULL);
 		return L_0;
@@ -5935,7 +5935,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ColorAffordanceReceiver_OnAffordanceValu
 	ColorUnityEvent_t1510551EBFF284EDFF3987181C524A768F69A926* G_B2_0 = NULL;
 	ColorUnityEvent_t1510551EBFF284EDFF3987181C524A768F69A926* G_B1_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Primitives/ColorAffordanceReceiver.cs:78>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Primitives/ColorAffordanceReceiver.cs:78>
 		ColorUnityEvent_t1510551EBFF284EDFF3987181C524A768F69A926* L_0 = __this->___m_ValueUpdated;
 		ColorUnityEvent_t1510551EBFF284EDFF3987181C524A768F69A926* L_1 = L_0;
 		if (L_1)
@@ -5954,7 +5954,7 @@ IL_000b:
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_2 = ___0_newValue;
 		NullCheck(G_B2_0);
 		UnityEvent_1_Invoke_m742FE68F8584FCA2350604FAFF86FA120A2CFE8D(G_B2_0, L_2, UnityEvent_1_Invoke_m742FE68F8584FCA2350604FAFF86FA120A2CFE8D_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Primitives/ColorAffordanceReceiver.cs:79>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Primitives/ColorAffordanceReceiver.cs:79>
 		return;
 	}
 }
@@ -5972,7 +5972,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ColorAffordanceReceiver__ctor_m4C9B07729
 	Color_tD001788D726C3A7F1379BEED0260B9591F440C1F V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Primitives/ColorAffordanceReceiver.cs:54>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Primitives/ColorAffordanceReceiver.cs:54>
 		il2cpp_codegen_initobj((&V_0), sizeof(Color_tD001788D726C3A7F1379BEED0260B9591F440C1F));
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_0 = V_0;
 		BindableVariable_1_tB1E8CB1BE6FC0FC0ADBA23B797014B9E0D2BBEDB* L_1 = (BindableVariable_1_tB1E8CB1BE6FC0FC0ADBA23B797014B9E0D2BBEDB*)il2cpp_codegen_object_new(BindableVariable_1_tB1E8CB1BE6FC0FC0ADBA23B797014B9E0D2BBEDB_il2cpp_TypeInfo_var);
@@ -5995,7 +5995,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ColorAffordanceReceiver__ctor_m4C9B07729
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FloatAffordanceThemeDatumProperty_tA307B32B7063CC8BF659E27BF7BCD6D24DC43CD9* FloatAffordanceReceiver_get_affordanceThemeDatum_m9D93F8CDCF7C03118C3647CDF827F81EFD887560 (FloatAffordanceReceiver_t66E763152C12B894353408702914C6241CA05BDE* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Primitives/FloatAffordanceReceiver.cs:33>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Primitives/FloatAffordanceReceiver.cs:33>
 		FloatAffordanceThemeDatumProperty_tA307B32B7063CC8BF659E27BF7BCD6D24DC43CD9* L_0 = __this->___m_AffordanceThemeDatum;
 		return L_0;
 	}
@@ -6004,7 +6004,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FloatAffordanceThemeDatumProperty_tA307B32B70
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FloatAffordanceReceiver_set_affordanceThemeDatum_m38D53D6D6EF3375599159E0287F5100844C6824A (FloatAffordanceReceiver_t66E763152C12B894353408702914C6241CA05BDE* __this, FloatAffordanceThemeDatumProperty_tA307B32B7063CC8BF659E27BF7BCD6D24DC43CD9* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Primitives/FloatAffordanceReceiver.cs:34>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Primitives/FloatAffordanceReceiver.cs:34>
 		FloatAffordanceThemeDatumProperty_tA307B32B7063CC8BF659E27BF7BCD6D24DC43CD9* L_0 = ___0_value;
 		__this->___m_AffordanceThemeDatum = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_AffordanceThemeDatum), (void*)L_0);
@@ -6015,7 +6015,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FloatAffordanceReceiver_set_affordanceTh
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FloatUnityEvent_t46E9673B05FBD9AED74FC5787BAAD6B1523F68CE* FloatAffordanceReceiver_get_valueUpdated_m015DA13CE8D5F266D614997A6DE8C4E9D65CD835 (FloatAffordanceReceiver_t66E763152C12B894353408702914C6241CA05BDE* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Primitives/FloatAffordanceReceiver.cs:46>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Primitives/FloatAffordanceReceiver.cs:46>
 		FloatUnityEvent_t46E9673B05FBD9AED74FC5787BAAD6B1523F68CE* L_0 = __this->___m_ValueUpdated;
 		return L_0;
 	}
@@ -6024,7 +6024,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR FloatUnityEvent_t46E9673B05FBD9AED74FC5787BAA
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FloatAffordanceReceiver_set_valueUpdated_m838D2D1D6E11C2E901442827980600F6D0ED820B (FloatAffordanceReceiver_t66E763152C12B894353408702914C6241CA05BDE* __this, FloatUnityEvent_t46E9673B05FBD9AED74FC5787BAAD6B1523F68CE* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Primitives/FloatAffordanceReceiver.cs:47>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Primitives/FloatAffordanceReceiver.cs:47>
 		FloatUnityEvent_t46E9673B05FBD9AED74FC5787BAAD6B1523F68CE* L_0 = ___0_value;
 		__this->___m_ValueUpdated = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_ValueUpdated), (void*)L_0);
@@ -6041,7 +6041,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR BaseAffordanceTheme_1_t1E77E3027D1DEBEA5C9434
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Primitives/FloatAffordanceReceiver.cs:51>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Primitives/FloatAffordanceReceiver.cs:51>
 		FloatAffordanceThemeDatumProperty_tA307B32B7063CC8BF659E27BF7BCD6D24DC43CD9* L_0 = __this->___m_AffordanceThemeDatum;
 		if (L_0)
 		{
@@ -6065,7 +6065,7 @@ IL_000a:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR BindableVariable_1_tAB8C2D23769D801C8E39D4AA927DD23AF0E6816C* FloatAffordanceReceiver_get_affordanceValue_mBB5C3AB5C59AF5BC28A84EA63B9AE9A8C30FD853 (FloatAffordanceReceiver_t66E763152C12B894353408702914C6241CA05BDE* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Primitives/FloatAffordanceReceiver.cs:54>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Primitives/FloatAffordanceReceiver.cs:54>
 		BindableVariable_1_tAB8C2D23769D801C8E39D4AA927DD23AF0E6816C* L_0 = __this->___U3CaffordanceValueU3Ek__BackingField;
 		return L_0;
 	}
@@ -6084,13 +6084,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE0
 	JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Primitives/FloatAffordanceReceiver.cs:59>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Primitives/FloatAffordanceReceiver.cs:59>
 		il2cpp_codegen_initobj((&V_0), sizeof(FloatTweenJob_tA1F66E54D3DBA65A5E68334BA5532EB1D6543F98));
 		TweenJobData_1_t06FAD94FCA49A795B22C7FA2EA018F83E450B97E* L_0 = ___0_jobData;
 		TweenJobData_1_t06FAD94FCA49A795B22C7FA2EA018F83E450B97E L_1 = (*(TweenJobData_1_t06FAD94FCA49A795B22C7FA2EA018F83E450B97E*)L_0);
 		FloatTweenJob_set_jobData_m62BC555A7F3277F969592FF740F96692C4F340EA_inline((&V_0), L_1, NULL);
 		FloatTweenJob_tA1F66E54D3DBA65A5E68334BA5532EB1D6543F98 L_2 = V_0;
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Primitives/FloatAffordanceReceiver.cs:60>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Primitives/FloatAffordanceReceiver.cs:60>
 		il2cpp_codegen_initobj((&V_1), sizeof(JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08));
 		JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 L_3 = V_1;
 		JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 L_4;
@@ -6108,7 +6108,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR BaseAffordanceTheme_1_t1E77E3027D1DEBEA5C9434
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Primitives/FloatAffordanceReceiver.cs:66>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Primitives/FloatAffordanceReceiver.cs:66>
 		FloatAffordanceTheme_t8D690D0E9B25A66531A082E48F439E0103EDB7CC* L_0 = (FloatAffordanceTheme_t8D690D0E9B25A66531A082E48F439E0103EDB7CC*)il2cpp_codegen_object_new(FloatAffordanceTheme_t8D690D0E9B25A66531A082E48F439E0103EDB7CC_il2cpp_TypeInfo_var);
 		FloatAffordanceTheme__ctor_m5DEDCB9E9F8C82257C380C760F0F88C909D03BCF(L_0, NULL);
 		return L_0;
@@ -6126,7 +6126,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FloatAffordanceReceiver_OnAffordanceValu
 	FloatUnityEvent_t46E9673B05FBD9AED74FC5787BAAD6B1523F68CE* G_B2_0 = NULL;
 	FloatUnityEvent_t46E9673B05FBD9AED74FC5787BAAD6B1523F68CE* G_B1_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Primitives/FloatAffordanceReceiver.cs:72>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Primitives/FloatAffordanceReceiver.cs:72>
 		FloatUnityEvent_t46E9673B05FBD9AED74FC5787BAAD6B1523F68CE* L_0 = __this->___m_ValueUpdated;
 		FloatUnityEvent_t46E9673B05FBD9AED74FC5787BAAD6B1523F68CE* L_1 = L_0;
 		if (L_1)
@@ -6145,7 +6145,7 @@ IL_000b:
 		float L_2 = ___0_newValue;
 		NullCheck(G_B2_0);
 		UnityEvent_1_Invoke_mABC41DCEDDFA68F8F39C0DFC1CF55B7C1B70A805(G_B2_0, L_2, UnityEvent_1_Invoke_mABC41DCEDDFA68F8F39C0DFC1CF55B7C1B70A805_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Primitives/FloatAffordanceReceiver.cs:73>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Primitives/FloatAffordanceReceiver.cs:73>
 		return;
 	}
 }
@@ -6161,7 +6161,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FloatAffordanceReceiver__ctor_mAE18D7F69
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Primitives/FloatAffordanceReceiver.cs:54>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Primitives/FloatAffordanceReceiver.cs:54>
 		BindableVariable_1_tAB8C2D23769D801C8E39D4AA927DD23AF0E6816C* L_0 = (BindableVariable_1_tAB8C2D23769D801C8E39D4AA927DD23AF0E6816C*)il2cpp_codegen_object_new(BindableVariable_1_tAB8C2D23769D801C8E39D4AA927DD23AF0E6816C_il2cpp_TypeInfo_var);
 		BindableVariable_1__ctor_mDC40C552DDD7391A70B329BD063A7C4BBD98E408(L_0, (0.0f), (bool)1, (Func_3_tA9AA477D8A5A68C7DC26AE4792295B80F920E61E*)NULL, (bool)0, BindableVariable_1__ctor_mDC40C552DDD7391A70B329BD063A7C4BBD98E408_RuntimeMethod_var);
 		__this->___U3CaffordanceValueU3Ek__BackingField = L_0;
@@ -6182,7 +6182,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FloatAffordanceReceiver__ctor_mAE18D7F69
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR QuaternionUnityEvent_t1BEB6C61F25448B45AA9553A256C27310A726A55* QuaternionAffordanceReceiver_get_quaternionValueUpdated_m88FCE2FD21E2307191072D28BF0A3D7F5FF458C6 (QuaternionAffordanceReceiver_t89BEB49026E8DB40585D46CC46B4FE493E95B218* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Primitives/QuaternionAffordanceReceiver.cs:27>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Primitives/QuaternionAffordanceReceiver.cs:27>
 		QuaternionUnityEvent_t1BEB6C61F25448B45AA9553A256C27310A726A55* L_0 = __this->___m_QuaternionValueUpdated;
 		return L_0;
 	}
@@ -6191,7 +6191,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR QuaternionUnityEvent_t1BEB6C61F25448B45AA9553
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void QuaternionAffordanceReceiver_set_quaternionValueUpdated_m69ACBC31436D97B5E9DE690709ACEA0D49F95550 (QuaternionAffordanceReceiver_t89BEB49026E8DB40585D46CC46B4FE493E95B218* __this, QuaternionUnityEvent_t1BEB6C61F25448B45AA9553A256C27310A726A55* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Primitives/QuaternionAffordanceReceiver.cs:28>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Primitives/QuaternionAffordanceReceiver.cs:28>
 		QuaternionUnityEvent_t1BEB6C61F25448B45AA9553A256C27310A726A55* L_0 = ___0_value;
 		__this->___m_QuaternionValueUpdated = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_QuaternionValueUpdated), (void*)L_0);
@@ -6210,10 +6210,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void QuaternionAffordanceReceiver_OnAffordanc
 	QuaternionUnityEvent_t1BEB6C61F25448B45AA9553A256C27310A726A55* G_B2_0 = NULL;
 	QuaternionUnityEvent_t1BEB6C61F25448B45AA9553A256C27310A726A55* G_B1_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Primitives/QuaternionAffordanceReceiver.cs:34>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Primitives/QuaternionAffordanceReceiver.cs:34>
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___0_newValue;
 		Vector4AffordanceReceiver_OnAffordanceValueUpdated_m5213F46721A36369FD250DDA5EA52CBA601B7387(__this, L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Primitives/QuaternionAffordanceReceiver.cs:35>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Primitives/QuaternionAffordanceReceiver.cs:35>
 		QuaternionUnityEvent_t1BEB6C61F25448B45AA9553A256C27310A726A55* L_1 = __this->___m_QuaternionValueUpdated;
 		QuaternionUnityEvent_t1BEB6C61F25448B45AA9553A256C27310A726A55* L_2 = L_1;
 		if (L_2)
@@ -6242,7 +6242,7 @@ IL_0012:
 		Quaternion__ctor_m868FD60AA65DD5A8AC0C5DEB0608381A8D85FCD8_inline((&L_11), L_4, L_6, L_8, L_10, NULL);
 		NullCheck(G_B2_0);
 		UnityEvent_1_Invoke_m4A1955C2E48894AD3EDEE54D656EF248CDCE1D33(G_B2_0, L_11, UnityEvent_1_Invoke_m4A1955C2E48894AD3EDEE54D656EF248CDCE1D33_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Primitives/QuaternionAffordanceReceiver.cs:36>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Primitives/QuaternionAffordanceReceiver.cs:36>
 		return;
 	}
 }
@@ -6266,7 +6266,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void QuaternionAffordanceReceiver__ctor_mBDA2
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR QuaternionUnityEvent_t1BEB6C61F25448B45AA9553A256C27310A726A55* QuaternionEulerAffordanceReceiver_get_quaternionValueUpdated_m7F72B440ABC663F191A5A592AB326DB6FF5683C5 (QuaternionEulerAffordanceReceiver_t6D994D08B0F6E9C7BBF07E91A6D4E1359F38D7BD* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Primitives/QuaternionEulerAffordanceReceiver.cs:28>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Primitives/QuaternionEulerAffordanceReceiver.cs:28>
 		QuaternionUnityEvent_t1BEB6C61F25448B45AA9553A256C27310A726A55* L_0 = __this->___m_QuaternionValueUpdated;
 		return L_0;
 	}
@@ -6275,7 +6275,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR QuaternionUnityEvent_t1BEB6C61F25448B45AA9553
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void QuaternionEulerAffordanceReceiver_set_quaternionValueUpdated_m871128E2DFDD804E12DAD60BA853C7D102CABAB6 (QuaternionEulerAffordanceReceiver_t6D994D08B0F6E9C7BBF07E91A6D4E1359F38D7BD* __this, QuaternionUnityEvent_t1BEB6C61F25448B45AA9553A256C27310A726A55* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Primitives/QuaternionEulerAffordanceReceiver.cs:29>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Primitives/QuaternionEulerAffordanceReceiver.cs:29>
 		QuaternionUnityEvent_t1BEB6C61F25448B45AA9553A256C27310A726A55* L_0 = ___0_value;
 		__this->___m_QuaternionValueUpdated = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_QuaternionValueUpdated), (void*)L_0);
@@ -6294,10 +6294,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void QuaternionEulerAffordanceReceiver_OnAffo
 	QuaternionUnityEvent_t1BEB6C61F25448B45AA9553A256C27310A726A55* G_B2_0 = NULL;
 	QuaternionUnityEvent_t1BEB6C61F25448B45AA9553A256C27310A726A55* G_B1_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Primitives/QuaternionEulerAffordanceReceiver.cs:35>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Primitives/QuaternionEulerAffordanceReceiver.cs:35>
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___0_newValue;
 		Vector3AffordanceReceiver_OnAffordanceValueUpdated_mBB5120B9FB6E709161DBD0AD58362174BC06F719(__this, L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Primitives/QuaternionEulerAffordanceReceiver.cs:36>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Primitives/QuaternionEulerAffordanceReceiver.cs:36>
 		QuaternionUnityEvent_t1BEB6C61F25448B45AA9553A256C27310A726A55* L_1 = __this->___m_QuaternionValueUpdated;
 		QuaternionUnityEvent_t1BEB6C61F25448B45AA9553A256C27310A726A55* L_2 = L_1;
 		if (L_2)
@@ -6320,7 +6320,7 @@ IL_0012:
 		L_5 = Quaternion_Euler_m5BCCC19216CFAD2426F15BC51A30421880D27B73_inline(L_4, NULL);
 		NullCheck(G_B2_0);
 		UnityEvent_1_Invoke_m4A1955C2E48894AD3EDEE54D656EF248CDCE1D33(G_B2_0, L_5, UnityEvent_1_Invoke_m4A1955C2E48894AD3EDEE54D656EF248CDCE1D33_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Primitives/QuaternionEulerAffordanceReceiver.cs:37>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Primitives/QuaternionEulerAffordanceReceiver.cs:37>
 		return;
 	}
 }
@@ -6344,7 +6344,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void QuaternionEulerAffordanceReceiver__ctor_
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2AffordanceThemeDatumProperty_t698C12459080436F8505FBD63C5CDA5D3A9AD3A4* Vector2AffordanceReceiver_get_affordanceThemeDatum_mF252270A4CEB1D61C24E381A2CB3F08DE399B2CD (Vector2AffordanceReceiver_t47ED28F9A8C82B928592400FC52BD730FF7E8003* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Primitives/Vector2AffordanceReceiver.cs:34>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Primitives/Vector2AffordanceReceiver.cs:34>
 		Vector2AffordanceThemeDatumProperty_t698C12459080436F8505FBD63C5CDA5D3A9AD3A4* L_0 = __this->___m_AffordanceThemeDatum;
 		return L_0;
 	}
@@ -6353,7 +6353,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2AffordanceThemeDatumProperty_t698C1245
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Vector2AffordanceReceiver_set_affordanceThemeDatum_m8050113B8E513EF44AF6082C92DE3A8D972BBDF1 (Vector2AffordanceReceiver_t47ED28F9A8C82B928592400FC52BD730FF7E8003* __this, Vector2AffordanceThemeDatumProperty_t698C12459080436F8505FBD63C5CDA5D3A9AD3A4* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Primitives/Vector2AffordanceReceiver.cs:35>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Primitives/Vector2AffordanceReceiver.cs:35>
 		Vector2AffordanceThemeDatumProperty_t698C12459080436F8505FBD63C5CDA5D3A9AD3A4* L_0 = ___0_value;
 		__this->___m_AffordanceThemeDatum = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_AffordanceThemeDatum), (void*)L_0);
@@ -6364,7 +6364,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Vector2AffordanceReceiver_set_affordance
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2UnityEvent_tE303206C54DC9947E1777052E0926BFAFC2CE1DC* Vector2AffordanceReceiver_get_valueUpdated_m22C915CFE910163118518D9AADBE29EA5EFE2C34 (Vector2AffordanceReceiver_t47ED28F9A8C82B928592400FC52BD730FF7E8003* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Primitives/Vector2AffordanceReceiver.cs:47>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Primitives/Vector2AffordanceReceiver.cs:47>
 		Vector2UnityEvent_tE303206C54DC9947E1777052E0926BFAFC2CE1DC* L_0 = __this->___m_ValueUpdated;
 		return L_0;
 	}
@@ -6373,7 +6373,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector2UnityEvent_tE303206C54DC9947E1777052E0
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Vector2AffordanceReceiver_set_valueUpdated_m214C30DCAF6193FC16C71C0058022B6F6B2E98B7 (Vector2AffordanceReceiver_t47ED28F9A8C82B928592400FC52BD730FF7E8003* __this, Vector2UnityEvent_tE303206C54DC9947E1777052E0926BFAFC2CE1DC* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Primitives/Vector2AffordanceReceiver.cs:48>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Primitives/Vector2AffordanceReceiver.cs:48>
 		Vector2UnityEvent_tE303206C54DC9947E1777052E0926BFAFC2CE1DC* L_0 = ___0_value;
 		__this->___m_ValueUpdated = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_ValueUpdated), (void*)L_0);
@@ -6390,7 +6390,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR BaseAffordanceTheme_1_t8D071F9F08B006341599D0
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Primitives/Vector2AffordanceReceiver.cs:52>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Primitives/Vector2AffordanceReceiver.cs:52>
 		Vector2AffordanceThemeDatumProperty_t698C12459080436F8505FBD63C5CDA5D3A9AD3A4* L_0 = __this->___m_AffordanceThemeDatum;
 		if (L_0)
 		{
@@ -6414,7 +6414,7 @@ IL_000a:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR BindableVariable_1_tD9956DB091E51BF2B9A64DA4F6E4E5A140604DA6* Vector2AffordanceReceiver_get_affordanceValue_mB8F71BD0653E5C9C59370694C6E8CF381B6C83C4 (Vector2AffordanceReceiver_t47ED28F9A8C82B928592400FC52BD730FF7E8003* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Primitives/Vector2AffordanceReceiver.cs:55>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Primitives/Vector2AffordanceReceiver.cs:55>
 		BindableVariable_1_tD9956DB091E51BF2B9A64DA4F6E4E5A140604DA6* L_0 = __this->___U3CaffordanceValueU3Ek__BackingField;
 		return L_0;
 	}
@@ -6433,13 +6433,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE0
 	JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Primitives/Vector2AffordanceReceiver.cs:60>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Primitives/Vector2AffordanceReceiver.cs:60>
 		il2cpp_codegen_initobj((&V_0), sizeof(Float2TweenJob_t8A50F8709E39BDC0B96C85C802431F6DFB8FB864));
 		TweenJobData_1_t6C4118E82C1B93FB8B3D245997EC0C5B35BD9FF3* L_0 = ___0_jobData;
 		TweenJobData_1_t6C4118E82C1B93FB8B3D245997EC0C5B35BD9FF3 L_1 = (*(TweenJobData_1_t6C4118E82C1B93FB8B3D245997EC0C5B35BD9FF3*)L_0);
 		Float2TweenJob_set_jobData_m90C78DAA243838C9DF85BFB2EB17D9307D3583AA_inline((&V_0), L_1, NULL);
 		Float2TweenJob_t8A50F8709E39BDC0B96C85C802431F6DFB8FB864 L_2 = V_0;
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Primitives/Vector2AffordanceReceiver.cs:61>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Primitives/Vector2AffordanceReceiver.cs:61>
 		il2cpp_codegen_initobj((&V_1), sizeof(JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08));
 		JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 L_3 = V_1;
 		JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 L_4;
@@ -6457,7 +6457,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR BaseAffordanceTheme_1_t8D071F9F08B006341599D0
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Primitives/Vector2AffordanceReceiver.cs:67>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Primitives/Vector2AffordanceReceiver.cs:67>
 		Vector2AffordanceTheme_tCB1DE552963E8DEBF132195D98E2A5E44CF6C0F3* L_0 = (Vector2AffordanceTheme_tCB1DE552963E8DEBF132195D98E2A5E44CF6C0F3*)il2cpp_codegen_object_new(Vector2AffordanceTheme_tCB1DE552963E8DEBF132195D98E2A5E44CF6C0F3_il2cpp_TypeInfo_var);
 		Vector2AffordanceTheme__ctor_mC8B6FF38C7F0ED274D871229BA7867D980A1A58D(L_0, NULL);
 		return L_0;
@@ -6475,7 +6475,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Vector2AffordanceReceiver_OnAffordanceVa
 	Vector2UnityEvent_tE303206C54DC9947E1777052E0926BFAFC2CE1DC* G_B2_0 = NULL;
 	Vector2UnityEvent_tE303206C54DC9947E1777052E0926BFAFC2CE1DC* G_B1_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Primitives/Vector2AffordanceReceiver.cs:73>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Primitives/Vector2AffordanceReceiver.cs:73>
 		Vector2UnityEvent_tE303206C54DC9947E1777052E0926BFAFC2CE1DC* L_0 = __this->___m_ValueUpdated;
 		Vector2UnityEvent_tE303206C54DC9947E1777052E0926BFAFC2CE1DC* L_1 = L_0;
 		if (L_1)
@@ -6496,7 +6496,7 @@ IL_000b:
 		L_3 = float2_op_Implicit_mBB339033BC4FFDA8BC7A41DF06C1FA97F60115D9(L_2, NULL);
 		NullCheck(G_B2_0);
 		UnityEvent_1_Invoke_m756C9B879DDBE079CDE2D06DC231CE42C01C4AD0(G_B2_0, L_3, UnityEvent_1_Invoke_m756C9B879DDBE079CDE2D06DC231CE42C01C4AD0_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Primitives/Vector2AffordanceReceiver.cs:74>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Primitives/Vector2AffordanceReceiver.cs:74>
 		return;
 	}
 }
@@ -6514,7 +6514,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Vector2AffordanceReceiver__ctor_m3909776
 	float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Primitives/Vector2AffordanceReceiver.cs:55>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Primitives/Vector2AffordanceReceiver.cs:55>
 		il2cpp_codegen_initobj((&V_0), sizeof(float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA));
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_0 = V_0;
 		BindableVariable_1_tD9956DB091E51BF2B9A64DA4F6E4E5A140604DA6* L_1 = (BindableVariable_1_tD9956DB091E51BF2B9A64DA4F6E4E5A140604DA6*)il2cpp_codegen_object_new(BindableVariable_1_tD9956DB091E51BF2B9A64DA4F6E4E5A140604DA6_il2cpp_TypeInfo_var);
@@ -6537,7 +6537,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Vector2AffordanceReceiver__ctor_m3909776
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3AffordanceThemeDatumProperty_t7AE01710B3906411C8AA4452F3110650DB78C38F* Vector3AffordanceReceiver_get_affordanceThemeDatum_mC307F414D9C728C9FEB0C221EFD62C8B37D7B9B3 (Vector3AffordanceReceiver_t2849A6C2EA72BD2796A4E0A5831DFDF230988458* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Primitives/Vector3AffordanceReceiver.cs:34>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Primitives/Vector3AffordanceReceiver.cs:34>
 		Vector3AffordanceThemeDatumProperty_t7AE01710B3906411C8AA4452F3110650DB78C38F* L_0 = __this->___m_AffordanceThemeDatum;
 		return L_0;
 	}
@@ -6546,7 +6546,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3AffordanceThemeDatumProperty_t7AE01710
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Vector3AffordanceReceiver_set_affordanceThemeDatum_m75B0A62522771089B0CE525E0ACA7FD658B5E643 (Vector3AffordanceReceiver_t2849A6C2EA72BD2796A4E0A5831DFDF230988458* __this, Vector3AffordanceThemeDatumProperty_t7AE01710B3906411C8AA4452F3110650DB78C38F* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Primitives/Vector3AffordanceReceiver.cs:35>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Primitives/Vector3AffordanceReceiver.cs:35>
 		Vector3AffordanceThemeDatumProperty_t7AE01710B3906411C8AA4452F3110650DB78C38F* L_0 = ___0_value;
 		__this->___m_AffordanceThemeDatum = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_AffordanceThemeDatum), (void*)L_0);
@@ -6557,7 +6557,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Vector3AffordanceReceiver_set_affordance
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3UnityEvent_tBF9BAC8FCCE7BBF3E98E9EDA6157F00E28B9153E* Vector3AffordanceReceiver_get_valueUpdated_m494D1478004712658AFAA36CD20BD5B887D8D240 (Vector3AffordanceReceiver_t2849A6C2EA72BD2796A4E0A5831DFDF230988458* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Primitives/Vector3AffordanceReceiver.cs:47>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Primitives/Vector3AffordanceReceiver.cs:47>
 		Vector3UnityEvent_tBF9BAC8FCCE7BBF3E98E9EDA6157F00E28B9153E* L_0 = __this->___m_ValueUpdated;
 		return L_0;
 	}
@@ -6566,7 +6566,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3UnityEvent_tBF9BAC8FCCE7BBF3E98E9EDA61
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Vector3AffordanceReceiver_set_valueUpdated_m43FA6378266B60AD45792982C406FDA34474ABE4 (Vector3AffordanceReceiver_t2849A6C2EA72BD2796A4E0A5831DFDF230988458* __this, Vector3UnityEvent_tBF9BAC8FCCE7BBF3E98E9EDA6157F00E28B9153E* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Primitives/Vector3AffordanceReceiver.cs:48>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Primitives/Vector3AffordanceReceiver.cs:48>
 		Vector3UnityEvent_tBF9BAC8FCCE7BBF3E98E9EDA6157F00E28B9153E* L_0 = ___0_value;
 		__this->___m_ValueUpdated = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_ValueUpdated), (void*)L_0);
@@ -6583,7 +6583,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR BaseAffordanceTheme_1_tDE4824F41024DDB47B2C61
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Primitives/Vector3AffordanceReceiver.cs:52>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Primitives/Vector3AffordanceReceiver.cs:52>
 		Vector3AffordanceThemeDatumProperty_t7AE01710B3906411C8AA4452F3110650DB78C38F* L_0 = __this->___m_AffordanceThemeDatum;
 		if (L_0)
 		{
@@ -6607,7 +6607,7 @@ IL_000a:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR BindableVariable_1_tB68DAB26AE7AF6E274A845BB487AEE92F9E1DAA0* Vector3AffordanceReceiver_get_affordanceValue_m76F089A0604561E2DD248ACE9F390C9A4088F73C (Vector3AffordanceReceiver_t2849A6C2EA72BD2796A4E0A5831DFDF230988458* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Primitives/Vector3AffordanceReceiver.cs:55>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Primitives/Vector3AffordanceReceiver.cs:55>
 		BindableVariable_1_tB68DAB26AE7AF6E274A845BB487AEE92F9E1DAA0* L_0 = __this->___U3CaffordanceValueU3Ek__BackingField;
 		return L_0;
 	}
@@ -6626,13 +6626,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE0
 	JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Primitives/Vector3AffordanceReceiver.cs:60>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Primitives/Vector3AffordanceReceiver.cs:60>
 		il2cpp_codegen_initobj((&V_0), sizeof(Float3TweenJob_t1ABCE2AF2296C75ECE719050B75BC7A92ED28644));
 		TweenJobData_1_t5779EC937EA396970F0C89EB88D60F9D7CB1977D* L_0 = ___0_jobData;
 		TweenJobData_1_t5779EC937EA396970F0C89EB88D60F9D7CB1977D L_1 = (*(TweenJobData_1_t5779EC937EA396970F0C89EB88D60F9D7CB1977D*)L_0);
 		Float3TweenJob_set_jobData_m7CFEAA1CE8FA93237FBAC3066BFC53838F77D109_inline((&V_0), L_1, NULL);
 		Float3TweenJob_t1ABCE2AF2296C75ECE719050B75BC7A92ED28644 L_2 = V_0;
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Primitives/Vector3AffordanceReceiver.cs:61>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Primitives/Vector3AffordanceReceiver.cs:61>
 		il2cpp_codegen_initobj((&V_1), sizeof(JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08));
 		JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 L_3 = V_1;
 		JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 L_4;
@@ -6650,7 +6650,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR BaseAffordanceTheme_1_tDE4824F41024DDB47B2C61
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Primitives/Vector3AffordanceReceiver.cs:67>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Primitives/Vector3AffordanceReceiver.cs:67>
 		Vector3AffordanceTheme_t634E7949441EB1C9CC97EDBECF62A74698525D6D* L_0 = (Vector3AffordanceTheme_t634E7949441EB1C9CC97EDBECF62A74698525D6D*)il2cpp_codegen_object_new(Vector3AffordanceTheme_t634E7949441EB1C9CC97EDBECF62A74698525D6D_il2cpp_TypeInfo_var);
 		Vector3AffordanceTheme__ctor_mFF15F63CC81C52948E02E9057AFAF905DEEE1D41(L_0, NULL);
 		return L_0;
@@ -6668,7 +6668,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Vector3AffordanceReceiver_OnAffordanceVa
 	Vector3UnityEvent_tBF9BAC8FCCE7BBF3E98E9EDA6157F00E28B9153E* G_B2_0 = NULL;
 	Vector3UnityEvent_tBF9BAC8FCCE7BBF3E98E9EDA6157F00E28B9153E* G_B1_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Primitives/Vector3AffordanceReceiver.cs:73>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Primitives/Vector3AffordanceReceiver.cs:73>
 		Vector3UnityEvent_tBF9BAC8FCCE7BBF3E98E9EDA6157F00E28B9153E* L_0 = __this->___m_ValueUpdated;
 		Vector3UnityEvent_tBF9BAC8FCCE7BBF3E98E9EDA6157F00E28B9153E* L_1 = L_0;
 		if (L_1)
@@ -6689,7 +6689,7 @@ IL_000b:
 		L_3 = float3_op_Implicit_m9CC301DFD67EEFAA15CA05E91913E862B22326F6(L_2, NULL);
 		NullCheck(G_B2_0);
 		UnityEvent_1_Invoke_mB89ED0EFF1CDB8BF69BA4B4E0E158A9F7A704FAF(G_B2_0, L_3, UnityEvent_1_Invoke_mB89ED0EFF1CDB8BF69BA4B4E0E158A9F7A704FAF_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Primitives/Vector3AffordanceReceiver.cs:74>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Primitives/Vector3AffordanceReceiver.cs:74>
 		return;
 	}
 }
@@ -6707,7 +6707,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Vector3AffordanceReceiver__ctor_m369BD73
 	float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Primitives/Vector3AffordanceReceiver.cs:55>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Primitives/Vector3AffordanceReceiver.cs:55>
 		il2cpp_codegen_initobj((&V_0), sizeof(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E));
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = V_0;
 		BindableVariable_1_tB68DAB26AE7AF6E274A845BB487AEE92F9E1DAA0* L_1 = (BindableVariable_1_tB68DAB26AE7AF6E274A845BB487AEE92F9E1DAA0*)il2cpp_codegen_object_new(BindableVariable_1_tB68DAB26AE7AF6E274A845BB487AEE92F9E1DAA0_il2cpp_TypeInfo_var);
@@ -6730,7 +6730,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Vector3AffordanceReceiver__ctor_m369BD73
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector4AffordanceThemeDatumProperty_t1EA63872063AAAFE62442D012086C96D5F685656* Vector4AffordanceReceiver_get_affordanceThemeDatum_m41D6EE008F280B1F94ACE484D43E1B30C6929724 (Vector4AffordanceReceiver_tAD6C5536CC5C4DD1B982E3DE066EED898F2A605D* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Primitives/Vector4AffordanceReceiver.cs:34>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Primitives/Vector4AffordanceReceiver.cs:34>
 		Vector4AffordanceThemeDatumProperty_t1EA63872063AAAFE62442D012086C96D5F685656* L_0 = __this->___m_AffordanceThemeDatum;
 		return L_0;
 	}
@@ -6739,7 +6739,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector4AffordanceThemeDatumProperty_t1EA63872
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Vector4AffordanceReceiver_set_affordanceThemeDatum_m0E12BD6B1A423098B2582882736C8E058E3501CF (Vector4AffordanceReceiver_tAD6C5536CC5C4DD1B982E3DE066EED898F2A605D* __this, Vector4AffordanceThemeDatumProperty_t1EA63872063AAAFE62442D012086C96D5F685656* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Primitives/Vector4AffordanceReceiver.cs:35>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Primitives/Vector4AffordanceReceiver.cs:35>
 		Vector4AffordanceThemeDatumProperty_t1EA63872063AAAFE62442D012086C96D5F685656* L_0 = ___0_value;
 		__this->___m_AffordanceThemeDatum = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_AffordanceThemeDatum), (void*)L_0);
@@ -6750,7 +6750,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Vector4AffordanceReceiver_set_affordance
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector4UnityEvent_t0DA3E85F1D8C1D7DF9AB40C6D9FB743450D1525F* Vector4AffordanceReceiver_get_valueUpdated_mEFCAC9510EA935EC96B8A40993260BB306B36A42 (Vector4AffordanceReceiver_tAD6C5536CC5C4DD1B982E3DE066EED898F2A605D* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Primitives/Vector4AffordanceReceiver.cs:47>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Primitives/Vector4AffordanceReceiver.cs:47>
 		Vector4UnityEvent_t0DA3E85F1D8C1D7DF9AB40C6D9FB743450D1525F* L_0 = __this->___m_ValueUpdated;
 		return L_0;
 	}
@@ -6759,7 +6759,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector4UnityEvent_t0DA3E85F1D8C1D7DF9AB40C6D9
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Vector4AffordanceReceiver_set_valueUpdated_m824B354D64AB9D0C6B628F8CFEB0AE28252F698B (Vector4AffordanceReceiver_tAD6C5536CC5C4DD1B982E3DE066EED898F2A605D* __this, Vector4UnityEvent_t0DA3E85F1D8C1D7DF9AB40C6D9FB743450D1525F* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Primitives/Vector4AffordanceReceiver.cs:48>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Primitives/Vector4AffordanceReceiver.cs:48>
 		Vector4UnityEvent_t0DA3E85F1D8C1D7DF9AB40C6D9FB743450D1525F* L_0 = ___0_value;
 		__this->___m_ValueUpdated = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_ValueUpdated), (void*)L_0);
@@ -6776,7 +6776,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR BaseAffordanceTheme_1_t60FBA85492EC3431BE3CBD
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Primitives/Vector4AffordanceReceiver.cs:52>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Primitives/Vector4AffordanceReceiver.cs:52>
 		Vector4AffordanceThemeDatumProperty_t1EA63872063AAAFE62442D012086C96D5F685656* L_0 = __this->___m_AffordanceThemeDatum;
 		if (L_0)
 		{
@@ -6800,7 +6800,7 @@ IL_000a:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR BindableVariable_1_t972973977CDA4D22EBEFEFDE6154C3FDDB161959* Vector4AffordanceReceiver_get_affordanceValue_m434B3B25D064247FD8DE04AE0DD04145B72321F7 (Vector4AffordanceReceiver_tAD6C5536CC5C4DD1B982E3DE066EED898F2A605D* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Primitives/Vector4AffordanceReceiver.cs:55>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Primitives/Vector4AffordanceReceiver.cs:55>
 		BindableVariable_1_t972973977CDA4D22EBEFEFDE6154C3FDDB161959* L_0 = __this->___U3CaffordanceValueU3Ek__BackingField;
 		return L_0;
 	}
@@ -6819,13 +6819,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE0
 	JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 V_1;
 	memset((&V_1), 0, sizeof(V_1));
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Primitives/Vector4AffordanceReceiver.cs:60>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Primitives/Vector4AffordanceReceiver.cs:60>
 		il2cpp_codegen_initobj((&V_0), sizeof(Float4TweenJob_t9D63A32AC58F3FA5F68BF78254D59453B6FD3CCB));
 		TweenJobData_1_t750244DB9B41308E85DF94F53236CD62E3A3483B* L_0 = ___0_jobData;
 		TweenJobData_1_t750244DB9B41308E85DF94F53236CD62E3A3483B L_1 = (*(TweenJobData_1_t750244DB9B41308E85DF94F53236CD62E3A3483B*)L_0);
 		Float4TweenJob_set_jobData_mB155785E23E063AB1FCB3B41923264C85D53CA21_inline((&V_0), L_1, NULL);
 		Float4TweenJob_t9D63A32AC58F3FA5F68BF78254D59453B6FD3CCB L_2 = V_0;
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Primitives/Vector4AffordanceReceiver.cs:61>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Primitives/Vector4AffordanceReceiver.cs:61>
 		il2cpp_codegen_initobj((&V_1), sizeof(JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08));
 		JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 L_3 = V_1;
 		JobHandle_t5DF5F99902FED3C801A81C05205CEA6CE039EF08 L_4;
@@ -6843,7 +6843,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR BaseAffordanceTheme_1_t60FBA85492EC3431BE3CBD
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Primitives/Vector4AffordanceReceiver.cs:67>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Primitives/Vector4AffordanceReceiver.cs:67>
 		Vector4AffordanceTheme_tFEBF93156999F1929B8C2D3B30B2AF50864CECAF* L_0 = (Vector4AffordanceTheme_tFEBF93156999F1929B8C2D3B30B2AF50864CECAF*)il2cpp_codegen_object_new(Vector4AffordanceTheme_tFEBF93156999F1929B8C2D3B30B2AF50864CECAF_il2cpp_TypeInfo_var);
 		Vector4AffordanceTheme__ctor_mF108CABEB6D30D03E0918D8BE660E32EAAC9EEB1(L_0, NULL);
 		return L_0;
@@ -6861,7 +6861,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Vector4AffordanceReceiver_OnAffordanceVa
 	Vector4UnityEvent_t0DA3E85F1D8C1D7DF9AB40C6D9FB743450D1525F* G_B2_0 = NULL;
 	Vector4UnityEvent_t0DA3E85F1D8C1D7DF9AB40C6D9FB743450D1525F* G_B1_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Primitives/Vector4AffordanceReceiver.cs:73>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Primitives/Vector4AffordanceReceiver.cs:73>
 		Vector4UnityEvent_t0DA3E85F1D8C1D7DF9AB40C6D9FB743450D1525F* L_0 = __this->___m_ValueUpdated;
 		Vector4UnityEvent_t0DA3E85F1D8C1D7DF9AB40C6D9FB743450D1525F* L_1 = L_0;
 		if (L_1)
@@ -6882,7 +6882,7 @@ IL_000b:
 		L_3 = float4_op_Implicit_m5E3AEBAF5F12155549CC051E1EEEE81DF3516E92(L_2, NULL);
 		NullCheck(G_B2_0);
 		UnityEvent_1_Invoke_mC0D2092AFD86FA47D9A13F41A19963E8E59CA485(G_B2_0, L_3, UnityEvent_1_Invoke_mC0D2092AFD86FA47D9A13F41A19963E8E59CA485_RuntimeMethod_var);
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Primitives/Vector4AffordanceReceiver.cs:74>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Primitives/Vector4AffordanceReceiver.cs:74>
 		return;
 	}
 }
@@ -6900,7 +6900,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Vector4AffordanceReceiver__ctor_mFCA23B3
 	float4_t89D9A294E7A79BD81BFBDD18654508532958555E V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Primitives/Vector4AffordanceReceiver.cs:55>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Primitives/Vector4AffordanceReceiver.cs:55>
 		il2cpp_codegen_initobj((&V_0), sizeof(float4_t89D9A294E7A79BD81BFBDD18654508532958555E));
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = V_0;
 		BindableVariable_1_t972973977CDA4D22EBEFEFDE6154C3FDDB161959* L_1 = (BindableVariable_1_t972973977CDA4D22EBEFEFDE6154C3FDDB161959*)il2cpp_codegen_object_new(BindableVariable_1_t972973977CDA4D22EBEFEFDE6154C3FDDB161959_il2cpp_TypeInfo_var);
@@ -6923,7 +6923,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Vector4AffordanceReceiver__ctor_mFCA23B3
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR BaseAffordanceStateProvider_t5721F9B16D6C029D832F8D6FA0A47326A581D443* AudioAffordanceReceiver_get_affordanceStateProvider_mC6CC1B93A60EC6DD28E34856882430362B366B60 (AudioAffordanceReceiver_t68854DF37FCFBBCC267549644D37D433B6CC1010* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:28>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:28>
 		BaseAffordanceStateProvider_t5721F9B16D6C029D832F8D6FA0A47326A581D443* L_0 = __this->___m_AffordanceStateProvider;
 		return L_0;
 	}
@@ -6932,7 +6932,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR BaseAffordanceStateProvider_t5721F9B16D6C029D
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioAffordanceReceiver_set_affordanceStateProvider_mC475AAF5FFF9B9898C7A5C945CE211F4B9939AC7 (AudioAffordanceReceiver_t68854DF37FCFBBCC267549644D37D433B6CC1010* __this, BaseAffordanceStateProvider_t5721F9B16D6C029D832F8D6FA0A47326A581D443* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:29>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:29>
 		BaseAffordanceStateProvider_t5721F9B16D6C029D832F8D6FA0A47326A581D443* L_0 = ___0_value;
 		__this->___m_AffordanceStateProvider = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_AffordanceStateProvider), (void*)L_0);
@@ -6943,7 +6943,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioAffordanceReceiver_set_affordanceSt
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AudioAffordanceThemeDatumProperty_t6C3F44447E2B121AC858FAC94C4A83CC5D52C6D8* AudioAffordanceReceiver_get_affordanceThemeDatum_m030CEA83A1608BBF35557B0A4AEF16D7D036E2E6 (AudioAffordanceReceiver_t68854DF37FCFBBCC267549644D37D433B6CC1010* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:41>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:41>
 		AudioAffordanceThemeDatumProperty_t6C3F44447E2B121AC858FAC94C4A83CC5D52C6D8* L_0 = __this->___m_AffordanceThemeDatum;
 		return L_0;
 	}
@@ -6952,7 +6952,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AudioAffordanceThemeDatumProperty_t6C3F44447E
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioAffordanceReceiver_set_affordanceThemeDatum_mFE0987B0C22D082D96488A94880BD71461DEC42E (AudioAffordanceReceiver_t68854DF37FCFBBCC267549644D37D433B6CC1010* __this, AudioAffordanceThemeDatumProperty_t6C3F44447E2B121AC858FAC94C4A83CC5D52C6D8* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:42>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:42>
 		AudioAffordanceThemeDatumProperty_t6C3F44447E2B121AC858FAC94C4A83CC5D52C6D8* L_0 = ___0_value;
 		__this->___m_AffordanceThemeDatum = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_AffordanceThemeDatum), (void*)L_0);
@@ -6963,7 +6963,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioAffordanceReceiver_set_affordanceTh
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* AudioAffordanceReceiver_get_audioSource_m32323F6DE8CC55604A88481C3B8F8107138A1FB4 (AudioAffordanceReceiver_t68854DF37FCFBBCC267549644D37D433B6CC1010* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:54>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:54>
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_0 = __this->___m_AudioSource;
 		return L_0;
 	}
@@ -6972,7 +6972,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AudioSource_t871AC2272F896738252F04EE949AEF5B
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioAffordanceReceiver_set_audioSource_m25468E7620E018880A17A8C9B5D85728733D6C6D (AudioAffordanceReceiver_t68854DF37FCFBBCC267549644D37D433B6CC1010* __this, AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:55>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:55>
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_0 = ___0_value;
 		__this->___m_AudioSource = L_0;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_AudioSource), (void*)L_0);
@@ -6990,7 +6990,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioAffordanceReceiver_OnValidate_m5B49
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:67>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:67>
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_0 = __this->___m_AudioSource;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -7001,7 +7001,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioAffordanceReceiver_OnValidate_m5B49
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:68>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:68>
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_2;
 		L_2 = Component_GetComponent_TisAudioSource_t871AC2272F896738252F04EE949AEF5B241D3299_m42DA4DEA19EB60D80CBED7413ADEB27FA033C77B(__this, Component_GetComponent_TisAudioSource_t871AC2272F896738252F04EE949AEF5B241D3299_m42DA4DEA19EB60D80CBED7413ADEB27FA033C77B_RuntimeMethod_var);
 		__this->___m_AudioSource = L_2;
@@ -7010,7 +7010,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioAffordanceReceiver_OnValidate_m5B49
 
 IL_001a:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:69>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:69>
 		return;
 	}
 }
@@ -7026,7 +7026,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioAffordanceReceiver_Awake_mAF124DD37
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:76>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:76>
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_0 = __this->___m_AudioSource;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -7037,7 +7037,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioAffordanceReceiver_Awake_mAF124DD37
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:77>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:77>
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_2;
 		L_2 = Component_GetComponent_TisAudioSource_t871AC2272F896738252F04EE949AEF5B241D3299_m42DA4DEA19EB60D80CBED7413ADEB27FA033C77B(__this, Component_GetComponent_TisAudioSource_t871AC2272F896738252F04EE949AEF5B241D3299_m42DA4DEA19EB60D80CBED7413ADEB27FA033C77B_RuntimeMethod_var);
 		__this->___m_AudioSource = L_2;
@@ -7046,7 +7046,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioAffordanceReceiver_Awake_mAF124DD37
 
 IL_001a:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:79>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:79>
 		AudioAffordanceThemeDatumProperty_t6C3F44447E2B121AC858FAC94C4A83CC5D52C6D8* L_3 = __this->___m_AffordanceThemeDatum;
 		if (!L_3)
 		{
@@ -7064,14 +7064,14 @@ IL_001a:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:81>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:81>
 		AudioAffordanceThemeDatumProperty_t6C3F44447E2B121AC858FAC94C4A83CC5D52C6D8* L_6 = __this->___m_AffordanceThemeDatum;
 		NullCheck(L_6);
 		AudioAffordanceTheme_t8BF9C6D960CBE2CE7F33C4B4960F794790DD3CCE* L_7;
 		L_7 = DatumProperty_2_get_Value_m9D784B9C34F96D570FF46D3F6E0959CD1CD68718(L_6, DatumProperty_2_get_Value_m9D784B9C34F96D570FF46D3F6E0959CD1CD68718_RuntimeMethod_var);
 		NullCheck(L_7);
 		AudioAffordanceTheme_ValidateTheme_mE3EC08D5BC4E08660CDDBB22195FF1C064774A45(L_7, NULL);
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:82>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:82>
 		AudioAffordanceThemeDatumProperty_t6C3F44447E2B121AC858FAC94C4A83CC5D52C6D8* L_8 = __this->___m_AffordanceThemeDatum;
 		NullCheck(L_8);
 		AudioAffordanceTheme_t8BF9C6D960CBE2CE7F33C4B4960F794790DD3CCE* L_9;
@@ -7081,7 +7081,7 @@ IL_001a:
 
 IL_0050:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:84>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:84>
 		return;
 	}
 }
@@ -7102,7 +7102,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioAffordanceReceiver_OnEnable_mC45917
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:91>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:91>
 		BaseAffordanceStateProvider_t5721F9B16D6C029D832F8D6FA0A47326A581D443* L_0 = __this->___m_AffordanceStateProvider;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -7113,20 +7113,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioAffordanceReceiver_OnEnable_mC45917
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:93>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:93>
 		String_t* L_2;
 		L_2 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteral061E0ABE7ACDAC0E42B94EDF0A84253309EEE0F8, __this, NULL);
 		il2cpp_codegen_runtime_class_init_inline(XRLoggingUtils_tF0C63DB5488367266FC58DF3AA1D3E98B361A7B5_il2cpp_TypeInfo_var);
 		XRLoggingUtils_LogError_mC5522AB4200CD87E6677D2E59C51BA5824070B63(L_2, __this, NULL);
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:94>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:94>
 		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(__this, (bool)0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:95>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:95>
 		return;
 	}
 
 IL_0027:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:98>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:98>
 		AudioAffordanceThemeDatumProperty_t6C3F44447E2B121AC858FAC94C4A83CC5D52C6D8* L_3 = __this->___m_AffordanceThemeDatum;
 		if (!L_3)
 		{
@@ -7146,20 +7146,20 @@ IL_0027:
 
 IL_003c:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:100>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:100>
 		String_t* L_6;
 		L_6 = String_Format_mA8DBB4C2516B9723C5A41E6CB1E2FAF4BBE96DD8(_stringLiteral8429215AD9851EFB5AB9CBC64AF5D86F28ADF1F6, __this, NULL);
 		il2cpp_codegen_runtime_class_init_inline(XRLoggingUtils_tF0C63DB5488367266FC58DF3AA1D3E98B361A7B5_il2cpp_TypeInfo_var);
 		XRLoggingUtils_LogError_mC5522AB4200CD87E6677D2E59C51BA5824070B63(L_6, __this, NULL);
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:101>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:101>
 		Behaviour_set_enabled_mF1DCFE60EB09E0529FE9476CA804A3AA2D72B16A(__this, (bool)0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:102>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:102>
 		return;
 	}
 
 IL_0055:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:105>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:105>
 		BindingsGroup_tD5EC90BB10F9D310FE467A7E3A4CAE2E32D0397A* L_7 = __this->___m_BindingsGroup;
 		BaseAffordanceStateProvider_t5721F9B16D6C029D832F8D6FA0A47326A581D443* L_8 = __this->___m_AffordanceStateProvider;
 		NullCheck(L_8);
@@ -7172,7 +7172,7 @@ IL_0055:
 		L_11 = InterfaceFuncInvoker1< RuntimeObject*, Action_1_t1643FA0114A827809902992385492446993A54FA* >::Invoke(0, IReadOnlyBindableVariable_1_t27AEE302500BB845FE299C6267D0F3D8CDFBC62E_il2cpp_TypeInfo_var, L_9, L_10);
 		NullCheck(L_7);
 		BindingsGroup_AddBinding_m18697E73861A1C67DE0674F162B43CCE9E67C89B(L_7, L_11, NULL);
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:106>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:106>
 		return;
 	}
 }
@@ -7180,11 +7180,11 @@ IL_0055:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioAffordanceReceiver_OnDisable_mB2133CE096B3B7659101C1D5C582EBEE7A954FD9 (AudioAffordanceReceiver_t68854DF37FCFBBCC267549644D37D433B6CC1010* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:113>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:113>
 		BindingsGroup_tD5EC90BB10F9D310FE467A7E3A4CAE2E32D0397A* L_0 = __this->___m_BindingsGroup;
 		NullCheck(L_0);
 		BindingsGroup_Clear_m092668459F10E46245228224D1334DAB089B72E3(L_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:114>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:114>
 		return;
 	}
 }
@@ -7214,7 +7214,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioAffordanceReceiver_LogIfMissingAffo
 	String_t* G_B5_0 = NULL;
 	StringBuilder_t* G_B5_1 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:118>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:118>
 		AudioAffordanceTheme_t8BF9C6D960CBE2CE7F33C4B4960F794790DD3CCE* L_0 = ___0_theme;
 		il2cpp_codegen_runtime_class_init_inline(AffordanceStateShortcuts_t7A59ACF9B6B40EBA55C1B04AB596C869777F496D_il2cpp_TypeInfo_var);
 		uint8_t L_1;
@@ -7228,27 +7228,27 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioAffordanceReceiver_LogIfMissingAffo
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:120>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:120>
 		StringBuilder_t* L_3 = (StringBuilder_t*)il2cpp_codegen_object_new(StringBuilder_t_il2cpp_TypeInfo_var);
 		StringBuilder__ctor_m1D99713357DE05DAFA296633639DB55F8C30587D(L_3, NULL);
 		V_0 = L_3;
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:121>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:121>
 		V_1 = 0;
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:122>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:122>
 		V_2 = (uint8_t)0;
 		goto IL_0077;
 	}
 
 IL_001f:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:124>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:124>
 		AudioAffordanceTheme_t8BF9C6D960CBE2CE7F33C4B4960F794790DD3CCE* L_4 = ___0_theme;
 		uint8_t L_5 = V_2;
 		NullCheck(L_4);
 		AudioAffordanceThemeData_t3F29C6FF9ED5593AF503785A5C7FE342A1EE9D0D* L_6;
 		L_6 = AudioAffordanceTheme_GetAffordanceThemeDataForIndex_mF454F28C7CB781D17D32C4E04310EC400CF78D7E(L_4, L_5, NULL);
 		V_3 = L_6;
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:125>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:125>
 		StringBuilder_t* L_7 = V_0;
 		uint8_t L_8 = V_2;
 		uint8_t L_9 = L_8;
@@ -7262,7 +7262,7 @@ IL_001f:
 		NullCheck(L_7);
 		StringBuilder_t* L_14;
 		L_14 = StringBuilder_Append_m08904D74E0C78E5F36DCD9C9303BDD07886D9F7D(L_7, L_13, NULL);
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:126>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:126>
 		StringBuilder_t* L_15 = V_0;
 		AudioAffordanceThemeData_t3F29C6FF9ED5593AF503785A5C7FE342A1EE9D0D* L_16 = V_3;
 		if (L_16)
@@ -7297,7 +7297,7 @@ IL_0065:
 		NullCheck(G_B5_1);
 		StringBuilder_t* L_23;
 		L_23 = StringBuilder_AppendLine_mF75744CE941C63E33188E22E936B71A24D3CBF88(G_B5_1, G_B5_0, NULL);
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:128>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:128>
 		AudioAffordanceThemeData_t3F29C6FF9ED5593AF503785A5C7FE342A1EE9D0D* L_24 = V_3;
 		if (!L_24)
 		{
@@ -7305,21 +7305,21 @@ IL_0065:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:129>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:129>
 		int32_t L_25 = V_1;
 		V_1 = ((int32_t)il2cpp_codegen_add(L_25, 1));
 	}
 
 IL_0072:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:122>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:122>
 		uint8_t L_26 = V_2;
 		V_2 = (uint8_t)((int32_t)(uint8_t)((int32_t)il2cpp_codegen_add((int32_t)L_26, 1)));
 	}
 
 IL_0077:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:122>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:122>
 		uint8_t L_27 = V_2;
 		il2cpp_codegen_runtime_class_init_inline(AffordanceStateShortcuts_t7A59ACF9B6B40EBA55C1B04AB596C869777F496D_il2cpp_TypeInfo_var);
 		uint8_t L_28;
@@ -7330,9 +7330,9 @@ IL_0077:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:132>
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:133>
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:134>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:132>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:133>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:134>
 		il2cpp_codegen_runtime_class_init_inline(AffordanceStateShortcuts_t7A59ACF9B6B40EBA55C1B04AB596C869777F496D_il2cpp_TypeInfo_var);
 		uint8_t L_29;
 		L_29 = AffordanceStateShortcuts_get_stateCount_m4F2C6E48C41BF2AE0097FB1344ADC82BB4E7DF79_inline(NULL);
@@ -7354,7 +7354,7 @@ IL_0077:
 
 IL_00b4:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:136>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:136>
 		return;
 	}
 }
@@ -7388,11 +7388,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioAffordanceReceiver_OnAffordanceStat
 	AudioAffordanceTheme_t8BF9C6D960CBE2CE7F33C4B4960F794790DD3CCE* G_B11_0 = NULL;
 	AudioAffordanceThemeData_t3F29C6FF9ED5593AF503785A5C7FE342A1EE9D0D* G_B13_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:140>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:140>
 		uint8_t L_0;
 		L_0 = AffordanceStateData_get_stateIndex_m2B9DFBBB1FE3AE1BC2BAC900B2493B72B4D8F341_inline((&___0_affordanceStateData), NULL);
 		V_0 = L_0;
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:141>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:141>
 		uint8_t L_1 = V_0;
 		uint8_t L_2 = __this->___m_LastAffordanceStateIndex;
 		if ((((int32_t)L_1) == ((int32_t)L_2)))
@@ -7401,35 +7401,35 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioAffordanceReceiver_OnAffordanceStat
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:143>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:143>
 		uint8_t L_3 = V_0;
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:144>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:144>
 		uint8_t L_4 = V_0;
 		V_1 = (bool)((((int32_t)L_4) == ((int32_t)2))? 1 : 0);
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:145>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:145>
 		uint8_t L_5 = V_0;
 		V_2 = (bool)((((int32_t)L_5) == ((int32_t)4))? 1 : 0);
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:147>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:147>
 		uint8_t L_6 = __this->___m_LastAffordanceStateIndex;
 		V_3 = (bool)((((int32_t)L_6) == ((int32_t)4))? 1 : 0);
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:148>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:148>
 		uint8_t L_7 = __this->___m_LastAffordanceStateIndex;
 		V_4 = (bool)((((int32_t)L_7) == ((int32_t)5))? 1 : 0);
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:150>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:150>
 		bool L_8 = V_3;
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:151>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:151>
 		bool L_9 = V_2;
 		bool L_10 = V_4;
 		V_5 = (bool)((int32_t)((int32_t)L_9&(int32_t)L_10));
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:152>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:152>
 		bool L_11 = V_1;
 		bool L_12 = V_3;
 		V_6 = (bool)((int32_t)((int32_t)L_11&(int32_t)L_12));
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:153>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:153>
 		bool L_13 = V_1;
 		bool L_14 = V_3;
 		V_7 = (bool)((int32_t)((int32_t)L_13&(int32_t)L_14));
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:157>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:157>
 		if (((int32_t)(((((int32_t)L_3) == ((int32_t)5))? 1 : 0)&(int32_t)L_8)))
 		{
 			goto IL_007f;
@@ -7443,7 +7443,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioAffordanceReceiver_OnAffordanceStat
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:159>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:159>
 		AudioAffordanceThemeDatumProperty_t6C3F44447E2B121AC858FAC94C4A83CC5D52C6D8* L_16 = __this->___m_AffordanceThemeDatum;
 		NullCheck(L_16);
 		AudioAffordanceTheme_t8BF9C6D960CBE2CE7F33C4B4960F794790DD3CCE* L_17;
@@ -7473,7 +7473,7 @@ IL_0061:
 IL_006c:
 	{
 		V_8 = G_B6_0;
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:160>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:160>
 		AudioAffordanceThemeData_t3F29C6FF9ED5593AF503785A5C7FE342A1EE9D0D* L_21 = V_8;
 		if (!L_21)
 		{
@@ -7481,7 +7481,7 @@ IL_006c:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:162>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:162>
 		AudioAffordanceThemeData_t3F29C6FF9ED5593AF503785A5C7FE342A1EE9D0D* L_22 = V_8;
 		NullCheck(L_22);
 		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_23 = L_22->___stateExited;
@@ -7490,7 +7490,7 @@ IL_006c:
 
 IL_007f:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:168>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:168>
 		bool L_24 = V_5;
 		if (L_24)
 		{
@@ -7505,7 +7505,7 @@ IL_007f:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:170>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:170>
 		AudioAffordanceThemeDatumProperty_t6C3F44447E2B121AC858FAC94C4A83CC5D52C6D8* L_26 = __this->___m_AffordanceThemeDatum;
 		NullCheck(L_26);
 		AudioAffordanceTheme_t8BF9C6D960CBE2CE7F33C4B4960F794790DD3CCE* L_27;
@@ -7535,7 +7535,7 @@ IL_0099:
 IL_009f:
 	{
 		V_9 = G_B13_0;
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:171>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:171>
 		AudioAffordanceThemeData_t3F29C6FF9ED5593AF503785A5C7FE342A1EE9D0D* L_31 = V_9;
 		if (!L_31)
 		{
@@ -7543,7 +7543,7 @@ IL_009f:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:173>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:173>
 		AudioAffordanceThemeData_t3F29C6FF9ED5593AF503785A5C7FE342A1EE9D0D* L_32 = V_9;
 		NullCheck(L_32);
 		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_33 = L_32->___stateEntered;
@@ -7553,13 +7553,13 @@ IL_009f:
 
 IL_00b4:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:177>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:177>
 		uint8_t L_34 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(AffordanceStateShortcuts_t7A59ACF9B6B40EBA55C1B04AB596C869777F496D_il2cpp_TypeInfo_var);
 		String_t* L_35;
 		L_35 = AffordanceStateShortcuts_GetNameForIndex_m760EFA3C4FE7438EA4093A66558D3E46D08E0417(L_34, NULL);
 		V_10 = L_35;
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:178>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:178>
 		uint8_t L_36 = V_0;
 		uint8_t L_37 = L_36;
 		RuntimeObject* L_38 = Box(il2cpp_defaults.byte_class, &L_37);
@@ -7572,14 +7572,14 @@ IL_00b4:
 
 IL_00d5:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:182>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:182>
 		uint8_t L_41 = V_0;
 		__this->___m_LastAffordanceStateIndex = L_41;
 	}
 
 IL_00dc:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:184>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:184>
 		return;
 	}
 }
@@ -7593,7 +7593,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioAffordanceReceiver_PlayAudioClip_m6
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:188>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:188>
 		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_0 = ___0_clipToPlay;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_1;
@@ -7604,18 +7604,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioAffordanceReceiver_PlayAudioClip_m6
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:189>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:189>
 		return;
 	}
 
 IL_000a:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:190>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:190>
 		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_2 = __this->___m_AudioSource;
 		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_3 = ___0_clipToPlay;
 		NullCheck(L_2);
 		AudioSource_PlayOneShot_m098BCAE084AABB128BB19ED805D2D985E7B75112(L_2, L_3, NULL);
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:191>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:191>
 		return;
 	}
 }
@@ -7629,7 +7629,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioAffordanceReceiver__ctor_m1D7AE78C3
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:58>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/Audio/AudioAffordanceReceiver.cs:58>
 		BindingsGroup_tD5EC90BB10F9D310FE467A7E3A4CAE2E32D0397A* L_0 = (BindingsGroup_tD5EC90BB10F9D310FE467A7E3A4CAE2E32D0397A*)il2cpp_codegen_object_new(BindingsGroup_tD5EC90BB10F9D310FE467A7E3A4CAE2E32D0397A_il2cpp_TypeInfo_var);
 		BindingsGroup__ctor_m1EFD3F405050571D3A66F9B95E8FBC296866A716(L_0, NULL);
 		__this->___m_BindingsGroup = L_0;
@@ -7650,7 +7650,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioAffordanceReceiver__ctor_m1D7AE78C3
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR TweenJobData_1_t9932452930B7CDE5DC4DA408B50B8E4C7A3AAFB7 ColorTweenJob_get_jobData_mA280F7642FD5A049CCA584A9C7643D66D8492F16 (ColorTweenJob_t1BEEC88338C32DADE1D0E383FB1E1327444022A4* IL2CPP_PARAMETER_RESTRICT __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Jobs/ColorTweenJob.cs:20>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Jobs/ColorTweenJob.cs:20>
 		TweenJobData_1_t9932452930B7CDE5DC4DA408B50B8E4C7A3AAFB7 L_0 = __this->___U3CjobDataU3Ek__BackingField;
 		return L_0;
 	}
@@ -7668,7 +7668,7 @@ IL2CPP_EXTERN_C  TweenJobData_1_t9932452930B7CDE5DC4DA408B50B8E4C7A3AAFB7 ColorT
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void ColorTweenJob_set_jobData_m7753E76538470AEC9A4D639D6C859694230C1E66 (ColorTweenJob_t1BEEC88338C32DADE1D0E383FB1E1327444022A4* IL2CPP_PARAMETER_RESTRICT __this, TweenJobData_1_t9932452930B7CDE5DC4DA408B50B8E4C7A3AAFB7 ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Jobs/ColorTweenJob.cs:20>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Jobs/ColorTweenJob.cs:20>
 		TweenJobData_1_t9932452930B7CDE5DC4DA408B50B8E4C7A3AAFB7 L_0 = ___0_value;
 		__this->___U3CjobDataU3Ek__BackingField = L_0;
 		return;
@@ -7685,7 +7685,7 @@ IL2CPP_EXTERN_C  void ColorTweenJob_set_jobData_m7753E76538470AEC9A4D639D6C85969
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR uint8_t ColorTweenJob_get_colorBlendMode_m12030B0AB95C1FD2245040701D6E60268E9D4918 (ColorTweenJob_t1BEEC88338C32DADE1D0E383FB1E1327444022A4* IL2CPP_PARAMETER_RESTRICT __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Jobs/ColorTweenJob.cs:25>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Jobs/ColorTweenJob.cs:25>
 		uint8_t L_0 = __this->___U3CcolorBlendModeU3Ek__BackingField;
 		return L_0;
 	}
@@ -7703,7 +7703,7 @@ IL2CPP_EXTERN_C  uint8_t ColorTweenJob_get_colorBlendMode_m12030B0AB95C1FD224504
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void ColorTweenJob_set_colorBlendMode_m9794C87EAF0DF0DC3FCCD8FE779415EF9766BA9A (ColorTweenJob_t1BEEC88338C32DADE1D0E383FB1E1327444022A4* IL2CPP_PARAMETER_RESTRICT __this, uint8_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Jobs/ColorTweenJob.cs:25>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Jobs/ColorTweenJob.cs:25>
 		uint8_t L_0 = ___0_value;
 		__this->___U3CcolorBlendModeU3Ek__BackingField = L_0;
 		return;
@@ -7720,7 +7720,7 @@ IL2CPP_EXTERN_C  void ColorTweenJob_set_colorBlendMode_m9794C87EAF0DF0DC3FCCD8FE
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR float ColorTweenJob_get_colorBlendAmount_mC6C4A36FB4A513434F012393BBFF399976D8EDFE (ColorTweenJob_t1BEEC88338C32DADE1D0E383FB1E1327444022A4* IL2CPP_PARAMETER_RESTRICT __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Jobs/ColorTweenJob.cs:30>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Jobs/ColorTweenJob.cs:30>
 		float L_0 = __this->___U3CcolorBlendAmountU3Ek__BackingField;
 		return L_0;
 	}
@@ -7738,7 +7738,7 @@ IL2CPP_EXTERN_C  float ColorTweenJob_get_colorBlendAmount_mC6C4A36FB4A513434F012
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void ColorTweenJob_set_colorBlendAmount_mB6495D73D071F8706E3238110A0CE1CC1DD09916 (ColorTweenJob_t1BEEC88338C32DADE1D0E383FB1E1327444022A4* IL2CPP_PARAMETER_RESTRICT __this, float ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Jobs/ColorTweenJob.cs:30>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Jobs/ColorTweenJob.cs:30>
 		float L_0 = ___0_value;
 		__this->___U3CcolorBlendAmountU3Ek__BackingField = L_0;
 		return;
@@ -7772,7 +7772,7 @@ IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void ColorTweenJob_Execute_m
 	TweenJobData_1_t9932452930B7CDE5DC4DA408B50B8E4C7A3AAFB7 V_5;
 	memset((&V_5), 0, sizeof(V_5));
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Jobs/ColorTweenJob.cs:38>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Jobs/ColorTweenJob.cs:38>
 		TweenJobData_1_t9932452930B7CDE5DC4DA408B50B8E4C7A3AAFB7 L_0;
 		L_0 = ColorTweenJob_get_jobData_mA280F7642FD5A049CCA584A9C7643D66D8492F16_inline(__this, NULL);
 		V_4 = L_0;
@@ -7785,7 +7785,7 @@ IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void ColorTweenJob_Execute_m
 		float L_4;
 		L_4 = NativeCurve_Evaluate_m863A02A3C819738F373F7EC87BFDEFA113D4E87C(L_1, L_3, NULL);
 		V_0 = L_4;
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Jobs/ColorTweenJob.cs:39>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Jobs/ColorTweenJob.cs:39>
 		TweenJobData_1_t9932452930B7CDE5DC4DA408B50B8E4C7A3AAFB7 L_5;
 		L_5 = ColorTweenJob_get_jobData_mA280F7642FD5A049CCA584A9C7643D66D8492F16_inline(__this, NULL);
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_6 = L_5.___stateOriginValue;
@@ -7796,7 +7796,7 @@ IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void ColorTweenJob_Execute_m
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_10;
 		L_10 = ColorTweenJob_Lerp_m8DACBF2895C6CB62302828384FDDC82442AB86F1(__this, L_6, L_8, L_9, NULL);
 		V_1 = L_10;
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Jobs/ColorTweenJob.cs:40>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Jobs/ColorTweenJob.cs:40>
 		TweenJobData_1_t9932452930B7CDE5DC4DA408B50B8E4C7A3AAFB7 L_11;
 		L_11 = ColorTweenJob_get_jobData_mA280F7642FD5A049CCA584A9C7643D66D8492F16_inline(__this, NULL);
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_12 = L_11.___initialValue;
@@ -7804,12 +7804,12 @@ IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void ColorTweenJob_Execute_m
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_14;
 		L_14 = ColorTweenJob_ProcessTargetAffordanceValue_m88916683E2BBBCE88902A20BEAF9436D84940AD9(__this, L_12, L_13, NULL);
 		V_2 = L_14;
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Jobs/ColorTweenJob.cs:42>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Jobs/ColorTweenJob.cs:42>
 		TweenJobData_1_t9932452930B7CDE5DC4DA408B50B8E4C7A3AAFB7 L_15;
 		L_15 = ColorTweenJob_get_jobData_mA280F7642FD5A049CCA584A9C7643D66D8492F16_inline(__this, NULL);
 		NativeArray_1_t6AE72D578EEA854475A487A2795F8C90FD258D8D L_16 = L_15.___outputData;
 		V_3 = L_16;
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Jobs/ColorTweenJob.cs:43>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Jobs/ColorTweenJob.cs:43>
 		TweenJobData_1_t9932452930B7CDE5DC4DA408B50B8E4C7A3AAFB7 L_17;
 		L_17 = ColorTweenJob_get_jobData_mA280F7642FD5A049CCA584A9C7643D66D8492F16_inline(__this, NULL);
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_18 = L_17.___tweenStartValue;
@@ -7820,7 +7820,7 @@ IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void ColorTweenJob_Execute_m
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_22;
 		L_22 = ColorTweenJob_Lerp_m8DACBF2895C6CB62302828384FDDC82442AB86F1(__this, L_18, L_19, L_21, NULL);
 		IL2CPP_NATIVEARRAY_SET_ITEM(Color_tD001788D726C3A7F1379BEED0260B9591F440C1F, ((&V_3))->___m_Buffer, 0, (L_22));
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Jobs/ColorTweenJob.cs:44>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Jobs/ColorTweenJob.cs:44>
 		return;
 	}
 }
@@ -7839,10 +7839,10 @@ IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379B
 	float V_1 = 0.0f;
 	uint8_t V_2 = 0x0;
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Jobs/ColorTweenJob.cs:48>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Jobs/ColorTweenJob.cs:48>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_0 = ___1_newValue;
 		V_0 = L_0;
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Jobs/ColorTweenJob.cs:49>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Jobs/ColorTweenJob.cs:49>
 		uint8_t L_1;
 		L_1 = ColorTweenJob_get_colorBlendMode_m12030B0AB95C1FD2245040701D6E60268E9D4918_inline(__this, NULL);
 		V_2 = L_1;
@@ -7869,11 +7869,11 @@ IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379B
 
 IL_001d:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Jobs/ColorTweenJob.cs:56>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Jobs/ColorTweenJob.cs:56>
 		float L_3;
 		L_3 = ColorTweenJob_get_colorBlendAmount_mC6C4A36FB4A513434F012393BBFF399976D8EDFE_inline(__this, NULL);
 		V_1 = L_3;
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Jobs/ColorTweenJob.cs:57>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Jobs/ColorTweenJob.cs:57>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_4 = ___0_initialValue;
 		float L_5 = L_4.___r;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_6 = ___1_newValue;
@@ -7895,13 +7895,13 @@ IL_001d:
 		float L_22 = L_21.___a;
 		float L_23 = V_1;
 		Color__ctor_m3786F0D6E510D9CFA544523A955870BD2A514C8C_inline((&V_0), ((float)il2cpp_codegen_add(L_5, ((float)il2cpp_codegen_multiply(L_7, L_8)))), ((float)il2cpp_codegen_add(L_10, ((float)il2cpp_codegen_multiply(L_12, L_13)))), ((float)il2cpp_codegen_add(L_15, ((float)il2cpp_codegen_multiply(L_17, L_18)))), ((float)il2cpp_codegen_add(L_20, ((float)il2cpp_codegen_multiply(L_22, L_23)))), NULL);
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Jobs/ColorTweenJob.cs:58>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Jobs/ColorTweenJob.cs:58>
 		goto IL_0078;
 	}
 
 IL_0069:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Jobs/ColorTweenJob.cs:61>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Jobs/ColorTweenJob.cs:61>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_24 = ___0_initialValue;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_25 = ___1_newValue;
 		float L_26;
@@ -7913,7 +7913,7 @@ IL_0069:
 
 IL_0078:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Jobs/ColorTweenJob.cs:64>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Jobs/ColorTweenJob.cs:64>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_28 = V_0;
 		return L_28;
 	}
@@ -7931,7 +7931,7 @@ IL2CPP_EXTERN_C  Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ColorTweenJob_P
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ColorTweenJob_Lerp_m8DACBF2895C6CB62302828384FDDC82442AB86F1 (ColorTweenJob_t1BEEC88338C32DADE1D0E383FB1E1327444022A4* IL2CPP_PARAMETER_RESTRICT __this, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___0_from, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___1_to, float ___2_t, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Jobs/ColorTweenJob.cs:70>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Jobs/ColorTweenJob.cs:70>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_0 = ___0_from;
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_1 = ___1_to;
 		bool L_2;
@@ -7942,14 +7942,14 @@ IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR Color_tD001788D726C3A7F1379B
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Jobs/ColorTweenJob.cs:72>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Jobs/ColorTweenJob.cs:72>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_3 = ___1_to;
 		return L_3;
 	}
 
 IL_000c:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Jobs/ColorTweenJob.cs:75>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Jobs/ColorTweenJob.cs:75>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_4 = ___0_from;
 		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_5;
 		L_5 = Color_op_Implicit_m9B3228DAFA8DC57A75DE00CBBF13ED4F1E7B01FF_inline(L_4, NULL);
@@ -7983,7 +7983,7 @@ IL2CPP_EXTERN_C  Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ColorTweenJob_L
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR bool ColorTweenJob_IsNearlyEqual_m3C886B1F5FF316BE83F799EAB7107578D961BE55 (ColorTweenJob_t1BEEC88338C32DADE1D0E383FB1E1327444022A4* IL2CPP_PARAMETER_RESTRICT __this, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___0_from, Color_tD001788D726C3A7F1379BEED0260B9591F440C1F ___1_to, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Jobs/ColorTweenJob.cs:81>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Jobs/ColorTweenJob.cs:81>
 		Color_tD001788D726C3A7F1379BEED0260B9591F440C1F L_0 = ___0_from;
 		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_1;
 		L_1 = Color_op_Implicit_m9B3228DAFA8DC57A75DE00CBBF13ED4F1E7B01FF_inline(L_0, NULL);
@@ -8020,7 +8020,7 @@ IL2CPP_EXTERN_C  bool ColorTweenJob_IsNearlyEqual_m3C886B1F5FF316BE83F799EAB7107
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR TweenJobData_1_t06FAD94FCA49A795B22C7FA2EA018F83E450B97E FloatTweenJob_get_jobData_m4AA6AAAC9D6112B8E88153E6076911F693F13CBA (FloatTweenJob_tA1F66E54D3DBA65A5E68334BA5532EB1D6543F98* IL2CPP_PARAMETER_RESTRICT __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Jobs/FloatTweenJob.cs:20>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Jobs/FloatTweenJob.cs:20>
 		TweenJobData_1_t06FAD94FCA49A795B22C7FA2EA018F83E450B97E L_0 = __this->___U3CjobDataU3Ek__BackingField;
 		return L_0;
 	}
@@ -8038,7 +8038,7 @@ IL2CPP_EXTERN_C  TweenJobData_1_t06FAD94FCA49A795B22C7FA2EA018F83E450B97E FloatT
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void FloatTweenJob_set_jobData_m62BC555A7F3277F969592FF740F96692C4F340EA (FloatTweenJob_tA1F66E54D3DBA65A5E68334BA5532EB1D6543F98* IL2CPP_PARAMETER_RESTRICT __this, TweenJobData_1_t06FAD94FCA49A795B22C7FA2EA018F83E450B97E ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Jobs/FloatTweenJob.cs:20>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Jobs/FloatTweenJob.cs:20>
 		TweenJobData_1_t06FAD94FCA49A795B22C7FA2EA018F83E450B97E L_0 = ___0_value;
 		__this->___U3CjobDataU3Ek__BackingField = L_0;
 		return;
@@ -8069,7 +8069,7 @@ IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void FloatTweenJob_Execute_m
 	TweenJobData_1_t06FAD94FCA49A795B22C7FA2EA018F83E450B97E V_4;
 	memset((&V_4), 0, sizeof(V_4));
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Jobs/FloatTweenJob.cs:28>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Jobs/FloatTweenJob.cs:28>
 		TweenJobData_1_t06FAD94FCA49A795B22C7FA2EA018F83E450B97E L_0;
 		L_0 = FloatTweenJob_get_jobData_m4AA6AAAC9D6112B8E88153E6076911F693F13CBA_inline(__this, NULL);
 		V_3 = L_0;
@@ -8082,7 +8082,7 @@ IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void FloatTweenJob_Execute_m
 		float L_4;
 		L_4 = NativeCurve_Evaluate_m863A02A3C819738F373F7EC87BFDEFA113D4E87C(L_1, L_3, NULL);
 		V_0 = L_4;
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Jobs/FloatTweenJob.cs:29>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Jobs/FloatTweenJob.cs:29>
 		TweenJobData_1_t06FAD94FCA49A795B22C7FA2EA018F83E450B97E L_5;
 		L_5 = FloatTweenJob_get_jobData_m4AA6AAAC9D6112B8E88153E6076911F693F13CBA_inline(__this, NULL);
 		float L_6 = L_5.___stateOriginValue;
@@ -8093,12 +8093,12 @@ IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void FloatTweenJob_Execute_m
 		float L_10;
 		L_10 = FloatTweenJob_Lerp_mE015346044A09355C78CD91F8695D71C684E538A(__this, L_6, L_8, L_9, NULL);
 		V_1 = L_10;
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Jobs/FloatTweenJob.cs:31>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Jobs/FloatTweenJob.cs:31>
 		TweenJobData_1_t06FAD94FCA49A795B22C7FA2EA018F83E450B97E L_11;
 		L_11 = FloatTweenJob_get_jobData_m4AA6AAAC9D6112B8E88153E6076911F693F13CBA_inline(__this, NULL);
 		NativeArray_1_t3848EE4B6647317212A754634DE6DBC90B99FBEF L_12 = L_11.___outputData;
 		V_2 = L_12;
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Jobs/FloatTweenJob.cs:32>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Jobs/FloatTweenJob.cs:32>
 		TweenJobData_1_t06FAD94FCA49A795B22C7FA2EA018F83E450B97E L_13;
 		L_13 = FloatTweenJob_get_jobData_m4AA6AAAC9D6112B8E88153E6076911F693F13CBA_inline(__this, NULL);
 		float L_14 = L_13.___tweenStartValue;
@@ -8109,7 +8109,7 @@ IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void FloatTweenJob_Execute_m
 		float L_18;
 		L_18 = FloatTweenJob_Lerp_mE015346044A09355C78CD91F8695D71C684E538A(__this, L_14, L_15, L_17, NULL);
 		IL2CPP_NATIVEARRAY_SET_ITEM(float, ((&V_2))->___m_Buffer, 0, (L_18));
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Jobs/FloatTweenJob.cs:33>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Jobs/FloatTweenJob.cs:33>
 		return;
 	}
 }
@@ -8124,7 +8124,7 @@ IL2CPP_EXTERN_C  void FloatTweenJob_Execute_m1740EF08BC6FC3B1C5A2DF33756526A55E7
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR float FloatTweenJob_Lerp_mE015346044A09355C78CD91F8695D71C684E538A (FloatTweenJob_tA1F66E54D3DBA65A5E68334BA5532EB1D6543F98* IL2CPP_PARAMETER_RESTRICT __this, float ___0_from, float ___1_to, float ___2_t, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Jobs/FloatTweenJob.cs:38>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Jobs/FloatTweenJob.cs:38>
 		float L_0 = ___0_from;
 		float L_1 = ___1_to;
 		bool L_2;
@@ -8135,14 +8135,14 @@ IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR float FloatTweenJob_Lerp_mE0
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Jobs/FloatTweenJob.cs:40>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Jobs/FloatTweenJob.cs:40>
 		float L_3 = ___1_to;
 		return L_3;
 	}
 
 IL_000c:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Jobs/FloatTweenJob.cs:43>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Jobs/FloatTweenJob.cs:43>
 		float L_4 = ___0_from;
 		float L_5 = ___1_to;
 		float L_6 = ___2_t;
@@ -8164,7 +8164,7 @@ IL2CPP_EXTERN_C  float FloatTweenJob_Lerp_mE015346044A09355C78CD91F8695D71C684E5
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR bool FloatTweenJob_IsNearlyEqual_mA34FD5818E7100B8785B58C1CE98877D5670B601 (FloatTweenJob_tA1F66E54D3DBA65A5E68334BA5532EB1D6543F98* IL2CPP_PARAMETER_RESTRICT __this, float ___0_from, float ___1_to, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Jobs/FloatTweenJob.cs:49>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Jobs/FloatTweenJob.cs:49>
 		float L_0 = ___0_from;
 		float L_1 = ___1_to;
 		float L_2;
@@ -8193,7 +8193,7 @@ IL2CPP_EXTERN_C  bool FloatTweenJob_IsNearlyEqual_mA34FD5818E7100B8785B58C1CE988
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR TweenJobData_1_t6C4118E82C1B93FB8B3D245997EC0C5B35BD9FF3 Float2TweenJob_get_jobData_m8CD8E2F93102486DF3C1D7B483BAB73025369558 (Float2TweenJob_t8A50F8709E39BDC0B96C85C802431F6DFB8FB864* IL2CPP_PARAMETER_RESTRICT __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Jobs/FloatTweenJob.cs:63>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Jobs/FloatTweenJob.cs:63>
 		TweenJobData_1_t6C4118E82C1B93FB8B3D245997EC0C5B35BD9FF3 L_0 = __this->___U3CjobDataU3Ek__BackingField;
 		return L_0;
 	}
@@ -8211,7 +8211,7 @@ IL2CPP_EXTERN_C  TweenJobData_1_t6C4118E82C1B93FB8B3D245997EC0C5B35BD9FF3 Float2
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void Float2TweenJob_set_jobData_m90C78DAA243838C9DF85BFB2EB17D9307D3583AA (Float2TweenJob_t8A50F8709E39BDC0B96C85C802431F6DFB8FB864* IL2CPP_PARAMETER_RESTRICT __this, TweenJobData_1_t6C4118E82C1B93FB8B3D245997EC0C5B35BD9FF3 ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Jobs/FloatTweenJob.cs:63>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Jobs/FloatTweenJob.cs:63>
 		TweenJobData_1_t6C4118E82C1B93FB8B3D245997EC0C5B35BD9FF3 L_0 = ___0_value;
 		__this->___U3CjobDataU3Ek__BackingField = L_0;
 		return;
@@ -8243,7 +8243,7 @@ IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void Float2TweenJob_Execute_
 	TweenJobData_1_t6C4118E82C1B93FB8B3D245997EC0C5B35BD9FF3 V_4;
 	memset((&V_4), 0, sizeof(V_4));
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Jobs/FloatTweenJob.cs:71>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Jobs/FloatTweenJob.cs:71>
 		TweenJobData_1_t6C4118E82C1B93FB8B3D245997EC0C5B35BD9FF3 L_0;
 		L_0 = Float2TweenJob_get_jobData_m8CD8E2F93102486DF3C1D7B483BAB73025369558_inline(__this, NULL);
 		V_3 = L_0;
@@ -8256,7 +8256,7 @@ IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void Float2TweenJob_Execute_
 		float L_4;
 		L_4 = NativeCurve_Evaluate_m863A02A3C819738F373F7EC87BFDEFA113D4E87C(L_1, L_3, NULL);
 		V_0 = L_4;
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Jobs/FloatTweenJob.cs:72>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Jobs/FloatTweenJob.cs:72>
 		TweenJobData_1_t6C4118E82C1B93FB8B3D245997EC0C5B35BD9FF3 L_5;
 		L_5 = Float2TweenJob_get_jobData_m8CD8E2F93102486DF3C1D7B483BAB73025369558_inline(__this, NULL);
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_6 = L_5.___stateOriginValue;
@@ -8267,12 +8267,12 @@ IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void Float2TweenJob_Execute_
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_10;
 		L_10 = Float2TweenJob_Lerp_mD4925A20F2BFB4CF38B2CD0CCB3323B1F135B984(__this, L_6, L_8, L_9, NULL);
 		V_1 = L_10;
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Jobs/FloatTweenJob.cs:74>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Jobs/FloatTweenJob.cs:74>
 		TweenJobData_1_t6C4118E82C1B93FB8B3D245997EC0C5B35BD9FF3 L_11;
 		L_11 = Float2TweenJob_get_jobData_m8CD8E2F93102486DF3C1D7B483BAB73025369558_inline(__this, NULL);
 		NativeArray_1_t46D43179C2B71BAB34958401E08B5C5DA4488E9E L_12 = L_11.___outputData;
 		V_2 = L_12;
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Jobs/FloatTweenJob.cs:75>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Jobs/FloatTweenJob.cs:75>
 		TweenJobData_1_t6C4118E82C1B93FB8B3D245997EC0C5B35BD9FF3 L_13;
 		L_13 = Float2TweenJob_get_jobData_m8CD8E2F93102486DF3C1D7B483BAB73025369558_inline(__this, NULL);
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_14 = L_13.___tweenStartValue;
@@ -8283,7 +8283,7 @@ IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void Float2TweenJob_Execute_
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_18;
 		L_18 = Float2TweenJob_Lerp_mD4925A20F2BFB4CF38B2CD0CCB3323B1F135B984(__this, L_14, L_15, L_17, NULL);
 		IL2CPP_NATIVEARRAY_SET_ITEM(float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA, ((&V_2))->___m_Buffer, 0, (L_18));
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Jobs/FloatTweenJob.cs:76>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Jobs/FloatTweenJob.cs:76>
 		return;
 	}
 }
@@ -8298,7 +8298,7 @@ IL2CPP_EXTERN_C  void Float2TweenJob_Execute_mA29C263AD8C974A76B61FD0B71A69EF638
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA Float2TweenJob_Lerp_mD4925A20F2BFB4CF38B2CD0CCB3323B1F135B984 (Float2TweenJob_t8A50F8709E39BDC0B96C85C802431F6DFB8FB864* IL2CPP_PARAMETER_RESTRICT __this, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___0_from, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___1_to, float ___2_t, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Jobs/FloatTweenJob.cs:81>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Jobs/FloatTweenJob.cs:81>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_0 = ___0_from;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_1 = ___1_to;
 		bool L_2;
@@ -8309,14 +8309,14 @@ IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR float2_t24AA5C0F612B0672315E
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Jobs/FloatTweenJob.cs:83>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Jobs/FloatTweenJob.cs:83>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_3 = ___1_to;
 		return L_3;
 	}
 
 IL_000c:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Jobs/FloatTweenJob.cs:86>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Jobs/FloatTweenJob.cs:86>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_4 = ___0_from;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_5 = ___1_to;
 		float L_6 = ___2_t;
@@ -8338,7 +8338,7 @@ IL2CPP_EXTERN_C  float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA Float2TweenJob
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR bool Float2TweenJob_IsNearlyEqual_mF7248DB22D339624EF997D6C8449557C75E3196C (Float2TweenJob_t8A50F8709E39BDC0B96C85C802431F6DFB8FB864* IL2CPP_PARAMETER_RESTRICT __this, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___0_from, float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA ___1_to, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Jobs/FloatTweenJob.cs:92>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Jobs/FloatTweenJob.cs:92>
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_0 = ___0_from;
 		float2_t24AA5C0F612B0672315EDAFEC9D9E7F1C4A5B0BA L_1 = ___1_to;
 		float L_2;
@@ -8367,7 +8367,7 @@ IL2CPP_EXTERN_C  bool Float2TweenJob_IsNearlyEqual_mF7248DB22D339624EF997D6C8449
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR TweenJobData_1_t5779EC937EA396970F0C89EB88D60F9D7CB1977D Float3TweenJob_get_jobData_m9B0A1531BF4DA01A4034720C39A289BFCB37D9D3 (Float3TweenJob_t1ABCE2AF2296C75ECE719050B75BC7A92ED28644* IL2CPP_PARAMETER_RESTRICT __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Jobs/FloatTweenJob.cs:106>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Jobs/FloatTweenJob.cs:106>
 		TweenJobData_1_t5779EC937EA396970F0C89EB88D60F9D7CB1977D L_0 = __this->___U3CjobDataU3Ek__BackingField;
 		return L_0;
 	}
@@ -8385,7 +8385,7 @@ IL2CPP_EXTERN_C  TweenJobData_1_t5779EC937EA396970F0C89EB88D60F9D7CB1977D Float3
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void Float3TweenJob_set_jobData_m7CFEAA1CE8FA93237FBAC3066BFC53838F77D109 (Float3TweenJob_t1ABCE2AF2296C75ECE719050B75BC7A92ED28644* IL2CPP_PARAMETER_RESTRICT __this, TweenJobData_1_t5779EC937EA396970F0C89EB88D60F9D7CB1977D ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Jobs/FloatTweenJob.cs:106>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Jobs/FloatTweenJob.cs:106>
 		TweenJobData_1_t5779EC937EA396970F0C89EB88D60F9D7CB1977D L_0 = ___0_value;
 		__this->___U3CjobDataU3Ek__BackingField = L_0;
 		return;
@@ -8417,7 +8417,7 @@ IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void Float3TweenJob_Execute_
 	TweenJobData_1_t5779EC937EA396970F0C89EB88D60F9D7CB1977D V_4;
 	memset((&V_4), 0, sizeof(V_4));
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Jobs/FloatTweenJob.cs:114>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Jobs/FloatTweenJob.cs:114>
 		TweenJobData_1_t5779EC937EA396970F0C89EB88D60F9D7CB1977D L_0;
 		L_0 = Float3TweenJob_get_jobData_m9B0A1531BF4DA01A4034720C39A289BFCB37D9D3_inline(__this, NULL);
 		V_3 = L_0;
@@ -8430,7 +8430,7 @@ IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void Float3TweenJob_Execute_
 		float L_4;
 		L_4 = NativeCurve_Evaluate_m863A02A3C819738F373F7EC87BFDEFA113D4E87C(L_1, L_3, NULL);
 		V_0 = L_4;
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Jobs/FloatTweenJob.cs:115>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Jobs/FloatTweenJob.cs:115>
 		TweenJobData_1_t5779EC937EA396970F0C89EB88D60F9D7CB1977D L_5;
 		L_5 = Float3TweenJob_get_jobData_m9B0A1531BF4DA01A4034720C39A289BFCB37D9D3_inline(__this, NULL);
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_6 = L_5.___stateOriginValue;
@@ -8441,12 +8441,12 @@ IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void Float3TweenJob_Execute_
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_10;
 		L_10 = Float3TweenJob_Lerp_m27D243EEF22A8765FA08B96C52F075A6CE29519C(__this, L_6, L_8, L_9, NULL);
 		V_1 = L_10;
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Jobs/FloatTweenJob.cs:117>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Jobs/FloatTweenJob.cs:117>
 		TweenJobData_1_t5779EC937EA396970F0C89EB88D60F9D7CB1977D L_11;
 		L_11 = Float3TweenJob_get_jobData_m9B0A1531BF4DA01A4034720C39A289BFCB37D9D3_inline(__this, NULL);
 		NativeArray_1_tEDE9DAD2CAE5954286BC0EF394A57ED0AC69FEE6 L_12 = L_11.___outputData;
 		V_2 = L_12;
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Jobs/FloatTweenJob.cs:118>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Jobs/FloatTweenJob.cs:118>
 		TweenJobData_1_t5779EC937EA396970F0C89EB88D60F9D7CB1977D L_13;
 		L_13 = Float3TweenJob_get_jobData_m9B0A1531BF4DA01A4034720C39A289BFCB37D9D3_inline(__this, NULL);
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_14 = L_13.___tweenStartValue;
@@ -8457,7 +8457,7 @@ IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void Float3TweenJob_Execute_
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_18;
 		L_18 = Float3TweenJob_Lerp_m27D243EEF22A8765FA08B96C52F075A6CE29519C(__this, L_14, L_15, L_17, NULL);
 		IL2CPP_NATIVEARRAY_SET_ITEM(float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E, ((&V_2))->___m_Buffer, 0, (L_18));
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Jobs/FloatTweenJob.cs:119>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Jobs/FloatTweenJob.cs:119>
 		return;
 	}
 }
@@ -8472,7 +8472,7 @@ IL2CPP_EXTERN_C  void Float3TweenJob_Execute_m9F17DFAF477F93D8A661BD28EBE3B3A45B
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E Float3TweenJob_Lerp_m27D243EEF22A8765FA08B96C52F075A6CE29519C (Float3TweenJob_t1ABCE2AF2296C75ECE719050B75BC7A92ED28644* IL2CPP_PARAMETER_RESTRICT __this, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___0_from, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___1_to, float ___2_t, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Jobs/FloatTweenJob.cs:124>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Jobs/FloatTweenJob.cs:124>
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___0_from;
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_1 = ___1_to;
 		bool L_2;
@@ -8483,14 +8483,14 @@ IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR float3_t4AB5D88249ADB24F69FF
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Jobs/FloatTweenJob.cs:126>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Jobs/FloatTweenJob.cs:126>
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_3 = ___1_to;
 		return L_3;
 	}
 
 IL_000c:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Jobs/FloatTweenJob.cs:129>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Jobs/FloatTweenJob.cs:129>
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_4 = ___0_from;
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_5 = ___1_to;
 		float L_6 = ___2_t;
@@ -8512,7 +8512,7 @@ IL2CPP_EXTERN_C  float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E Float3TweenJob
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR bool Float3TweenJob_IsNearlyEqual_m767DE1D8CD124E4D6BE791E9D71317EE1FC4D80D (Float3TweenJob_t1ABCE2AF2296C75ECE719050B75BC7A92ED28644* IL2CPP_PARAMETER_RESTRICT __this, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___0_from, float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E ___1_to, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Jobs/FloatTweenJob.cs:135>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Jobs/FloatTweenJob.cs:135>
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_0 = ___0_from;
 		float3_t4AB5D88249ADB24F69FFD0793E8ED25E1CC3745E L_1 = ___1_to;
 		float L_2;
@@ -8541,7 +8541,7 @@ IL2CPP_EXTERN_C  bool Float3TweenJob_IsNearlyEqual_m767DE1D8CD124E4D6BE791E9D713
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR TweenJobData_1_t750244DB9B41308E85DF94F53236CD62E3A3483B Float4TweenJob_get_jobData_m259D45EFB1C92132AA34925160D5CE7D4E039635 (Float4TweenJob_t9D63A32AC58F3FA5F68BF78254D59453B6FD3CCB* IL2CPP_PARAMETER_RESTRICT __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Jobs/FloatTweenJob.cs:149>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Jobs/FloatTweenJob.cs:149>
 		TweenJobData_1_t750244DB9B41308E85DF94F53236CD62E3A3483B L_0 = __this->___U3CjobDataU3Ek__BackingField;
 		return L_0;
 	}
@@ -8559,7 +8559,7 @@ IL2CPP_EXTERN_C  TweenJobData_1_t750244DB9B41308E85DF94F53236CD62E3A3483B Float4
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void Float4TweenJob_set_jobData_mB155785E23E063AB1FCB3B41923264C85D53CA21 (Float4TweenJob_t9D63A32AC58F3FA5F68BF78254D59453B6FD3CCB* IL2CPP_PARAMETER_RESTRICT __this, TweenJobData_1_t750244DB9B41308E85DF94F53236CD62E3A3483B ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Jobs/FloatTweenJob.cs:149>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Jobs/FloatTweenJob.cs:149>
 		TweenJobData_1_t750244DB9B41308E85DF94F53236CD62E3A3483B L_0 = ___0_value;
 		__this->___U3CjobDataU3Ek__BackingField = L_0;
 		return;
@@ -8591,7 +8591,7 @@ IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void Float4TweenJob_Execute_
 	TweenJobData_1_t750244DB9B41308E85DF94F53236CD62E3A3483B V_4;
 	memset((&V_4), 0, sizeof(V_4));
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Jobs/FloatTweenJob.cs:157>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Jobs/FloatTweenJob.cs:157>
 		TweenJobData_1_t750244DB9B41308E85DF94F53236CD62E3A3483B L_0;
 		L_0 = Float4TweenJob_get_jobData_m259D45EFB1C92132AA34925160D5CE7D4E039635_inline(__this, NULL);
 		V_3 = L_0;
@@ -8604,7 +8604,7 @@ IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void Float4TweenJob_Execute_
 		float L_4;
 		L_4 = NativeCurve_Evaluate_m863A02A3C819738F373F7EC87BFDEFA113D4E87C(L_1, L_3, NULL);
 		V_0 = L_4;
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Jobs/FloatTweenJob.cs:158>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Jobs/FloatTweenJob.cs:158>
 		TweenJobData_1_t750244DB9B41308E85DF94F53236CD62E3A3483B L_5;
 		L_5 = Float4TweenJob_get_jobData_m259D45EFB1C92132AA34925160D5CE7D4E039635_inline(__this, NULL);
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_6 = L_5.___stateOriginValue;
@@ -8615,12 +8615,12 @@ IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void Float4TweenJob_Execute_
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_10;
 		L_10 = Float4TweenJob_Lerp_mBB8C33897042211F54BACEFA36EAF0266A66A5ED(__this, L_6, L_8, L_9, NULL);
 		V_1 = L_10;
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Jobs/FloatTweenJob.cs:160>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Jobs/FloatTweenJob.cs:160>
 		TweenJobData_1_t750244DB9B41308E85DF94F53236CD62E3A3483B L_11;
 		L_11 = Float4TweenJob_get_jobData_m259D45EFB1C92132AA34925160D5CE7D4E039635_inline(__this, NULL);
 		NativeArray_1_tB5EA234C6ABA1F626A4BEF4053D06783E15A3881 L_12 = L_11.___outputData;
 		V_2 = L_12;
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Jobs/FloatTweenJob.cs:161>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Jobs/FloatTweenJob.cs:161>
 		TweenJobData_1_t750244DB9B41308E85DF94F53236CD62E3A3483B L_13;
 		L_13 = Float4TweenJob_get_jobData_m259D45EFB1C92132AA34925160D5CE7D4E039635_inline(__this, NULL);
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_14 = L_13.___tweenStartValue;
@@ -8631,7 +8631,7 @@ IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void Float4TweenJob_Execute_
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_18;
 		L_18 = Float4TweenJob_Lerp_mBB8C33897042211F54BACEFA36EAF0266A66A5ED(__this, L_14, L_15, L_17, NULL);
 		IL2CPP_NATIVEARRAY_SET_ITEM(float4_t89D9A294E7A79BD81BFBDD18654508532958555E, ((&V_2))->___m_Buffer, 0, (L_18));
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Jobs/FloatTweenJob.cs:162>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Jobs/FloatTweenJob.cs:162>
 		return;
 	}
 }
@@ -8646,7 +8646,7 @@ IL2CPP_EXTERN_C  void Float4TweenJob_Execute_m30EAD691A19A6B14B68AE350F0FC92D77B
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFBDD18654508532958555E Float4TweenJob_Lerp_mBB8C33897042211F54BACEFA36EAF0266A66A5ED (Float4TweenJob_t9D63A32AC58F3FA5F68BF78254D59453B6FD3CCB* IL2CPP_PARAMETER_RESTRICT __this, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___0_from, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___1_to, float ___2_t, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Jobs/FloatTweenJob.cs:167>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Jobs/FloatTweenJob.cs:167>
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___0_from;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1 = ___1_to;
 		bool L_2;
@@ -8657,14 +8657,14 @@ IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR float4_t89D9A294E7A79BD81BFB
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Jobs/FloatTweenJob.cs:169>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Jobs/FloatTweenJob.cs:169>
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_3 = ___1_to;
 		return L_3;
 	}
 
 IL_000c:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Jobs/FloatTweenJob.cs:172>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Jobs/FloatTweenJob.cs:172>
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_4 = ___0_from;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_5 = ___1_to;
 		float L_6 = ___2_t;
@@ -8686,7 +8686,7 @@ IL2CPP_EXTERN_C  float4_t89D9A294E7A79BD81BFBDD18654508532958555E Float4TweenJob
 IL2CPP_EXTERN_C IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR bool Float4TweenJob_IsNearlyEqual_m1B0B7A5E9E16C58242607439DE3459F927BF86BC (Float4TweenJob_t9D63A32AC58F3FA5F68BF78254D59453B6FD3CCB* IL2CPP_PARAMETER_RESTRICT __this, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___0_from, float4_t89D9A294E7A79BD81BFBDD18654508532958555E ___1_to, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Jobs/FloatTweenJob.cs:178>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Jobs/FloatTweenJob.cs:178>
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_0 = ___0_from;
 		float4_t89D9A294E7A79BD81BFBDD18654508532958555E L_1 = ___1_to;
 		float L_2;
@@ -8813,7 +8813,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_Invoke_m7126A54DACA72
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool TrackedDeviceModel_get_select_mF73B603383F4D45021CD0AAFC29324A54AC8D55D_inline (TrackedDeviceModel_t38B1BA171F5602138D487005E134580213B4DBE8* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/UI/TrackedDeviceModel.cs:140>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/UI/TrackedDeviceModel.cs:140>
 		bool L_0 = __this->___m_SelectDown;
 		return L_0;
 	}
@@ -8822,7 +8822,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool TrackedDeviceModel_get_selec
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool MaterialHelperBase_get_isInitialized_m1C6E8A30050B1D7B43FA2B8E74E73DE32EDE9F57_inline (MaterialHelperBase_t3607D7278FC398FF21452C066DF80326054C9461* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Rendering/MaterialHelperBase.cs:46>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Rendering/MaterialHelperBase.cs:46>
 		bool L_0 = __this->___U3CisInitializedU3Ek__BackingField;
 		return L_0;
 	}
@@ -8831,7 +8831,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool MaterialHelperBase_get_isIni
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void MaterialHelperBase_set_isInitialized_m4D06A38DDCEA8DCC10EA0F9BE2A5EED65A3E50B1_inline (MaterialHelperBase_t3607D7278FC398FF21452C066DF80326054C9461* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Rendering/MaterialHelperBase.cs:46>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Rendering/MaterialHelperBase.cs:46>
 		bool L_0 = ___0_value;
 		__this->___U3CisInitializedU3Ek__BackingField = L_0;
 		return;
@@ -8841,7 +8841,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void MaterialHelperBase_set_isIni
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t MaterialHelperBase_get_materialIndex_m743A06AAA51020FA435C690F3468D4B7B31F5485_inline (MaterialHelperBase_t3607D7278FC398FF21452C066DF80326054C9461* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Rendering/MaterialHelperBase.cs:38>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Rendering/MaterialHelperBase.cs:38>
 		int32_t L_0 = __this->___m_MaterialIndex;
 		return L_0;
 	}
@@ -8850,7 +8850,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t MaterialHelperBase_get_ma
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* MaterialHelperBase_get_rendererTarget_m474C957F3E8755060E353F812EBC7948AE186662_inline (MaterialHelperBase_t3607D7278FC398FF21452C066DF80326054C9461* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Rendering/MaterialHelperBase.cs:23>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Rendering/MaterialHelperBase.cs:23>
 		Renderer_t320575F223BCB177A982E5DDB5DB19FAA89E7FBF* L_0 = __this->___m_Renderer;
 		return L_0;
 	}
@@ -8925,7 +8925,7 @@ IL_0009:
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void XRInteractorLineVisual_set_setLineColorGradient_m4F03DE89A558CFC91231B3019E90C2F3346FDC40_inline (XRInteractorLineVisual_t5E2AB7AB814E981F6E309FA420D13DDBCF11D12E* __this, bool ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Interaction/Interactors/Visuals/XRInteractorLineVisual.cs:243>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Interaction/Interactors/Visuals/XRInteractorLineVisual.cs:243>
 		bool L_0 = ___0_value;
 		__this->___m_SetLineColorGradient = L_0;
 		return;
@@ -9031,7 +9031,7 @@ IL_001b:
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void ColorTweenJob_set_jobData_m7753E76538470AEC9A4D639D6C859694230C1E66_inline (ColorTweenJob_t1BEEC88338C32DADE1D0E383FB1E1327444022A4* IL2CPP_PARAMETER_RESTRICT __this, TweenJobData_1_t9932452930B7CDE5DC4DA408B50B8E4C7A3AAFB7 ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Jobs/ColorTweenJob.cs:20>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Jobs/ColorTweenJob.cs:20>
 		TweenJobData_1_t9932452930B7CDE5DC4DA408B50B8E4C7A3AAFB7 L_0 = ___0_value;
 		__this->___U3CjobDataU3Ek__BackingField = L_0;
 		return;
@@ -9041,7 +9041,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void ColorTweenJ
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float ColorAffordanceTheme_get_blendAmount_m39393336151E7174118038DD087E2878631C212A_inline (ColorAffordanceTheme_t3F700BEECAFF429ED6996818B1460BE3079943C1* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Theme/Primitives/ColorAffordanceThemeDatum.cs:61>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Theme/Primitives/ColorAffordanceThemeDatum.cs:61>
 		float L_0 = __this->___m_BlendAmount;
 		return L_0;
 	}
@@ -9050,7 +9050,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float ColorAffordanceTheme_get_bl
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void ColorTweenJob_set_colorBlendAmount_mB6495D73D071F8706E3238110A0CE1CC1DD09916_inline (ColorTweenJob_t1BEEC88338C32DADE1D0E383FB1E1327444022A4* IL2CPP_PARAMETER_RESTRICT __this, float ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Jobs/ColorTweenJob.cs:30>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Jobs/ColorTweenJob.cs:30>
 		float L_0 = ___0_value;
 		__this->___U3CcolorBlendAmountU3Ek__BackingField = L_0;
 		return;
@@ -9060,7 +9060,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void ColorTweenJ
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint8_t ColorAffordanceTheme_get_colorBlendMode_m58086A803205C3BF9C5654FC73510EC5FA82B90E_inline (ColorAffordanceTheme_t3F700BEECAFF429ED6996818B1460BE3079943C1* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Theme/Primitives/ColorAffordanceThemeDatum.cs:47>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Theme/Primitives/ColorAffordanceThemeDatum.cs:47>
 		uint8_t L_0 = __this->___m_ColorBlendMode;
 		return L_0;
 	}
@@ -9069,7 +9069,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint8_t ColorAffordanceTheme_get_
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void ColorTweenJob_set_colorBlendMode_m9794C87EAF0DF0DC3FCCD8FE779415EF9766BA9A_inline (ColorTweenJob_t1BEEC88338C32DADE1D0E383FB1E1327444022A4* IL2CPP_PARAMETER_RESTRICT __this, uint8_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Jobs/ColorTweenJob.cs:25>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Jobs/ColorTweenJob.cs:25>
 		uint8_t L_0 = ___0_value;
 		__this->___U3CcolorBlendModeU3Ek__BackingField = L_0;
 		return;
@@ -9079,7 +9079,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void ColorTweenJ
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void FloatTweenJob_set_jobData_m62BC555A7F3277F969592FF740F96692C4F340EA_inline (FloatTweenJob_tA1F66E54D3DBA65A5E68334BA5532EB1D6543F98* IL2CPP_PARAMETER_RESTRICT __this, TweenJobData_1_t06FAD94FCA49A795B22C7FA2EA018F83E450B97E ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Jobs/FloatTweenJob.cs:20>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Jobs/FloatTweenJob.cs:20>
 		TweenJobData_1_t06FAD94FCA49A795B22C7FA2EA018F83E450B97E L_0 = ___0_value;
 		__this->___U3CjobDataU3Ek__BackingField = L_0;
 		return;
@@ -9125,7 +9125,7 @@ IL_0014:
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void Float2TweenJob_set_jobData_m90C78DAA243838C9DF85BFB2EB17D9307D3583AA_inline (Float2TweenJob_t8A50F8709E39BDC0B96C85C802431F6DFB8FB864* IL2CPP_PARAMETER_RESTRICT __this, TweenJobData_1_t6C4118E82C1B93FB8B3D245997EC0C5B35BD9FF3 ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Jobs/FloatTweenJob.cs:63>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Jobs/FloatTweenJob.cs:63>
 		TweenJobData_1_t6C4118E82C1B93FB8B3D245997EC0C5B35BD9FF3 L_0 = ___0_value;
 		__this->___U3CjobDataU3Ek__BackingField = L_0;
 		return;
@@ -9135,7 +9135,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void Float2Tween
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void Float3TweenJob_set_jobData_m7CFEAA1CE8FA93237FBAC3066BFC53838F77D109_inline (Float3TweenJob_t1ABCE2AF2296C75ECE719050B75BC7A92ED28644* IL2CPP_PARAMETER_RESTRICT __this, TweenJobData_1_t5779EC937EA396970F0C89EB88D60F9D7CB1977D ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Jobs/FloatTweenJob.cs:106>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Jobs/FloatTweenJob.cs:106>
 		TweenJobData_1_t5779EC937EA396970F0C89EB88D60F9D7CB1977D L_0 = ___0_value;
 		__this->___U3CjobDataU3Ek__BackingField = L_0;
 		return;
@@ -9145,7 +9145,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void Float3Tween
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void Float4TweenJob_set_jobData_mB155785E23E063AB1FCB3B41923264C85D53CA21_inline (Float4TweenJob_t9D63A32AC58F3FA5F68BF78254D59453B6FD3CCB* IL2CPP_PARAMETER_RESTRICT __this, TweenJobData_1_t750244DB9B41308E85DF94F53236CD62E3A3483B ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Jobs/FloatTweenJob.cs:149>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Jobs/FloatTweenJob.cs:149>
 		TweenJobData_1_t750244DB9B41308E85DF94F53236CD62E3A3483B L_0 = ___0_value;
 		__this->___U3CjobDataU3Ek__BackingField = L_0;
 		return;
@@ -9155,7 +9155,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR void Float4Tween
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR RuntimeObject* BaseAffordanceStateProvider_get_currentAffordanceStateData_m816A94CE0C10C5FC59858FFACBFF407E9D57B9D3_inline (BaseAffordanceStateProvider_t5721F9B16D6C029D832F8D6FA0A47326A581D443* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/State/Provider/BaseAffordanceStateProvider.cs:47>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/State/Provider/BaseAffordanceStateProvider.cs:47>
 		BindableVariable_1_t8FDD824B71E4868C9A1011DF94BED5A0049FCF42* L_0 = __this->___m_AffordanceStateData;
 		return L_0;
 	}
@@ -9170,7 +9170,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint8_t AffordanceStateShortcuts_
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/State/Data/AffordanceStateShortcuts.cs:103>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/State/Data/AffordanceStateShortcuts.cs:103>
 		il2cpp_codegen_runtime_class_init_inline(AffordanceStateShortcuts_t7A59ACF9B6B40EBA55C1B04AB596C869777F496D_il2cpp_TypeInfo_var);
 		uint8_t L_0 = ((AffordanceStateShortcuts_t7A59ACF9B6B40EBA55C1B04AB596C869777F496D_StaticFields*)il2cpp_codegen_static_fields_for(AffordanceStateShortcuts_t7A59ACF9B6B40EBA55C1B04AB596C869777F496D_il2cpp_TypeInfo_var))->___U3CstateCountU3Ek__BackingField;
 		return L_0;
@@ -9180,7 +9180,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint8_t AffordanceStateShortcuts_
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint8_t AffordanceStateData_get_stateIndex_m2B9DFBBB1FE3AE1BC2BAC900B2493B72B4D8F341_inline (AffordanceStateData_t925209B85B56D04F7F178061B1C91280DA6DBC69* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/State/Data/AffordanceStateData.cs:19>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/State/Data/AffordanceStateData.cs:19>
 		uint8_t L_0 = __this->___U3CstateIndexU3Ek__BackingField;
 		return L_0;
 	}
@@ -9189,7 +9189,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR uint8_t AffordanceStateData_get_s
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR TweenJobData_1_t9932452930B7CDE5DC4DA408B50B8E4C7A3AAFB7 ColorTweenJob_get_jobData_mA280F7642FD5A049CCA584A9C7643D66D8492F16_inline (ColorTweenJob_t1BEEC88338C32DADE1D0E383FB1E1327444022A4* IL2CPP_PARAMETER_RESTRICT __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Jobs/ColorTweenJob.cs:20>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Jobs/ColorTweenJob.cs:20>
 		TweenJobData_1_t9932452930B7CDE5DC4DA408B50B8E4C7A3AAFB7 L_0 = __this->___U3CjobDataU3Ek__BackingField;
 		return L_0;
 	}
@@ -9198,7 +9198,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR TweenJobData_1_t
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR uint8_t ColorTweenJob_get_colorBlendMode_m12030B0AB95C1FD2245040701D6E60268E9D4918_inline (ColorTweenJob_t1BEEC88338C32DADE1D0E383FB1E1327444022A4* IL2CPP_PARAMETER_RESTRICT __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Jobs/ColorTweenJob.cs:25>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Jobs/ColorTweenJob.cs:25>
 		uint8_t L_0 = __this->___U3CcolorBlendModeU3Ek__BackingField;
 		return L_0;
 	}
@@ -9207,7 +9207,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR uint8_t ColorTwe
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR float ColorTweenJob_get_colorBlendAmount_mC6C4A36FB4A513434F012393BBFF399976D8EDFE_inline (ColorTweenJob_t1BEEC88338C32DADE1D0E383FB1E1327444022A4* IL2CPP_PARAMETER_RESTRICT __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Jobs/ColorTweenJob.cs:30>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Jobs/ColorTweenJob.cs:30>
 		float L_0 = __this->___U3CcolorBlendAmountU3Ek__BackingField;
 		return L_0;
 	}
@@ -9302,7 +9302,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float math_distancesq_m609DF85E23
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR TweenJobData_1_t06FAD94FCA49A795B22C7FA2EA018F83E450B97E FloatTweenJob_get_jobData_m4AA6AAAC9D6112B8E88153E6076911F693F13CBA_inline (FloatTweenJob_tA1F66E54D3DBA65A5E68334BA5532EB1D6543F98* IL2CPP_PARAMETER_RESTRICT __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Jobs/FloatTweenJob.cs:20>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Jobs/FloatTweenJob.cs:20>
 		TweenJobData_1_t06FAD94FCA49A795B22C7FA2EA018F83E450B97E L_0 = __this->___U3CjobDataU3Ek__BackingField;
 		return L_0;
 	}
@@ -9335,7 +9335,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float math_distancesq_m7C2F819C91
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR TweenJobData_1_t6C4118E82C1B93FB8B3D245997EC0C5B35BD9FF3 Float2TweenJob_get_jobData_m8CD8E2F93102486DF3C1D7B483BAB73025369558_inline (Float2TweenJob_t8A50F8709E39BDC0B96C85C802431F6DFB8FB864* IL2CPP_PARAMETER_RESTRICT __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Jobs/FloatTweenJob.cs:63>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Jobs/FloatTweenJob.cs:63>
 		TweenJobData_1_t6C4118E82C1B93FB8B3D245997EC0C5B35BD9FF3 L_0 = __this->___U3CjobDataU3Ek__BackingField;
 		return L_0;
 	}
@@ -9376,7 +9376,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float math_distancesq_m491F2EBC94
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR TweenJobData_1_t5779EC937EA396970F0C89EB88D60F9D7CB1977D Float3TweenJob_get_jobData_m9B0A1531BF4DA01A4034720C39A289BFCB37D9D3_inline (Float3TweenJob_t1ABCE2AF2296C75ECE719050B75BC7A92ED28644* IL2CPP_PARAMETER_RESTRICT __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Jobs/FloatTweenJob.cs:106>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Jobs/FloatTweenJob.cs:106>
 		TweenJobData_1_t5779EC937EA396970F0C89EB88D60F9D7CB1977D L_0 = __this->___U3CjobDataU3Ek__BackingField;
 		return L_0;
 	}
@@ -9417,7 +9417,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float math_distancesq_mA49E8B3440
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR TweenJobData_1_t750244DB9B41308E85DF94F53236CD62E3A3483B Float4TweenJob_get_jobData_m259D45EFB1C92132AA34925160D5CE7D4E039635_inline (Float4TweenJob_t9D63A32AC58F3FA5F68BF78254D59453B6FD3CCB* IL2CPP_PARAMETER_RESTRICT __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Jobs/FloatTweenJob.cs:149>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Jobs/FloatTweenJob.cs:149>
 		TweenJobData_1_t750244DB9B41308E85DF94F53236CD62E3A3483B L_0 = __this->___U3CjobDataU3Ek__BackingField;
 		return L_0;
 	}
@@ -9426,7 +9426,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_NO_INLINE IL2CPP_METHOD_ATTR TweenJobData_1_t
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool BaseAffordanceStateReceiver_1_get_initialValueCaptured_m33BACB66392942ACB851556D37F895DE40AEF367_gshared_inline (BaseAffordanceStateReceiver_1_t555088DFB4B2ADB8B80C9E1E1267AA26FDB0AFAB* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/BaseAffordanceStateReceiver.cs:92>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/BaseAffordanceStateReceiver.cs:92>
 		bool L_0 = __this->___U3CinitialValueCapturedU3Ek__BackingField;
 		return L_0;
 	}
@@ -9435,7 +9435,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR bool BaseAffordanceStateReceiver_
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR BaseAffordanceTheme_1_t0E9523F1B0AB080EFF2F713F31C00A868A4A3A80* BaseAffordanceStateReceiver_1_get_affordanceTheme_m30E4C2113C72A03A9B5474377FD4D5F2931B5F29_gshared_inline (BaseAffordanceStateReceiver_1_t555088DFB4B2ADB8B80C9E1E1267AA26FDB0AFAB* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/AffordanceSystem/Receiver/BaseAffordanceStateReceiver.cs:49>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/AffordanceSystem/Receiver/BaseAffordanceStateReceiver.cs:49>
 		BaseAffordanceTheme_1_t0E9523F1B0AB080EFF2F713F31C00A868A4A3A80* L_0 = __this->___m_AffordanceTheme;
 		return L_0;
 	}

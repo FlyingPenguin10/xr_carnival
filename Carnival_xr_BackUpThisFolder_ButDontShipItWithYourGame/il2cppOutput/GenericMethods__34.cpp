@@ -27424,7 +27424,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SortingHelpers_Sort_TisRaycastHit_t6F30B
 		il2cpp_rgctx_method_init(method);
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/XR/SortingHelpers.cs:65>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/XR/SortingHelpers.cs:65>
 		RuntimeObject* L_0 = ___0_hits;
 		RuntimeObject* L_1 = ___1_comparer;
 		RuntimeObject* L_2 = ___0_hits;
@@ -27445,7 +27445,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SortingHelpers_Sort_TisIl2CppFullyShared
 		il2cpp_rgctx_method_init(method);
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/XR/SortingHelpers.cs:65>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/XR/SortingHelpers.cs:65>
 		RuntimeObject* L_0 = ___0_hits;
 		RuntimeObject* L_1 = ___1_comparer;
 		RuntimeObject* L_2 = ___0_hits;
@@ -27466,7 +27466,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SortingHelpers_Sort_TisRaycastHitData_tC
 		il2cpp_rgctx_method_init(method);
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/XR/SortingHelpers.cs:65>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/XR/SortingHelpers.cs:65>
 		RuntimeObject* L_0 = ___0_hits;
 		RuntimeObject* L_1 = ___1_comparer;
 		RuntimeObject* L_2 = ___0_hits;
@@ -27495,7 +27495,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SortingHelpers_Sort_TisRaycastHit_t6F30B
 	RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5 V_8;
 	memset((&V_8), 0, sizeof(V_8));
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/XR/SortingHelpers.cs:82>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/XR/SortingHelpers.cs:82>
 		int32_t L_0 = ___2_count;
 		if ((((int32_t)L_0) > ((int32_t)1)))
 		{
@@ -27503,13 +27503,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SortingHelpers_Sort_TisRaycastHit_t6F30B
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/XR/SortingHelpers.cs:83>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/XR/SortingHelpers.cs:83>
 		return;
 	}
 
 IL_0005:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/XR/SortingHelpers.cs:85>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/XR/SortingHelpers.cs:85>
 		int32_t L_1 = ___2_count;
 		V_0 = ((int32_t)il2cpp_codegen_subtract(L_1, 1));
 		goto IL_0073;
@@ -27517,16 +27517,16 @@ IL_0005:
 
 IL_000b:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/XR/SortingHelpers.cs:87>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/XR/SortingHelpers.cs:87>
 		V_1 = (bool)0;
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/XR/SortingHelpers.cs:88>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/XR/SortingHelpers.cs:88>
 		V_2 = 1;
 		goto IL_0068;
 	}
 
 IL_0011:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/XR/SortingHelpers.cs:90>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/XR/SortingHelpers.cs:90>
 		RuntimeObject* L_2 = ___1_comparer;
 		RuntimeObject* L_3 = ___0_hits;
 		int32_t L_4 = V_2;
@@ -27541,14 +27541,14 @@ IL_0011:
 		NullCheck(L_2);
 		int32_t L_9;
 		L_9 = InterfaceFuncInvoker2< int32_t, RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5, RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5 >::Invoke(0, il2cpp_rgctx_data(method->rgctx_data, 0), L_2, L_5, L_8);
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/XR/SortingHelpers.cs:91>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/XR/SortingHelpers.cs:91>
 		if ((((int32_t)L_9) <= ((int32_t)0)))
 		{
 			goto IL_0064;
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/XR/SortingHelpers.cs:93>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/XR/SortingHelpers.cs:93>
 		RuntimeObject* L_10 = ___0_hits;
 		int32_t L_11 = V_2;
 		V_3 = ((int32_t)il2cpp_codegen_subtract(L_11, 1));
@@ -27581,20 +27581,20 @@ IL_0011:
 		V_8 = L_26;
 		NullCheck(L_23);
 		InterfaceActionInvoker2< int32_t, RaycastHit_t6F30BD0B38B56401CA833A1B87BD74F2ACD2F2B5 >::Invoke(1, il2cpp_rgctx_data(method->rgctx_data, 1), L_23, L_24, L_26);
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/XR/SortingHelpers.cs:94>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/XR/SortingHelpers.cs:94>
 		V_1 = (bool)1;
 	}
 
 IL_0064:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/XR/SortingHelpers.cs:88>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/XR/SortingHelpers.cs:88>
 		int32_t L_27 = V_2;
 		V_2 = ((int32_t)il2cpp_codegen_add(L_27, 1));
 	}
 
 IL_0068:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/XR/SortingHelpers.cs:88>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/XR/SortingHelpers.cs:88>
 		int32_t L_28 = V_2;
 		int32_t L_29 = V_0;
 		if ((((int32_t)L_28) <= ((int32_t)L_29)))
@@ -27603,7 +27603,7 @@ IL_0068:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/XR/SortingHelpers.cs:99>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/XR/SortingHelpers.cs:99>
 		bool L_30 = V_1;
 		if (!L_30)
 		{
@@ -27611,14 +27611,14 @@ IL_0068:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/XR/SortingHelpers.cs:85>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/XR/SortingHelpers.cs:85>
 		int32_t L_31 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_subtract(L_31, 1));
 	}
 
 IL_0073:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/XR/SortingHelpers.cs:85>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/XR/SortingHelpers.cs:85>
 		int32_t L_32 = V_0;
 		if ((((int32_t)L_32) > ((int32_t)0)))
 		{
@@ -27628,7 +27628,7 @@ IL_0073:
 
 IL_0077:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/XR/SortingHelpers.cs:102>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/XR/SortingHelpers.cs:102>
 		return;
 	}
 }
@@ -27658,7 +27658,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SortingHelpers_Sort_TisIl2CppFullyShared
 	Il2CppFullySharedGenericStruct V_8 = alloca(SizeOf_T_tC7D223FDCB9A238E6B9F7FC6FB65EA848855E992);
 	memset(V_8, 0, SizeOf_T_tC7D223FDCB9A238E6B9F7FC6FB65EA848855E992);
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/XR/SortingHelpers.cs:82>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/XR/SortingHelpers.cs:82>
 		int32_t L_0 = ___2_count;
 		if ((((int32_t)L_0) > ((int32_t)1)))
 		{
@@ -27666,13 +27666,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SortingHelpers_Sort_TisIl2CppFullyShared
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/XR/SortingHelpers.cs:83>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/XR/SortingHelpers.cs:83>
 		return;
 	}
 
 IL_0005:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/XR/SortingHelpers.cs:85>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/XR/SortingHelpers.cs:85>
 		int32_t L_1 = ___2_count;
 		V_0 = ((int32_t)il2cpp_codegen_subtract(L_1, 1));
 		goto IL_0073;
@@ -27680,16 +27680,16 @@ IL_0005:
 
 IL_000b:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/XR/SortingHelpers.cs:87>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/XR/SortingHelpers.cs:87>
 		V_1 = (bool)0;
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/XR/SortingHelpers.cs:88>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/XR/SortingHelpers.cs:88>
 		V_2 = 1;
 		goto IL_0068;
 	}
 
 IL_0011:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/XR/SortingHelpers.cs:90>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/XR/SortingHelpers.cs:90>
 		RuntimeObject* L_2 = ___1_comparer;
 		RuntimeObject* L_3 = ___0_hits;
 		int32_t L_4 = V_2;
@@ -27702,14 +27702,14 @@ IL_0011:
 		NullCheck(L_2);
 		int32_t L_9;
 		L_9 = InterfaceFuncInvoker2Invoker< int32_t, Il2CppFullySharedGenericStruct, Il2CppFullySharedGenericStruct >::Invoke(0, il2cpp_rgctx_data(method->rgctx_data, 0), L_2, L_5, L_8);
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/XR/SortingHelpers.cs:91>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/XR/SortingHelpers.cs:91>
 		if ((((int32_t)L_9) <= ((int32_t)0)))
 		{
 			goto IL_0064;
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/XR/SortingHelpers.cs:93>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/XR/SortingHelpers.cs:93>
 		RuntimeObject* L_10 = ___0_hits;
 		int32_t L_11 = V_2;
 		V_3 = ((int32_t)il2cpp_codegen_subtract(L_11, 1));
@@ -27740,20 +27740,20 @@ IL_0011:
 		il2cpp_codegen_memcpy(V_8, L_26, SizeOf_T_tC7D223FDCB9A238E6B9F7FC6FB65EA848855E992);
 		NullCheck(L_23);
 		InterfaceActionInvoker2Invoker< int32_t, Il2CppFullySharedGenericStruct >::Invoke(1, il2cpp_rgctx_data(method->rgctx_data, 1), L_23, L_24, L_26);
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/XR/SortingHelpers.cs:94>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/XR/SortingHelpers.cs:94>
 		V_1 = (bool)1;
 	}
 
 IL_0064:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/XR/SortingHelpers.cs:88>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/XR/SortingHelpers.cs:88>
 		int32_t L_27 = V_2;
 		V_2 = ((int32_t)il2cpp_codegen_add(L_27, 1));
 	}
 
 IL_0068:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/XR/SortingHelpers.cs:88>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/XR/SortingHelpers.cs:88>
 		int32_t L_28 = V_2;
 		int32_t L_29 = V_0;
 		if ((((int32_t)L_28) <= ((int32_t)L_29)))
@@ -27762,7 +27762,7 @@ IL_0068:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/XR/SortingHelpers.cs:99>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/XR/SortingHelpers.cs:99>
 		bool L_30 = V_1;
 		if (!L_30)
 		{
@@ -27770,14 +27770,14 @@ IL_0068:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/XR/SortingHelpers.cs:85>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/XR/SortingHelpers.cs:85>
 		int32_t L_31 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_subtract(L_31, 1));
 	}
 
 IL_0073:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/XR/SortingHelpers.cs:85>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/XR/SortingHelpers.cs:85>
 		int32_t L_32 = V_0;
 		if ((((int32_t)L_32) > ((int32_t)0)))
 		{
@@ -27787,7 +27787,7 @@ IL_0073:
 
 IL_0077:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/XR/SortingHelpers.cs:102>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/XR/SortingHelpers.cs:102>
 		return;
 	}
 }
@@ -27808,7 +27808,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SortingHelpers_Sort_TisRaycastHitData_tC
 	RaycastHitData_tC602FBF6250942C226E1EA0D0FDE0257B29B1AFD V_8;
 	memset((&V_8), 0, sizeof(V_8));
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/XR/SortingHelpers.cs:82>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/XR/SortingHelpers.cs:82>
 		int32_t L_0 = ___2_count;
 		if ((((int32_t)L_0) > ((int32_t)1)))
 		{
@@ -27816,13 +27816,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SortingHelpers_Sort_TisRaycastHitData_tC
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/XR/SortingHelpers.cs:83>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/XR/SortingHelpers.cs:83>
 		return;
 	}
 
 IL_0005:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/XR/SortingHelpers.cs:85>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/XR/SortingHelpers.cs:85>
 		int32_t L_1 = ___2_count;
 		V_0 = ((int32_t)il2cpp_codegen_subtract(L_1, 1));
 		goto IL_0073;
@@ -27830,16 +27830,16 @@ IL_0005:
 
 IL_000b:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/XR/SortingHelpers.cs:87>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/XR/SortingHelpers.cs:87>
 		V_1 = (bool)0;
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/XR/SortingHelpers.cs:88>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/XR/SortingHelpers.cs:88>
 		V_2 = 1;
 		goto IL_0068;
 	}
 
 IL_0011:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/XR/SortingHelpers.cs:90>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/XR/SortingHelpers.cs:90>
 		RuntimeObject* L_2 = ___1_comparer;
 		RuntimeObject* L_3 = ___0_hits;
 		int32_t L_4 = V_2;
@@ -27854,14 +27854,14 @@ IL_0011:
 		NullCheck(L_2);
 		int32_t L_9;
 		L_9 = InterfaceFuncInvoker2< int32_t, RaycastHitData_tC602FBF6250942C226E1EA0D0FDE0257B29B1AFD, RaycastHitData_tC602FBF6250942C226E1EA0D0FDE0257B29B1AFD >::Invoke(0, il2cpp_rgctx_data(method->rgctx_data, 0), L_2, L_5, L_8);
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/XR/SortingHelpers.cs:91>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/XR/SortingHelpers.cs:91>
 		if ((((int32_t)L_9) <= ((int32_t)0)))
 		{
 			goto IL_0064;
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/XR/SortingHelpers.cs:93>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/XR/SortingHelpers.cs:93>
 		RuntimeObject* L_10 = ___0_hits;
 		int32_t L_11 = V_2;
 		V_3 = ((int32_t)il2cpp_codegen_subtract(L_11, 1));
@@ -27894,20 +27894,20 @@ IL_0011:
 		V_8 = L_26;
 		NullCheck(L_23);
 		InterfaceActionInvoker2< int32_t, RaycastHitData_tC602FBF6250942C226E1EA0D0FDE0257B29B1AFD >::Invoke(1, il2cpp_rgctx_data(method->rgctx_data, 1), L_23, L_24, L_26);
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/XR/SortingHelpers.cs:94>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/XR/SortingHelpers.cs:94>
 		V_1 = (bool)1;
 	}
 
 IL_0064:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/XR/SortingHelpers.cs:88>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/XR/SortingHelpers.cs:88>
 		int32_t L_27 = V_2;
 		V_2 = ((int32_t)il2cpp_codegen_add(L_27, 1));
 	}
 
 IL_0068:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/XR/SortingHelpers.cs:88>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/XR/SortingHelpers.cs:88>
 		int32_t L_28 = V_2;
 		int32_t L_29 = V_0;
 		if ((((int32_t)L_28) <= ((int32_t)L_29)))
@@ -27916,7 +27916,7 @@ IL_0068:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/XR/SortingHelpers.cs:99>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/XR/SortingHelpers.cs:99>
 		bool L_30 = V_1;
 		if (!L_30)
 		{
@@ -27924,14 +27924,14 @@ IL_0068:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/XR/SortingHelpers.cs:85>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/XR/SortingHelpers.cs:85>
 		int32_t L_31 = V_0;
 		V_0 = ((int32_t)il2cpp_codegen_subtract(L_31, 1));
 	}
 
 IL_0073:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/XR/SortingHelpers.cs:85>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/XR/SortingHelpers.cs:85>
 		int32_t L_32 = V_0;
 		if ((((int32_t)L_32) > ((int32_t)0)))
 		{
@@ -27941,7 +27941,7 @@ IL_0073:
 
 IL_0077:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/XR/SortingHelpers.cs:102>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/XR/SortingHelpers.cs:102>
 		return;
 	}
 }

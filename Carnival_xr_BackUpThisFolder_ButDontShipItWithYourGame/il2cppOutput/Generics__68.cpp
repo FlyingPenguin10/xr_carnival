@@ -18116,9 +18116,9 @@ IL_003e:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LinkedPool_1__ctor_m5402E62D7250001D17D634B4AE2636987DB83FF9_gshared (LinkedPool_1_t153536B246EEDA1D0E18B35FC38086BA72BC26BD* __this, Func_1_tD5C081AE11746B200C711DD48DBEB00E3A9276D4* ___0_createFunc, Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* ___1_actionOnGet, Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* ___2_actionOnRelease, Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* ___3_actionOnDestroy, bool ___4_collectionCheck, int32_t ___5_maxSize, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/Pooling/LinkedPool.cs:45>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/Pooling/LinkedPool.cs:45>
 		Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2((RuntimeObject*)__this, NULL);
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/Pooling/LinkedPool.cs:47>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/Pooling/LinkedPool.cs:47>
 		Func_1_tD5C081AE11746B200C711DD48DBEB00E3A9276D4* L_0 = ___0_createFunc;
 		if (L_0)
 		{
@@ -18126,7 +18126,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LinkedPool_1__ctor_m5402E62D7250001D17D6
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/Pooling/LinkedPool.cs:48>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/Pooling/LinkedPool.cs:48>
 		ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129* L_1 = (ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129_il2cpp_TypeInfo_var)));
 		ArgumentNullException__ctor_m444AE141157E333844FC1A9500224C2F9FD24F4B(L_1, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralBE7F5FAB856FD44805A1AB74E778E29427AD750F)), NULL);
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1, method);
@@ -18134,7 +18134,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LinkedPool_1__ctor_m5402E62D7250001D17D6
 
 IL_0014:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/Pooling/LinkedPool.cs:50>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/Pooling/LinkedPool.cs:50>
 		int32_t L_2 = ___5_maxSize;
 		if ((((int32_t)L_2) > ((int32_t)0)))
 		{
@@ -18142,7 +18142,7 @@ IL_0014:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/Pooling/LinkedPool.cs:51>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/Pooling/LinkedPool.cs:51>
 		ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263* L_3 = (ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentException_tAD90411542A20A9C72D5CDA3A84181D8B947A263_il2cpp_TypeInfo_var)));
 		ArgumentException__ctor_m8F9D40CE19D19B698A70F9A258640EB52DB39B62(L_3, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralDAFE3F8A6104D26C9D160D0C52C0B2688FFCAC3C)), ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralF2E9873618CF7CF584BF8C00E6280D6D71245CCD)), NULL);
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_3, method);
@@ -18150,29 +18150,29 @@ IL_0014:
 
 IL_0029:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/Pooling/LinkedPool.cs:53>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/Pooling/LinkedPool.cs:53>
 		Func_1_tD5C081AE11746B200C711DD48DBEB00E3A9276D4* L_4 = ___0_createFunc;
 		__this->___m_CreateFunc = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_CreateFunc), (void*)L_4);
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/Pooling/LinkedPool.cs:54>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/Pooling/LinkedPool.cs:54>
 		Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* L_5 = ___1_actionOnGet;
 		__this->___m_ActionOnGet = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_ActionOnGet), (void*)L_5);
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/Pooling/LinkedPool.cs:55>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/Pooling/LinkedPool.cs:55>
 		Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* L_6 = ___2_actionOnRelease;
 		__this->___m_ActionOnRelease = L_6;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_ActionOnRelease), (void*)L_6);
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/Pooling/LinkedPool.cs:56>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/Pooling/LinkedPool.cs:56>
 		Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* L_7 = ___3_actionOnDestroy;
 		__this->___m_ActionOnDestroy = L_7;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_ActionOnDestroy), (void*)L_7);
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/Pooling/LinkedPool.cs:57>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/Pooling/LinkedPool.cs:57>
 		int32_t L_8 = ___5_maxSize;
 		__this->___m_Limit = L_8;
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/Pooling/LinkedPool.cs:58>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/Pooling/LinkedPool.cs:58>
 		bool L_9 = ___4_collectionCheck;
 		__this->___m_CollectionCheck = L_9;
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/Pooling/LinkedPool.cs:59>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/Pooling/LinkedPool.cs:59>
 		return;
 	}
 }
@@ -18180,7 +18180,7 @@ IL_0029:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t LinkedPool_1_get_countInactive_m12E0AFF7E57686601166CC57BD4CB2B910A9712F_gshared (LinkedPool_1_t153536B246EEDA1D0E18B35FC38086BA72BC26BD* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/Pooling/LinkedPool.cs:64>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/Pooling/LinkedPool.cs:64>
 		int32_t L_0 = __this->___U3CcountInactiveU3Ek__BackingField;
 		return L_0;
 	}
@@ -18189,7 +18189,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t LinkedPool_1_get_countInactive_m12E0A
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LinkedPool_1_set_countInactive_m13D6F5C7C8C2B3A7B45BF1E1D3A688428BC92435_gshared (LinkedPool_1_t153536B246EEDA1D0E18B35FC38086BA72BC26BD* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/Pooling/LinkedPool.cs:64>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/Pooling/LinkedPool.cs:64>
 		int32_t L_0 = ___0_value;
 		__this->___U3CcountInactiveU3Ek__BackingField = L_0;
 		return;
@@ -18204,7 +18204,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* LinkedPool_1_Get_mF5DBEDFB633C
 	Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* G_B5_0 = NULL;
 	Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* G_B4_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/Pooling/LinkedPool.cs:73>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/Pooling/LinkedPool.cs:73>
 		LinkedPoolItem_t905D193B6137248D7B9CE6C7B2386AC3E4ECA813* L_0 = __this->___m_PoolFirst;
 		if (L_0)
 		{
@@ -18212,7 +18212,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* LinkedPool_1_Get_mF5DBEDFB633C
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/Pooling/LinkedPool.cs:75>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/Pooling/LinkedPool.cs:75>
 		Func_1_tD5C081AE11746B200C711DD48DBEB00E3A9276D4* L_1 = __this->___m_CreateFunc;
 		NullCheck(L_1);
 		RuntimeObject* L_2;
@@ -18223,36 +18223,36 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* LinkedPool_1_Get_mF5DBEDFB633C
 
 IL_0016:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/Pooling/LinkedPool.cs:79>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/Pooling/LinkedPool.cs:79>
 		LinkedPoolItem_t905D193B6137248D7B9CE6C7B2386AC3E4ECA813* L_3 = __this->___m_PoolFirst;
 		V_1 = L_3;
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/Pooling/LinkedPool.cs:80>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/Pooling/LinkedPool.cs:80>
 		LinkedPoolItem_t905D193B6137248D7B9CE6C7B2386AC3E4ECA813* L_4 = V_1;
 		NullCheck(L_4);
 		RuntimeObject* L_5 = L_4->___value;
 		V_0 = L_5;
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/Pooling/LinkedPool.cs:81>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/Pooling/LinkedPool.cs:81>
 		LinkedPoolItem_t905D193B6137248D7B9CE6C7B2386AC3E4ECA813* L_6 = V_1;
 		NullCheck(L_6);
 		LinkedPoolItem_t905D193B6137248D7B9CE6C7B2386AC3E4ECA813* L_7 = L_6->___poolNext;
 		__this->___m_PoolFirst = L_7;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_PoolFirst), (void*)L_7);
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/Pooling/LinkedPool.cs:84>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/Pooling/LinkedPool.cs:84>
 		LinkedPoolItem_t905D193B6137248D7B9CE6C7B2386AC3E4ECA813* L_8 = V_1;
 		LinkedPoolItem_t905D193B6137248D7B9CE6C7B2386AC3E4ECA813* L_9 = __this->___m_NextAvailableListItem;
 		NullCheck(L_8);
 		L_8->___poolNext = L_9;
 		Il2CppCodeGenWriteBarrier((void**)(&L_8->___poolNext), (void*)L_9);
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/Pooling/LinkedPool.cs:85>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/Pooling/LinkedPool.cs:85>
 		LinkedPoolItem_t905D193B6137248D7B9CE6C7B2386AC3E4ECA813* L_10 = V_1;
 		__this->___m_NextAvailableListItem = L_10;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_NextAvailableListItem), (void*)L_10);
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/Pooling/LinkedPool.cs:86>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/Pooling/LinkedPool.cs:86>
 		LinkedPoolItem_t905D193B6137248D7B9CE6C7B2386AC3E4ECA813* L_11 = __this->___m_NextAvailableListItem;
 		NullCheck(L_11);
 		RuntimeObject** L_12 = (RuntimeObject**)(&L_11->___value);
 		il2cpp_codegen_initobj(L_12, sizeof(RuntimeObject*));
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/Pooling/LinkedPool.cs:87>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/Pooling/LinkedPool.cs:87>
 		int32_t L_13;
 		L_13 = LinkedPool_1_get_countInactive_m12E0AFF7E57686601166CC57BD4CB2B910A9712F_inline(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 6));
 		V_2 = ((int32_t)il2cpp_codegen_subtract(L_13, 1));
@@ -18262,7 +18262,7 @@ IL_0016:
 
 IL_0064:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/Pooling/LinkedPool.cs:90>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/Pooling/LinkedPool.cs:90>
 		Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* L_15 = __this->___m_ActionOnGet;
 		Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* L_16 = L_15;
 		if (L_16)
@@ -18285,7 +18285,7 @@ IL_0070:
 
 IL_0076:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/Pooling/LinkedPool.cs:91>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/Pooling/LinkedPool.cs:91>
 		RuntimeObject* L_18 = V_0;
 		return L_18;
 	}
@@ -18295,7 +18295,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR PooledObject_1_t1F3A87F2EDD1331058FD4A1A7F464
 {
 	RuntimeObject* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/Pooling/LinkedPool.cs:99>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/Pooling/LinkedPool.cs:99>
 		RuntimeObject** L_0 = ___0_v;
 		RuntimeObject* L_1;
 		L_1 = LinkedPool_1_Get_mF5DBEDFB633C1DD1817B97AD511A10D1A51411C5(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 10));
@@ -18320,7 +18320,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LinkedPool_1_Release_m7B10F1AD6C5722F0B4
 	Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* G_B10_0 = NULL;
 	Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* G_B9_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/Pooling/LinkedPool.cs:123>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/Pooling/LinkedPool.cs:123>
 		Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* L_0 = __this->___m_ActionOnRelease;
 		Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* L_1 = L_0;
 		if (L_1)
@@ -18343,7 +18343,7 @@ IL_000c:
 
 IL_0012:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/Pooling/LinkedPool.cs:125>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/Pooling/LinkedPool.cs:125>
 		int32_t L_3;
 		L_3 = LinkedPool_1_get_countInactive_m12E0AFF7E57686601166CC57BD4CB2B910A9712F_inline(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 6));
 		int32_t L_4 = __this->___m_Limit;
@@ -18353,10 +18353,10 @@ IL_0012:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/Pooling/LinkedPool.cs:127>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/Pooling/LinkedPool.cs:127>
 		LinkedPoolItem_t905D193B6137248D7B9CE6C7B2386AC3E4ECA813* L_5 = __this->___m_NextAvailableListItem;
 		V_0 = L_5;
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/Pooling/LinkedPool.cs:128>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/Pooling/LinkedPool.cs:128>
 		LinkedPoolItem_t905D193B6137248D7B9CE6C7B2386AC3E4ECA813* L_6 = V_0;
 		if (L_6)
 		{
@@ -18364,7 +18364,7 @@ IL_0012:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/Pooling/LinkedPool.cs:130>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/Pooling/LinkedPool.cs:130>
 		LinkedPoolItem_t905D193B6137248D7B9CE6C7B2386AC3E4ECA813* L_7 = (LinkedPoolItem_t905D193B6137248D7B9CE6C7B2386AC3E4ECA813*)il2cpp_codegen_object_new(il2cpp_rgctx_data(method->klass->rgctx_data, 3));
 		LinkedPoolItem__ctor_m21108CAE4584429428ED2F7C7740021B44F1702B(L_7, il2cpp_rgctx_method(method->klass->rgctx_data, 13));
 		V_0 = L_7;
@@ -18373,7 +18373,7 @@ IL_0012:
 
 IL_0032:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/Pooling/LinkedPool.cs:134>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/Pooling/LinkedPool.cs:134>
 		LinkedPoolItem_t905D193B6137248D7B9CE6C7B2386AC3E4ECA813* L_8 = V_0;
 		NullCheck(L_8);
 		LinkedPoolItem_t905D193B6137248D7B9CE6C7B2386AC3E4ECA813* L_9 = L_8->___poolNext;
@@ -18383,23 +18383,23 @@ IL_0032:
 
 IL_003e:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/Pooling/LinkedPool.cs:137>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/Pooling/LinkedPool.cs:137>
 		LinkedPoolItem_t905D193B6137248D7B9CE6C7B2386AC3E4ECA813* L_10 = V_0;
 		RuntimeObject* L_11 = ___0_item;
 		NullCheck(L_10);
 		L_10->___value = L_11;
 		Il2CppCodeGenWriteBarrier((void**)(&L_10->___value), (void*)L_11);
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/Pooling/LinkedPool.cs:138>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/Pooling/LinkedPool.cs:138>
 		LinkedPoolItem_t905D193B6137248D7B9CE6C7B2386AC3E4ECA813* L_12 = V_0;
 		LinkedPoolItem_t905D193B6137248D7B9CE6C7B2386AC3E4ECA813* L_13 = __this->___m_PoolFirst;
 		NullCheck(L_12);
 		L_12->___poolNext = L_13;
 		Il2CppCodeGenWriteBarrier((void**)(&L_12->___poolNext), (void*)L_13);
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/Pooling/LinkedPool.cs:139>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/Pooling/LinkedPool.cs:139>
 		LinkedPoolItem_t905D193B6137248D7B9CE6C7B2386AC3E4ECA813* L_14 = V_0;
 		__this->___m_PoolFirst = L_14;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_PoolFirst), (void*)L_14);
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/Pooling/LinkedPool.cs:140>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/Pooling/LinkedPool.cs:140>
 		int32_t L_15;
 		L_15 = LinkedPool_1_get_countInactive_m12E0AFF7E57686601166CC57BD4CB2B910A9712F_inline(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 6));
 		V_1 = ((int32_t)il2cpp_codegen_add(L_15, 1));
@@ -18410,7 +18410,7 @@ IL_003e:
 
 IL_0069:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/Pooling/LinkedPool.cs:144>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/Pooling/LinkedPool.cs:144>
 		Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* L_17 = __this->___m_ActionOnDestroy;
 		Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* L_18 = L_17;
 		if (L_18)
@@ -18429,7 +18429,7 @@ IL_0074:
 		RuntimeObject* L_19 = ___0_item;
 		NullCheck(G_B10_0);
 		Action_1_Invoke_mF2422B2DD29F74CE66F791C3F68E288EC7C3DB9E_inline(G_B10_0, L_19, il2cpp_rgctx_method(method->klass->rgctx_data, 8));
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/Pooling/LinkedPool.cs:146>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/Pooling/LinkedPool.cs:146>
 		return;
 	}
 }
@@ -18438,7 +18438,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LinkedPool_1_Clear_m9FB1146CDE1E570B2720
 {
 	LinkedPoolItem_t905D193B6137248D7B9CE6C7B2386AC3E4ECA813* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/Pooling/LinkedPool.cs:153>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/Pooling/LinkedPool.cs:153>
 		Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* L_0 = __this->___m_ActionOnDestroy;
 		if (!L_0)
 		{
@@ -18446,7 +18446,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LinkedPool_1_Clear_m9FB1146CDE1E570B2720
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/Pooling/LinkedPool.cs:155>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/Pooling/LinkedPool.cs:155>
 		LinkedPoolItem_t905D193B6137248D7B9CE6C7B2386AC3E4ECA813* L_1 = __this->___m_PoolFirst;
 		V_0 = L_1;
 		goto IL_0029;
@@ -18454,14 +18454,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LinkedPool_1_Clear_m9FB1146CDE1E570B2720
 
 IL_0011:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/Pooling/LinkedPool.cs:157>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/Pooling/LinkedPool.cs:157>
 		Action_1_t6F9EB113EB3F16226AEF811A2744F4111C116C87* L_2 = __this->___m_ActionOnDestroy;
 		LinkedPoolItem_t905D193B6137248D7B9CE6C7B2386AC3E4ECA813* L_3 = V_0;
 		NullCheck(L_3);
 		RuntimeObject* L_4 = L_3->___value;
 		NullCheck(L_2);
 		Action_1_Invoke_mF2422B2DD29F74CE66F791C3F68E288EC7C3DB9E_inline(L_2, L_4, il2cpp_rgctx_method(method->klass->rgctx_data, 8));
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/Pooling/LinkedPool.cs:155>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/Pooling/LinkedPool.cs:155>
 		LinkedPoolItem_t905D193B6137248D7B9CE6C7B2386AC3E4ECA813* L_5 = V_0;
 		NullCheck(L_5);
 		LinkedPoolItem_t905D193B6137248D7B9CE6C7B2386AC3E4ECA813* L_6 = L_5->___poolNext;
@@ -18470,7 +18470,7 @@ IL_0011:
 
 IL_0029:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/Pooling/LinkedPool.cs:155>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/Pooling/LinkedPool.cs:155>
 		LinkedPoolItem_t905D193B6137248D7B9CE6C7B2386AC3E4ECA813* L_7 = V_0;
 		if (L_7)
 		{
@@ -18480,15 +18480,15 @@ IL_0029:
 
 IL_002c:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/Pooling/LinkedPool.cs:161>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/Pooling/LinkedPool.cs:161>
 		__this->___m_PoolFirst = (LinkedPoolItem_t905D193B6137248D7B9CE6C7B2386AC3E4ECA813*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_PoolFirst), (void*)(LinkedPoolItem_t905D193B6137248D7B9CE6C7B2386AC3E4ECA813*)NULL);
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/Pooling/LinkedPool.cs:162>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/Pooling/LinkedPool.cs:162>
 		__this->___m_NextAvailableListItem = (LinkedPoolItem_t905D193B6137248D7B9CE6C7B2386AC3E4ECA813*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_NextAvailableListItem), (void*)(LinkedPoolItem_t905D193B6137248D7B9CE6C7B2386AC3E4ECA813*)NULL);
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/Pooling/LinkedPool.cs:163>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/Pooling/LinkedPool.cs:163>
 		LinkedPool_1_set_countInactive_m13D6F5C7C8C2B3A7B45BF1E1D3A688428BC92435_inline(__this, 0, il2cpp_rgctx_method(method->klass->rgctx_data, 7));
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/Pooling/LinkedPool.cs:164>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/Pooling/LinkedPool.cs:164>
 		return;
 	}
 }
@@ -18496,9 +18496,9 @@ IL_002c:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LinkedPool_1_Dispose_m349421E363AD11FAED46527A141E21DBD3E2EA23_gshared (LinkedPool_1_t153536B246EEDA1D0E18B35FC38086BA72BC26BD* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/Pooling/LinkedPool.cs:172>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/Pooling/LinkedPool.cs:172>
 		LinkedPool_1_Clear_m9FB1146CDE1E570B27205B47B7F2283F11E0E3DF(__this, il2cpp_rgctx_method(method->klass->rgctx_data, 14));
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/Pooling/LinkedPool.cs:173>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/Pooling/LinkedPool.cs:173>
 		return;
 	}
 }
@@ -30732,7 +30732,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Action_1_Invoke_mF2422B2DD29
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t LinkedPool_1_get_countInactive_m12E0AFF7E57686601166CC57BD4CB2B910A9712F_gshared_inline (LinkedPool_1_t153536B246EEDA1D0E18B35FC38086BA72BC26BD* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/Pooling/LinkedPool.cs:64>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/Pooling/LinkedPool.cs:64>
 		int32_t L_0 = __this->___U3CcountInactiveU3Ek__BackingField;
 		return L_0;
 	}
@@ -30741,7 +30741,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t LinkedPool_1_get_countIna
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void LinkedPool_1_set_countInactive_m13D6F5C7C8C2B3A7B45BF1E1D3A688428BC92435_gshared_inline (LinkedPool_1_t153536B246EEDA1D0E18B35FC38086BA72BC26BD* __this, int32_t ___0_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/Pooling/LinkedPool.cs:64>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/Pooling/LinkedPool.cs:64>
 		int32_t L_0 = ___0_value;
 		__this->___U3CcountInactiveU3Ek__BackingField = L_0;
 		return;

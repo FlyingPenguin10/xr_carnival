@@ -14154,7 +14154,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool UnityObjectReferenceCache_1_TryGet_mA2DB
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/UnityObjectReferenceCache.cs:26>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/UnityObjectReferenceCache.cs:26>
 		RuntimeObject* L_0 = __this->___m_CapturedField;
 		RuntimeObject* L_1 = ___0_field;
 		if ((!(((RuntimeObject*)(RuntimeObject*)L_0) == ((RuntimeObject*)(RuntimeObject*)L_1))))
@@ -14163,23 +14163,23 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool UnityObjectReferenceCache_1_TryGet_mA2DB
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/UnityObjectReferenceCache.cs:28>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/UnityObjectReferenceCache.cs:28>
 		RuntimeObject** L_2 = ___1_fieldOrNull;
 		RuntimeObject* L_3 = __this->___m_FieldOrNull;
 		*(RuntimeObject**)L_2 = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(RuntimeObject**)L_2, (void*)L_3);
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/UnityObjectReferenceCache.cs:30>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/UnityObjectReferenceCache.cs:30>
 		RuntimeObject* L_4 = __this->___m_FieldOrNull;
 		return (bool)((((int32_t)((((RuntimeObject*)(RuntimeObject*)L_4) == ((RuntimeObject*)(RuntimeObject*)NULL))? 1 : 0)) == ((int32_t)0))? 1 : 0);
 	}
 
 IL_0031:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/UnityObjectReferenceCache.cs:34>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/UnityObjectReferenceCache.cs:34>
 		RuntimeObject* L_5 = ___0_field;
 		__this->___m_CapturedField = L_5;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_CapturedField), (void*)L_5);
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/UnityObjectReferenceCache.cs:35>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/UnityObjectReferenceCache.cs:35>
 		RuntimeObject* L_6 = ___0_field;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_7;
@@ -14190,28 +14190,28 @@ IL_0031:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/UnityObjectReferenceCache.cs:37>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/UnityObjectReferenceCache.cs:37>
 		RuntimeObject* L_8 = ___0_field;
 		__this->___m_FieldOrNull = L_8;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_FieldOrNull), (void*)L_8);
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/UnityObjectReferenceCache.cs:38>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/UnityObjectReferenceCache.cs:38>
 		RuntimeObject** L_9 = ___1_fieldOrNull;
 		RuntimeObject* L_10 = ___0_field;
 		*(RuntimeObject**)L_9 = L_10;
 		Il2CppCodeGenWriteBarrier((void**)(RuntimeObject**)L_9, (void*)L_10);
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/UnityObjectReferenceCache.cs:39>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/UnityObjectReferenceCache.cs:39>
 		return (bool)1;
 	}
 
 IL_0056:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/UnityObjectReferenceCache.cs:42>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/UnityObjectReferenceCache.cs:42>
 		RuntimeObject** L_11 = (RuntimeObject**)(&__this->___m_FieldOrNull);
 		il2cpp_codegen_initobj(L_11, sizeof(RuntimeObject*));
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/UnityObjectReferenceCache.cs:43>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/UnityObjectReferenceCache.cs:43>
 		RuntimeObject** L_12 = ___1_fieldOrNull;
 		il2cpp_codegen_initobj(L_12, sizeof(RuntimeObject*));
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/UnityObjectReferenceCache.cs:44>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/UnityObjectReferenceCache.cs:44>
 		return (bool)0;
 	}
 }
@@ -14235,7 +14235,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityObjectReferenceCache_1__ctor_m8DAFB
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* UnityObjectReferenceCache_2_Get_mD207A47F306631DFF54E2DB96937C2CB8C268B89_gshared (UnityObjectReferenceCache_2_tDDA23E8D68929712BE24F100B89ED0291001D0DB* __this, RuntimeObject* ___0_field, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/UnityObjectReferenceCache.cs:66>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/UnityObjectReferenceCache.cs:66>
 		RuntimeObject* L_0 = __this->___m_CapturedObject;
 		RuntimeObject* L_1 = ___0_field;
 		if ((!(((RuntimeObject*)(RuntimeObject*)L_0) == ((RuntimeObject*)(RuntimeObject*)L_1))))
@@ -14244,22 +14244,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* UnityObjectReferenceCache_2_Ge
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/UnityObjectReferenceCache.cs:67>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/UnityObjectReferenceCache.cs:67>
 		RuntimeObject* L_2 = __this->___m_Interface;
 		return L_2;
 	}
 
 IL_001a:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/UnityObjectReferenceCache.cs:69>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/UnityObjectReferenceCache.cs:69>
 		RuntimeObject* L_3 = ___0_field;
 		__this->___m_CapturedObject = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_CapturedObject), (void*)L_3);
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/UnityObjectReferenceCache.cs:70>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/UnityObjectReferenceCache.cs:70>
 		RuntimeObject* L_4 = ___0_field;
 		__this->___m_Interface = ((RuntimeObject*)IsInst((RuntimeObject*)L_4, il2cpp_rgctx_data(method->klass->rgctx_data, 2)));
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Interface), (void*)((RuntimeObject*)IsInst((RuntimeObject*)L_4, il2cpp_rgctx_data(method->klass->rgctx_data, 2))));
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/UnityObjectReferenceCache.cs:72>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/UnityObjectReferenceCache.cs:72>
 		RuntimeObject* L_5 = __this->___m_Interface;
 		return L_5;
 	}
@@ -14268,21 +14268,21 @@ IL_001a:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnityObjectReferenceCache_2_Set_mD396221283F2C35D820D096F1D1B74C1D3ACB36D_gshared (UnityObjectReferenceCache_2_tDDA23E8D68929712BE24F100B89ED0291001D0DB* __this, RuntimeObject** ___0_field, RuntimeObject* ___1_value, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/UnityObjectReferenceCache.cs:83>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/UnityObjectReferenceCache.cs:83>
 		RuntimeObject** L_0 = ___0_field;
 		RuntimeObject* L_1 = ___1_value;
 		*(RuntimeObject**)L_0 = ((RuntimeObject*)IsInst((RuntimeObject*)L_1, il2cpp_rgctx_data(method->klass->rgctx_data, 1)));
 		Il2CppCodeGenWriteBarrier((void**)(RuntimeObject**)L_0, (void*)((RuntimeObject*)IsInst((RuntimeObject*)L_1, il2cpp_rgctx_data(method->klass->rgctx_data, 1))));
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/UnityObjectReferenceCache.cs:84>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/UnityObjectReferenceCache.cs:84>
 		RuntimeObject** L_2 = ___0_field;
 		RuntimeObject* L_3 = (*(RuntimeObject**)L_2);
 		__this->___m_CapturedObject = L_3;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_CapturedObject), (void*)L_3);
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/UnityObjectReferenceCache.cs:85>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/UnityObjectReferenceCache.cs:85>
 		RuntimeObject* L_4 = ___1_value;
 		__this->___m_Interface = L_4;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_Interface), (void*)L_4);
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/UnityObjectReferenceCache.cs:86>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/UnityObjectReferenceCache.cs:86>
 		return;
 	}
 }

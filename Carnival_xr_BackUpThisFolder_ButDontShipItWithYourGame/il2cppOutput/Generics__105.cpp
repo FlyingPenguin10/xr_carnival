@@ -30824,7 +30824,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProviderMonitor_1_InitializeProvidersLis
 	LocomotionProvider_t359A39ECDB2224E3FF09583CF055A3D19A3557BD* V_1 = NULL;
 	RuntimeObject* V_2 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/TeleportationMonitor.cs:118>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/TeleportationMonitor.cs:118>
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2));
 		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_0 = ((ProviderMonitor_1_tDB1D1781BFD2C60C1F98AD7F8C7359E5ED1361B1_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2)))->___s_Providers;
 		if (!L_0)
@@ -30833,19 +30833,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProviderMonitor_1_InitializeProvidersLis
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/TeleportationMonitor.cs:119>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/TeleportationMonitor.cs:119>
 		return;
 	}
 
 IL_0008:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/TeleportationMonitor.cs:121>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/TeleportationMonitor.cs:121>
 		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_1 = (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D*)il2cpp_codegen_object_new(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1));
 		List_1__ctor_m7F078BB342729BDF11327FD89D7872265328F690(L_1, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 3));
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2));
 		((ProviderMonitor_1_tDB1D1781BFD2C60C1F98AD7F8C7359E5ED1361B1_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2)))->___s_Providers = L_1;
 		Il2CppCodeGenWriteBarrier((void**)(&((ProviderMonitor_1_tDB1D1781BFD2C60C1F98AD7F8C7359E5ED1361B1_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2)))->___s_Providers), (void*)L_1);
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/TeleportationMonitor.cs:123>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/TeleportationMonitor.cs:123>
 		il2cpp_codegen_runtime_class_init_inline(LocomotionProvider_t359A39ECDB2224E3FF09583CF055A3D19A3557BD_il2cpp_TypeInfo_var);
 		List_1_tBB95B7BAA20D6FFAA14C6003919B3C6ECA28F844* L_2;
 		L_2 = LocomotionProvider_get_locomotionProviders_m64BAE90D2B63852AF98BAE58B1F77418A20C25B1_inline(NULL);
@@ -30872,11 +30872,11 @@ FINALLY_005a:
 
 IL_001f_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/TeleportationMonitor.cs:123>
+				//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/TeleportationMonitor.cs:123>
 				LocomotionProvider_t359A39ECDB2224E3FF09583CF055A3D19A3557BD* L_4;
 				L_4 = Enumerator_get_Current_mCD8C6E1048276DCC346BFF72EF6564AF437C5345_inline((&V_0), Enumerator_get_Current_mCD8C6E1048276DCC346BFF72EF6564AF437C5345_RuntimeMethod_var);
 				V_1 = L_4;
-				//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/TeleportationMonitor.cs:125>
+				//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/TeleportationMonitor.cs:125>
 				LocomotionProvider_t359A39ECDB2224E3FF09583CF055A3D19A3557BD* L_5 = V_1;
 				il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 				bool L_6;
@@ -30887,7 +30887,7 @@ IL_001f_1:
 				}
 			}
 			{
-				//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/TeleportationMonitor.cs:128>
+				//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/TeleportationMonitor.cs:128>
 				LocomotionProvider_t359A39ECDB2224E3FF09583CF055A3D19A3557BD* L_7 = V_1;
 				V_2 = ((RuntimeObject*)IsInst((RuntimeObject*)L_7, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)));
 				RuntimeObject* L_8 = V_2;
@@ -30897,7 +30897,7 @@ IL_001f_1:
 				}
 			}
 			{
-				//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/TeleportationMonitor.cs:129>
+				//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/TeleportationMonitor.cs:129>
 				il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2));
 				List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_9 = ((ProviderMonitor_1_tDB1D1781BFD2C60C1F98AD7F8C7359E5ED1361B1_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2)))->___s_Providers;
 				RuntimeObject* L_10 = V_2;
@@ -30907,7 +30907,7 @@ IL_001f_1:
 
 IL_004f_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/TeleportationMonitor.cs:123>
+				//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/TeleportationMonitor.cs:123>
 				bool L_11;
 				L_11 = Enumerator_MoveNext_mD643A4A6D71B50E10E6B0D848729448E6A339DA9((&V_0), Enumerator_MoveNext_mD643A4A6D71B50E10E6B0D848729448E6A339DA9_RuntimeMethod_var);
 				if (L_11)
@@ -30927,12 +30927,12 @@ IL_004f_1:
 
 IL_0068:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/TeleportationMonitor.cs:132>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/TeleportationMonitor.cs:132>
 		Action_1_t93E648A399FA4C2F973C405E29D7189C56FE737A* L_12 = (Action_1_t93E648A399FA4C2F973C405E29D7189C56FE737A*)il2cpp_codegen_object_new(Action_1_t93E648A399FA4C2F973C405E29D7189C56FE737A_il2cpp_TypeInfo_var);
 		Action_1__ctor_m678271A87B86A9A8E67CE4B02064633A9C52B61F(L_12, NULL, (intptr_t)((void*)il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 6)), NULL);
 		il2cpp_codegen_runtime_class_init_inline(LocomotionProvider_t359A39ECDB2224E3FF09583CF055A3D19A3557BD_il2cpp_TypeInfo_var);
 		LocomotionProvider_add_locomotionProvidersChanged_m8EB8AB7BE6A859A708D2A901C7E4F4C7AA144810(L_12, NULL);
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/TeleportationMonitor.cs:133>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/TeleportationMonitor.cs:133>
 		return;
 	}
 }
@@ -30958,7 +30958,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProviderMonitor_1_AddInteractor_mDE8813C
 	Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* V_3 = NULL;
 	List_1_t4D2C8CC9D373EF06BC8CE556191126373A44DA5E* V_4 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/TeleportationMonitor.cs:148>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/TeleportationMonitor.cs:148>
 		RuntimeObject* L_0 = ___0_interactor;
 		if (L_0)
 		{
@@ -30966,7 +30966,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProviderMonitor_1_AddInteractor_mDE8813C
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/TeleportationMonitor.cs:149>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/TeleportationMonitor.cs:149>
 		ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129* L_1 = (ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129_il2cpp_TypeInfo_var)));
 		ArgumentNullException__ctor_m444AE141157E333844FC1A9500224C2F9FD24F4B(L_1, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral6A6707C1F090568579065FEEE0F1898E04CFC473)), NULL);
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1, method);
@@ -30974,13 +30974,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProviderMonitor_1_AddInteractor_mDE8813C
 
 IL_000e:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/TeleportationMonitor.cs:151>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/TeleportationMonitor.cs:151>
 		RuntimeObject* L_2 = ___0_interactor;
 		NullCheck(L_2);
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_3;
 		L_3 = InterfaceFuncInvoker0< Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* >::Invoke(6, IXRInteractor_tD834ADD95D200FFEC6473A23E515DCD02B33CF97_il2cpp_TypeInfo_var, L_2);
 		V_0 = L_3;
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/TeleportationMonitor.cs:152>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/TeleportationMonitor.cs:152>
 		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_4 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_5;
@@ -30991,13 +30991,13 @@ IL_000e:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/TeleportationMonitor.cs:153>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/TeleportationMonitor.cs:153>
 		return;
 	}
 
 IL_001f:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/TeleportationMonitor.cs:155>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/TeleportationMonitor.cs:155>
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(method->klass->rgctx_data, 2));
 		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_6 = ((ProviderMonitor_1_tDB1D1781BFD2C60C1F98AD7F8C7359E5ED1361B1_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(method->klass->rgctx_data, 2)))->___s_Providers;
 		if (L_6)
@@ -31006,14 +31006,14 @@ IL_001f:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/TeleportationMonitor.cs:157>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/TeleportationMonitor.cs:157>
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(method->klass->rgctx_data, 2));
 		ProviderMonitor_1_InitializeProvidersList_mBDD355EA2C444EDAAD667F30D90CB909BAD96CE9(il2cpp_rgctx_method(method->klass->rgctx_data, 7));
 	}
 
 IL_002b:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/TeleportationMonitor.cs:161>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/TeleportationMonitor.cs:161>
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(method->klass->rgctx_data, 2));
 		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_7 = ((ProviderMonitor_1_tDB1D1781BFD2C60C1F98AD7F8C7359E5ED1361B1_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(method->klass->rgctx_data, 2)))->___s_Providers;
 		NullCheck(L_7);
@@ -31039,11 +31039,11 @@ FINALLY_00fa:
 
 IL_003b_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/TeleportationMonitor.cs:161>
+				//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/TeleportationMonitor.cs:161>
 				RuntimeObject* L_9;
 				L_9 = Enumerator_get_Current_m6330F15D18EE4F547C05DF9BF83C5EB710376027_inline((&V_1), il2cpp_rgctx_method(method->klass->rgctx_data, 10));
 				V_2 = L_9;
-				//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/TeleportationMonitor.cs:163>
+				//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/TeleportationMonitor.cs:163>
 				RuntimeObject* L_10 = V_2;
 				il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 				bool L_11;
@@ -31054,7 +31054,7 @@ IL_003b_1:
 				}
 			}
 			{
-				//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/TeleportationMonitor.cs:166>
+				//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/TeleportationMonitor.cs:166>
 				RuntimeObject* L_12 = V_2;
 				bool L_13;
 				L_13 = LocomotionUtility_TryGetOriginTransform_m4294D3B21A7B8E6529BD71CD6A94BA6005ECF563((LocomotionProvider_t359A39ECDB2224E3FF09583CF055A3D19A3557BD*)L_12, (&V_3), NULL);
@@ -31064,7 +31064,7 @@ IL_003b_1:
 				}
 			}
 			{
-				//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/TeleportationMonitor.cs:169>
+				//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/TeleportationMonitor.cs:169>
 				Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_14 = V_0;
 				Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_15 = V_3;
 				NullCheck(L_14);
@@ -31076,7 +31076,7 @@ IL_003b_1:
 				}
 			}
 			{
-				//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/TeleportationMonitor.cs:172>
+				//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/TeleportationMonitor.cs:172>
 				Dictionary_2_t388911CAD51E55A0FBDF7FEC8E4551C08E571CCB* L_17 = __this->___m_ProviderInteractors;
 				if (L_17)
 				{
@@ -31095,7 +31095,7 @@ IL_003b_1:
 
 IL_0087_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/TeleportationMonitor.cs:174>
+				//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/TeleportationMonitor.cs:174>
 				Dictionary_2_t388911CAD51E55A0FBDF7FEC8E4551C08E571CCB* L_20 = __this->___m_ProviderInteractors;
 				RuntimeObject* L_21 = V_2;
 				NullCheck(L_20);
@@ -31107,11 +31107,11 @@ IL_0087_1:
 				}
 			}
 			{
-				//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/TeleportationMonitor.cs:176>
+				//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/TeleportationMonitor.cs:176>
 				List_1_t4D2C8CC9D373EF06BC8CE556191126373A44DA5E* L_23 = (List_1_t4D2C8CC9D373EF06BC8CE556191126373A44DA5E*)il2cpp_codegen_object_new(List_1_t4D2C8CC9D373EF06BC8CE556191126373A44DA5E_il2cpp_TypeInfo_var);
 				List_1__ctor_mFE0BB310B744488BC4A0BFC2D68EBA7EFAB391E3(L_23, List_1__ctor_mFE0BB310B744488BC4A0BFC2D68EBA7EFAB391E3_RuntimeMethod_var);
 				V_4 = L_23;
-				//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/TeleportationMonitor.cs:177>
+				//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/TeleportationMonitor.cs:177>
 				Dictionary_2_t388911CAD51E55A0FBDF7FEC8E4551C08E571CCB* L_24 = __this->___m_ProviderInteractors;
 				RuntimeObject* L_25 = V_2;
 				List_1_t4D2C8CC9D373EF06BC8CE556191126373A44DA5E* L_26 = V_4;
@@ -31121,12 +31121,12 @@ IL_0087_1:
 
 IL_00ac_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/TeleportationMonitor.cs:181>
+				//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/TeleportationMonitor.cs:181>
 				List_1_t4D2C8CC9D373EF06BC8CE556191126373A44DA5E* L_27 = V_4;
 				RuntimeObject* L_28 = ___0_interactor;
 				NullCheck(L_27);
 				List_1_Add_mBA8DF27FD479274362FDC76DFC6402E1432609A3_inline(L_27, L_28, List_1_Add_mBA8DF27FD479274362FDC76DFC6402E1432609A3_RuntimeMethod_var);
-				//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/TeleportationMonitor.cs:183>
+				//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/TeleportationMonitor.cs:183>
 				List_1_t4D2C8CC9D373EF06BC8CE556191126373A44DA5E* L_29 = V_4;
 				NullCheck(L_29);
 				int32_t L_30;
@@ -31137,13 +31137,13 @@ IL_00ac_1:
 				}
 			}
 			{
-				//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/TeleportationMonitor.cs:185>
+				//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/TeleportationMonitor.cs:185>
 				RuntimeObject* L_31 = V_2;
 				Action_1_t93E648A399FA4C2F973C405E29D7189C56FE737A* L_32 = (Action_1_t93E648A399FA4C2F973C405E29D7189C56FE737A*)il2cpp_codegen_object_new(Action_1_t93E648A399FA4C2F973C405E29D7189C56FE737A_il2cpp_TypeInfo_var);
 				Action_1__ctor_m678271A87B86A9A8E67CE4B02064633A9C52B61F(L_32, NULL, (intptr_t)((void*)il2cpp_rgctx_method(method->klass->rgctx_data, 17)), NULL);
 				NullCheck((LocomotionProvider_t359A39ECDB2224E3FF09583CF055A3D19A3557BD*)L_31);
 				LocomotionProvider_add_beforeStepLocomotion_mCBAB91FE5ADBE10FF36E5ADD487A4D4DDA8ECC67((LocomotionProvider_t359A39ECDB2224E3FF09583CF055A3D19A3557BD*)L_31, L_32, NULL);
-				//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/TeleportationMonitor.cs:186>
+				//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/TeleportationMonitor.cs:186>
 				RuntimeObject* L_33 = V_2;
 				Action_1_t93E648A399FA4C2F973C405E29D7189C56FE737A* L_34 = (Action_1_t93E648A399FA4C2F973C405E29D7189C56FE737A*)il2cpp_codegen_object_new(Action_1_t93E648A399FA4C2F973C405E29D7189C56FE737A_il2cpp_TypeInfo_var);
 				Action_1__ctor_m678271A87B86A9A8E67CE4B02064633A9C52B61F(L_34, (RuntimeObject*)__this, (intptr_t)((void*)il2cpp_rgctx_method(method->klass->rgctx_data, 18)), NULL);
@@ -31153,7 +31153,7 @@ IL_00ac_1:
 
 IL_00ec_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/TeleportationMonitor.cs:161>
+				//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/TeleportationMonitor.cs:161>
 				bool L_35;
 				L_35 = Enumerator_MoveNext_mE921CC8F29FBBDE7CC3209A0ED0D921D58D00BCB((&V_1), il2cpp_rgctx_method(method->klass->rgctx_data, 19));
 				if (L_35)
@@ -31173,7 +31173,7 @@ IL_00ec_1:
 
 IL_0108:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/TeleportationMonitor.cs:189>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/TeleportationMonitor.cs:189>
 		return;
 	}
 }
@@ -31197,7 +31197,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProviderMonitor_1_RemoveInteractor_mF9C2
 	RuntimeObject* V_3 = NULL;
 	List_1_t4D2C8CC9D373EF06BC8CE556191126373A44DA5E* V_4 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/TeleportationMonitor.cs:193>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/TeleportationMonitor.cs:193>
 		RuntimeObject* L_0 = ___0_interactor;
 		if (L_0)
 		{
@@ -31205,7 +31205,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProviderMonitor_1_RemoveInteractor_mF9C2
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/TeleportationMonitor.cs:194>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/TeleportationMonitor.cs:194>
 		ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129* L_1 = (ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129*)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&ArgumentNullException_t327031E412FAB2351B0022DD5DAD47E67E597129_il2cpp_TypeInfo_var)));
 		ArgumentNullException__ctor_m444AE141157E333844FC1A9500224C2F9FD24F4B(L_1, ((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral6A6707C1F090568579065FEEE0F1898E04CFC473)), NULL);
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_1, method);
@@ -31213,9 +31213,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProviderMonitor_1_RemoveInteractor_mF9C2
 
 IL_000e:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/TeleportationMonitor.cs:196>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/TeleportationMonitor.cs:196>
 		V_0 = 0;
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/TeleportationMonitor.cs:197>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/TeleportationMonitor.cs:197>
 		Dictionary_2_t388911CAD51E55A0FBDF7FEC8E4551C08E571CCB* L_2 = __this->___m_ProviderInteractors;
 		if (!L_2)
 		{
@@ -31223,7 +31223,7 @@ IL_000e:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/TeleportationMonitor.cs:199>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/TeleportationMonitor.cs:199>
 		Dictionary_2_t388911CAD51E55A0FBDF7FEC8E4551C08E571CCB* L_3 = __this->___m_ProviderInteractors;
 		NullCheck(L_3);
 		Enumerator_t78F906BED77F7954DF93D5B352A441B0AE66203B L_4;
@@ -31248,19 +31248,19 @@ FINALLY_00a6:
 
 IL_0029_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/TeleportationMonitor.cs:199>
+				//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/TeleportationMonitor.cs:199>
 				KeyValuePair_2_tC483D37AAD4981526376F2770AE99318EC4B7F58 L_5;
 				L_5 = Enumerator_get_Current_m5343E26AFA7017ED293DA53F2AD78712E29F238C_inline((&V_1), il2cpp_rgctx_method(method->klass->rgctx_data, 23));
 				V_2 = L_5;
-				//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/TeleportationMonitor.cs:201>
+				//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/TeleportationMonitor.cs:201>
 				RuntimeObject* L_6;
 				L_6 = KeyValuePair_2_get_Key_m3A6411A59027EA1FA28AA4F8F74A314FD16056D3_inline((&V_2), il2cpp_rgctx_method(method->klass->rgctx_data, 26));
 				V_3 = L_6;
-				//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/TeleportationMonitor.cs:202>
+				//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/TeleportationMonitor.cs:202>
 				List_1_t4D2C8CC9D373EF06BC8CE556191126373A44DA5E* L_7;
 				L_7 = KeyValuePair_2_get_Value_m06EA367953F597EAC08D8E48A9C95B0C959AF178_inline((&V_2), il2cpp_rgctx_method(method->klass->rgctx_data, 28));
 				V_4 = L_7;
-				//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/TeleportationMonitor.cs:204>
+				//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/TeleportationMonitor.cs:204>
 				RuntimeObject* L_8 = V_3;
 				il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 				bool L_9;
@@ -31271,7 +31271,7 @@ IL_0029_1:
 				}
 			}
 			{
-				//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/TeleportationMonitor.cs:207>
+				//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/TeleportationMonitor.cs:207>
 				List_1_t4D2C8CC9D373EF06BC8CE556191126373A44DA5E* L_10 = V_4;
 				RuntimeObject* L_11 = ___0_interactor;
 				NullCheck(L_10);
@@ -31293,13 +31293,13 @@ IL_0029_1:
 				}
 			}
 			{
-				//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/TeleportationMonitor.cs:209>
+				//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/TeleportationMonitor.cs:209>
 				RuntimeObject* L_15 = V_3;
 				Action_1_t93E648A399FA4C2F973C405E29D7189C56FE737A* L_16 = (Action_1_t93E648A399FA4C2F973C405E29D7189C56FE737A*)il2cpp_codegen_object_new(Action_1_t93E648A399FA4C2F973C405E29D7189C56FE737A_il2cpp_TypeInfo_var);
 				Action_1__ctor_m678271A87B86A9A8E67CE4B02064633A9C52B61F(L_16, NULL, (intptr_t)((void*)il2cpp_rgctx_method(method->klass->rgctx_data, 17)), NULL);
 				NullCheck((LocomotionProvider_t359A39ECDB2224E3FF09583CF055A3D19A3557BD*)L_15);
 				LocomotionProvider_remove_beforeStepLocomotion_mF6C73BBAE4C704C056F55B6DAA7A2F72FEBFBEB2((LocomotionProvider_t359A39ECDB2224E3FF09583CF055A3D19A3557BD*)L_15, L_16, NULL);
-				//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/TeleportationMonitor.cs:210>
+				//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/TeleportationMonitor.cs:210>
 				RuntimeObject* L_17 = V_3;
 				Action_1_t93E648A399FA4C2F973C405E29D7189C56FE737A* L_18 = (Action_1_t93E648A399FA4C2F973C405E29D7189C56FE737A*)il2cpp_codegen_object_new(Action_1_t93E648A399FA4C2F973C405E29D7189C56FE737A_il2cpp_TypeInfo_var);
 				Action_1__ctor_m678271A87B86A9A8E67CE4B02064633A9C52B61F(L_18, (RuntimeObject*)__this, (intptr_t)((void*)il2cpp_rgctx_method(method->klass->rgctx_data, 18)), NULL);
@@ -31309,7 +31309,7 @@ IL_0029_1:
 
 IL_0091_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/TeleportationMonitor.cs:213>
+				//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/TeleportationMonitor.cs:213>
 				int32_t L_19 = V_0;
 				List_1_t4D2C8CC9D373EF06BC8CE556191126373A44DA5E* L_20 = V_4;
 				NullCheck(L_20);
@@ -31320,7 +31320,7 @@ IL_0091_1:
 
 IL_009b_1:
 			{
-				//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/TeleportationMonitor.cs:199>
+				//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/TeleportationMonitor.cs:199>
 				bool L_22;
 				L_22 = Enumerator_MoveNext_mAE27A84D509E7398FC7E234CE73A1EFAEA08A267((&V_1), il2cpp_rgctx_method(method->klass->rgctx_data, 29));
 				if (L_22)
@@ -31340,7 +31340,7 @@ IL_009b_1:
 
 IL_00b4:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/TeleportationMonitor.cs:218>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/TeleportationMonitor.cs:218>
 		int32_t L_23 = V_0;
 		if (L_23)
 		{
@@ -31355,20 +31355,20 @@ IL_00b4:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/TeleportationMonitor.cs:220>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/TeleportationMonitor.cs:220>
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(method->klass->rgctx_data, 2));
 		LinkedPool_1_t0BA1B5FD498709FC0224E8A325D965CEBA99AD02* L_25 = ((ProviderMonitor_1_tDB1D1781BFD2C60C1F98AD7F8C7359E5ED1361B1_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(method->klass->rgctx_data, 2)))->___s_ProviderInteractorsPool;
 		Dictionary_2_t388911CAD51E55A0FBDF7FEC8E4551C08E571CCB* L_26 = __this->___m_ProviderInteractors;
 		NullCheck(L_25);
 		LinkedPool_1_Release_m57AD29A4349D773F02F22D437E6E8316C077F774(L_25, L_26, il2cpp_rgctx_method(method->klass->rgctx_data, 31));
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/TeleportationMonitor.cs:221>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/TeleportationMonitor.cs:221>
 		__this->___m_ProviderInteractors = (Dictionary_2_t388911CAD51E55A0FBDF7FEC8E4551C08E571CCB*)NULL;
 		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_ProviderInteractors), (void*)(Dictionary_2_t388911CAD51E55A0FBDF7FEC8E4551C08E571CCB*)NULL);
 	}
 
 IL_00d6:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/TeleportationMonitor.cs:223>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/TeleportationMonitor.cs:223>
 		return;
 	}
 }
@@ -31388,7 +31388,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProviderMonitor_1_CaptureOriginPoseBefor
 	}
 	PoseContainer_t5E7AF8410969E29B69C104A5740E41BAE609A9D0* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/TeleportationMonitor.cs:227>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/TeleportationMonitor.cs:227>
 		Dictionary_2_tF4890AFD4ACEFAC4C796EE64B571D60E2AC1B77D* L_0 = ((ProviderMonitor_t39D3945CD263FC98C8BBC9ADDA0AD86C819DAABB_StaticFields*)il2cpp_codegen_static_fields_for(ProviderMonitor_t39D3945CD263FC98C8BBC9ADDA0AD86C819DAABB_il2cpp_TypeInfo_var))->___s_OriginPoses;
 		if (L_0)
 		{
@@ -31404,7 +31404,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProviderMonitor_1_CaptureOriginPoseBefor
 
 IL_0011:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/TeleportationMonitor.cs:229>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/TeleportationMonitor.cs:229>
 		Dictionary_2_tF4890AFD4ACEFAC4C796EE64B571D60E2AC1B77D* L_2 = ((ProviderMonitor_t39D3945CD263FC98C8BBC9ADDA0AD86C819DAABB_StaticFields*)il2cpp_codegen_static_fields_for(ProviderMonitor_t39D3945CD263FC98C8BBC9ADDA0AD86C819DAABB_il2cpp_TypeInfo_var))->___s_OriginPoses;
 		XRBodyTransformer_t913A5C6DC68A5C1C68EDF753FC42FDD67F1AE772* L_3 = ___0_bodyTransformer;
 		NullCheck(L_2);
@@ -31416,11 +31416,11 @@ IL_0011:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/TeleportationMonitor.cs:231>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/TeleportationMonitor.cs:231>
 		PoseContainer_t5E7AF8410969E29B69C104A5740E41BAE609A9D0* L_5 = (PoseContainer_t5E7AF8410969E29B69C104A5740E41BAE609A9D0*)il2cpp_codegen_object_new(PoseContainer_t5E7AF8410969E29B69C104A5740E41BAE609A9D0_il2cpp_TypeInfo_var);
 		PoseContainer__ctor_m01AC1F752DBD2A134A01C742B7989BD1DB34E18F(L_5, NULL);
 		V_0 = L_5;
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/TeleportationMonitor.cs:232>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/TeleportationMonitor.cs:232>
 		Dictionary_2_tF4890AFD4ACEFAC4C796EE64B571D60E2AC1B77D* L_6 = ((ProviderMonitor_t39D3945CD263FC98C8BBC9ADDA0AD86C819DAABB_StaticFields*)il2cpp_codegen_static_fields_for(ProviderMonitor_t39D3945CD263FC98C8BBC9ADDA0AD86C819DAABB_il2cpp_TypeInfo_var))->___s_OriginPoses;
 		XRBodyTransformer_t913A5C6DC68A5C1C68EDF753FC42FDD67F1AE772* L_7 = ___0_bodyTransformer;
 		PoseContainer_t5E7AF8410969E29B69C104A5740E41BAE609A9D0* L_8 = V_0;
@@ -31430,12 +31430,12 @@ IL_0011:
 
 IL_0032:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/TeleportationMonitor.cs:235>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/TeleportationMonitor.cs:235>
 		PoseContainer_t5E7AF8410969E29B69C104A5740E41BAE609A9D0* L_9 = V_0;
 		XRBodyTransformer_t913A5C6DC68A5C1C68EDF753FC42FDD67F1AE772* L_10 = ___0_bodyTransformer;
 		NullCheck(L_9);
 		PoseContainer_CaptureBeforePose_m29301D5A3B3C0FA95D49782A404F4C3BE18FDAC5(L_9, L_10, NULL);
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/TeleportationMonitor.cs:236>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/TeleportationMonitor.cs:236>
 		return;
 	}
 }
@@ -31455,7 +31455,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR PoseContainer_t5E7AF8410969E29B69C104A5740E41
 	}
 	PoseContainer_t5E7AF8410969E29B69C104A5740E41BAE609A9D0* V_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/TeleportationMonitor.cs:240>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/TeleportationMonitor.cs:240>
 		Dictionary_2_tF4890AFD4ACEFAC4C796EE64B571D60E2AC1B77D* L_0 = ((ProviderMonitor_t39D3945CD263FC98C8BBC9ADDA0AD86C819DAABB_StaticFields*)il2cpp_codegen_static_fields_for(ProviderMonitor_t39D3945CD263FC98C8BBC9ADDA0AD86C819DAABB_il2cpp_TypeInfo_var))->___s_OriginPoses;
 		if (L_0)
 		{
@@ -31471,7 +31471,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR PoseContainer_t5E7AF8410969E29B69C104A5740E41
 
 IL_0011:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/TeleportationMonitor.cs:242>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/TeleportationMonitor.cs:242>
 		Dictionary_2_tF4890AFD4ACEFAC4C796EE64B571D60E2AC1B77D* L_2 = ((ProviderMonitor_t39D3945CD263FC98C8BBC9ADDA0AD86C819DAABB_StaticFields*)il2cpp_codegen_static_fields_for(ProviderMonitor_t39D3945CD263FC98C8BBC9ADDA0AD86C819DAABB_il2cpp_TypeInfo_var))->___s_OriginPoses;
 		XRBodyTransformer_t913A5C6DC68A5C1C68EDF753FC42FDD67F1AE772* L_3 = ___0_bodyTransformer;
 		NullCheck(L_2);
@@ -31483,11 +31483,11 @@ IL_0011:
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/TeleportationMonitor.cs:244>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/TeleportationMonitor.cs:244>
 		PoseContainer_t5E7AF8410969E29B69C104A5740E41BAE609A9D0* L_5 = (PoseContainer_t5E7AF8410969E29B69C104A5740E41BAE609A9D0*)il2cpp_codegen_object_new(PoseContainer_t5E7AF8410969E29B69C104A5740E41BAE609A9D0_il2cpp_TypeInfo_var);
 		PoseContainer__ctor_m01AC1F752DBD2A134A01C742B7989BD1DB34E18F(L_5, NULL);
 		V_0 = L_5;
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/TeleportationMonitor.cs:245>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/TeleportationMonitor.cs:245>
 		Dictionary_2_tF4890AFD4ACEFAC4C796EE64B571D60E2AC1B77D* L_6 = ((ProviderMonitor_t39D3945CD263FC98C8BBC9ADDA0AD86C819DAABB_StaticFields*)il2cpp_codegen_static_fields_for(ProviderMonitor_t39D3945CD263FC98C8BBC9ADDA0AD86C819DAABB_il2cpp_TypeInfo_var))->___s_OriginPoses;
 		XRBodyTransformer_t913A5C6DC68A5C1C68EDF753FC42FDD67F1AE772* L_7 = ___0_bodyTransformer;
 		PoseContainer_t5E7AF8410969E29B69C104A5740E41BAE609A9D0* L_8 = V_0;
@@ -31497,12 +31497,12 @@ IL_0011:
 
 IL_0032:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/TeleportationMonitor.cs:248>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/TeleportationMonitor.cs:248>
 		PoseContainer_t5E7AF8410969E29B69C104A5740E41BAE609A9D0* L_9 = V_0;
 		XRBodyTransformer_t913A5C6DC68A5C1C68EDF753FC42FDD67F1AE772* L_10 = ___0_bodyTransformer;
 		NullCheck(L_9);
 		PoseContainer_CaptureAfterPose_mE4EF10D20507F1664E9918158AEC2625767DCB45(L_9, L_10, NULL);
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/TeleportationMonitor.cs:250>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/TeleportationMonitor.cs:250>
 		PoseContainer_t5E7AF8410969E29B69C104A5740E41BAE609A9D0* L_11 = V_0;
 		return L_11;
 	}
@@ -31517,7 +31517,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProviderMonitor_1_OnBeforeStepLocomotion
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/TeleportationMonitor.cs:255>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/TeleportationMonitor.cs:255>
 		LocomotionProvider_t359A39ECDB2224E3FF09583CF055A3D19A3557BD* L_0 = ___0_provider;
 		NullCheck(L_0);
 		LocomotionMediator_tFF0E600A153C909C211466942B7D4C3DA6105AD6* L_1;
@@ -31531,13 +31531,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProviderMonitor_1_OnBeforeStepLocomotion
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/TeleportationMonitor.cs:256>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/TeleportationMonitor.cs:256>
 		return;
 	}
 
 IL_000f:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/TeleportationMonitor.cs:258>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/TeleportationMonitor.cs:258>
 		LocomotionProvider_t359A39ECDB2224E3FF09583CF055A3D19A3557BD* L_3 = ___0_provider;
 		NullCheck(L_3);
 		LocomotionMediator_tFF0E600A153C909C211466942B7D4C3DA6105AD6* L_4;
@@ -31547,7 +31547,7 @@ IL_000f:
 		L_5 = LocomotionMediator_get_bodyTransformer_m26C8883C27A5B22E1E7825FF19FEF2623732185C_inline(L_4, NULL);
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2));
 		ProviderMonitor_1_CaptureOriginPoseBefore_m7D386B7834C9B508D45CFAE2A1DE6FFCDF801C1F(L_5, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 32));
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/TeleportationMonitor.cs:259>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/TeleportationMonitor.cs:259>
 		return;
 	}
 }
@@ -31564,7 +31564,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProviderMonitor_1_OnAfterStepLocomotion_
 	Action_1_tA2B4C522AD0E9EB11AD018FF6724B50486789FB5* G_B4_0 = NULL;
 	Action_1_tA2B4C522AD0E9EB11AD018FF6724B50486789FB5* G_B3_0 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/TeleportationMonitor.cs:263>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/TeleportationMonitor.cs:263>
 		LocomotionProvider_t359A39ECDB2224E3FF09583CF055A3D19A3557BD* L_0 = ___0_provider;
 		NullCheck(L_0);
 		LocomotionMediator_tFF0E600A153C909C211466942B7D4C3DA6105AD6* L_1;
@@ -31578,13 +31578,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProviderMonitor_1_OnAfterStepLocomotion_
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/TeleportationMonitor.cs:264>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/TeleportationMonitor.cs:264>
 		return;
 	}
 
 IL_000f:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/TeleportationMonitor.cs:266>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/TeleportationMonitor.cs:266>
 		LocomotionProvider_t359A39ECDB2224E3FF09583CF055A3D19A3557BD* L_3 = ___0_provider;
 		NullCheck(L_3);
 		LocomotionMediator_tFF0E600A153C909C211466942B7D4C3DA6105AD6* L_4;
@@ -31596,7 +31596,7 @@ IL_000f:
 		PoseContainer_t5E7AF8410969E29B69C104A5740E41BAE609A9D0* L_6;
 		L_6 = ProviderMonitor_1_CaptureOriginPoseAfter_m78A0700908955FABD75852EDF8BDCF22D20E73B9(L_5, il2cpp_rgctx_method(method->klass->rgctx_data, 33));
 		V_0 = L_6;
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/TeleportationMonitor.cs:267>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/TeleportationMonitor.cs:267>
 		Action_1_tA2B4C522AD0E9EB11AD018FF6724B50486789FB5* L_7 = __this->___providerStepped;
 		Action_1_tA2B4C522AD0E9EB11AD018FF6724B50486789FB5* L_8 = L_7;
 		if (L_8)
@@ -31615,7 +31615,7 @@ IL_002b:
 		PoseContainer_t5E7AF8410969E29B69C104A5740E41BAE609A9D0* L_9 = V_0;
 		NullCheck(G_B4_0);
 		Action_1_Invoke_m6BBA4D5777F14E47C758CE014522E9A61885A651_inline(G_B4_0, L_9, NULL);
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/TeleportationMonitor.cs:268>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/TeleportationMonitor.cs:268>
 		return;
 	}
 }
@@ -31631,8 +31631,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProviderMonitor_1__ctor_m31A888EBECDC77C
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProviderMonitor_1__cctor_m0AA4917A931A0DE5027455CE87B68FFE09A96DDC_gshared (const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/TeleportationMonitor.cs:113>
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/TeleportationMonitor.cs:114>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/TeleportationMonitor.cs:113>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/TeleportationMonitor.cs:114>
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 35));
 		U3CU3Ec_t50CAE8487764D9405C2E5E51347C91756CDD4F7A* L_0 = ((U3CU3Ec_t50CAE8487764D9405C2E5E51347C91756CDD4F7A_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 35)))->___U3CU3E9;
 		Func_1_t46923DBCDC1CF900E786AA09F228510ADE2B7C06* L_1 = (Func_1_t46923DBCDC1CF900E786AA09F228510ADE2B7C06*)il2cpp_codegen_object_new(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 37));
@@ -31653,7 +31653,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProviderMonitor_1_U3CInitializeProviders
 	Predicate_1_t8342C85FF4E41CD1F7024AC0CDC3E5312A32CB12* G_B3_0 = NULL;
 	List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* G_B3_1 = NULL;
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/TeleportationMonitor.cs:137>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/TeleportationMonitor.cs:137>
 		LocomotionProvider_t359A39ECDB2224E3FF09583CF055A3D19A3557BD* L_0 = ___0_provider;
 		V_0 = ((RuntimeObject*)IsInst((RuntimeObject*)L_0, il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 4)));
 		RuntimeObject* L_1 = V_0;
@@ -31663,7 +31663,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProviderMonitor_1_U3CInitializeProviders
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/TeleportationMonitor.cs:138>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/TeleportationMonitor.cs:138>
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2));
 		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_2 = ((ProviderMonitor_1_tDB1D1781BFD2C60C1F98AD7F8C7359E5ED1361B1_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2)))->___s_Providers;
 		RuntimeObject* L_3 = V_0;
@@ -31673,7 +31673,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ProviderMonitor_1_U3CInitializeProviders
 
 IL_001f:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/TeleportationMonitor.cs:142>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/TeleportationMonitor.cs:142>
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2));
 		List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* L_4 = ((ProviderMonitor_1_tDB1D1781BFD2C60C1F98AD7F8C7359E5ED1361B1_StaticFields*)il2cpp_codegen_static_fields_for(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 2)))->___s_Providers;
 		il2cpp_codegen_runtime_class_init_inline(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 35));
@@ -31705,7 +31705,7 @@ IL_0043:
 		NullCheck(G_B4_1);
 		int32_t L_10;
 		L_10 = List_1_RemoveAll_m1A8DE2A7640CC473609F3ADAC38FDB960520636D(G_B4_1, G_B4_0, il2cpp_rgctx_method(InitializedTypeInfo(method->klass)->rgctx_data, 44));
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Utilities/TeleportationMonitor.cs:143>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Utilities/TeleportationMonitor.cs:143>
 		return;
 	}
 }
@@ -31721,7 +31721,7 @@ IL_0043:
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t QuaternionCompositeComparer_Compare_mFB7911382D99A8FC584E494EFEBECE486BFE439C_gshared (QuaternionCompositeComparer_t021E6DC8E7FE8C9C8CC75C2512807E2F9ACA4E33* __this, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___0_x, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___1_y, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Inputs/Composites/FallbackComposite.cs:301>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Inputs/Composites/FallbackComposite.cs:301>
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_0 = ___0_x;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_1;
 		L_1 = Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline(NULL);
@@ -31733,7 +31733,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t QuaternionCompositeComparer_Compare_m
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Inputs/Composites/FallbackComposite.cs:303>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Inputs/Composites/FallbackComposite.cs:303>
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_3 = ___1_y;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_4;
 		L_4 = Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline(NULL);
@@ -31745,19 +31745,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t QuaternionCompositeComparer_Compare_m
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Inputs/Composites/FallbackComposite.cs:304>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Inputs/Composites/FallbackComposite.cs:304>
 		return 0;
 	}
 
 IL_001c:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Inputs/Composites/FallbackComposite.cs:305>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Inputs/Composites/FallbackComposite.cs:305>
 		return (-1);
 	}
 
 IL_001e:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Inputs/Composites/FallbackComposite.cs:308>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Inputs/Composites/FallbackComposite.cs:308>
 		return 1;
 	}
 }
@@ -31782,7 +31782,7 @@ IL2CPP_EXTERN_C  int32_t QuaternionCompositeComparer_Compare_mFB7911382D99A8FC58
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t QuaternionCompositeComparer_Compare_m48A2A3D93D4585D34F05490E96B4C8581DB7B69F_gshared (QuaternionCompositeComparer_t226CF0226C9A2F5DA3083FF966A2A8328E1B140B* __this, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___0_x, Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 ___1_y, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Inputs/Composites/FallbackComposite.cs:301>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Inputs/Composites/FallbackComposite.cs:301>
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_0 = ___0_x;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_1;
 		L_1 = Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline(NULL);
@@ -31794,7 +31794,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t QuaternionCompositeComparer_Compare_m
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Inputs/Composites/FallbackComposite.cs:303>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Inputs/Composites/FallbackComposite.cs:303>
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_3 = ___1_y;
 		Quaternion_tDA59F214EF07D7700B26E40E562F267AF7306974 L_4;
 		L_4 = Quaternion_get_identity_m7E701AE095ED10FD5EA0B50ABCFDE2EEFF2173A5_inline(NULL);
@@ -31806,19 +31806,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t QuaternionCompositeComparer_Compare_m
 		}
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Inputs/Composites/FallbackComposite.cs:304>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Inputs/Composites/FallbackComposite.cs:304>
 		return 0;
 	}
 
 IL_001c:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Inputs/Composites/FallbackComposite.cs:305>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Inputs/Composites/FallbackComposite.cs:305>
 		return (-1);
 	}
 
 IL_001e:
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Inputs/Composites/FallbackComposite.cs:308>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Inputs/Composites/FallbackComposite.cs:308>
 		return 1;
 	}
 }
@@ -35282,7 +35282,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR List_1_tBB95B7BAA20D6FFAA14C60039
 		s_Il2CppMethodInitialized = true;
 	}
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Locomotion/LocomotionProvider.cs:123>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Locomotion/LocomotionProvider.cs:123>
 		il2cpp_codegen_runtime_class_init_inline(LocomotionProvider_t359A39ECDB2224E3FF09583CF055A3D19A3557BD_il2cpp_TypeInfo_var);
 		List_1_tBB95B7BAA20D6FFAA14C6003919B3C6ECA28F844* L_0 = ((LocomotionProvider_t359A39ECDB2224E3FF09583CF055A3D19A3557BD_StaticFields*)il2cpp_codegen_static_fields_for(LocomotionProvider_t359A39ECDB2224E3FF09583CF055A3D19A3557BD_il2cpp_TypeInfo_var))->___U3ClocomotionProvidersU3Ek__BackingField;
 		return L_0;
@@ -35292,7 +35292,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR List_1_tBB95B7BAA20D6FFAA14C60039
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR LocomotionMediator_tFF0E600A153C909C211466942B7D4C3DA6105AD6* LocomotionProvider_get_mediator_m7ED478A25CC3F307D84C6A1F81ACC26231E94B5D_inline (LocomotionProvider_t359A39ECDB2224E3FF09583CF055A3D19A3557BD* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Locomotion/LocomotionProvider.cs:28>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Locomotion/LocomotionProvider.cs:28>
 		LocomotionMediator_tFF0E600A153C909C211466942B7D4C3DA6105AD6* L_0 = __this->___m_Mediator;
 		return L_0;
 	}
@@ -35301,7 +35301,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR LocomotionMediator_tFF0E600A153C9
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR XRBodyTransformer_t913A5C6DC68A5C1C68EDF753FC42FDD67F1AE772* LocomotionMediator_get_bodyTransformer_m26C8883C27A5B22E1E7825FF19FEF2623732185C_inline (LocomotionMediator_tFF0E600A153C909C211466942B7D4C3DA6105AD6* __this, const RuntimeMethod* method) 
 {
 	{
-		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@76258c00be3e/Runtime/Locomotion/LocomotionMediator.cs:36>
+		//<source_info:./Library/PackageCache/com.unity.xr.interaction.toolkit@7faefd988174/Runtime/Locomotion/LocomotionMediator.cs:36>
 		XRBodyTransformer_t913A5C6DC68A5C1C68EDF753FC42FDD67F1AE772* L_0 = __this->___m_XRBodyTransformer;
 		return L_0;
 	}
