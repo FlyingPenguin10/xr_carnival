@@ -1,5 +1,5 @@
 using UnityEngine;
-using TMPro; // Optional if using TextMeshPro for VR UI
+using TMPro;
 
 public class HoopGameManager : MonoBehaviour
 {
@@ -10,7 +10,7 @@ public class HoopGameManager : MonoBehaviour
     public int pointsPerBasket = 1;
 
     [Header("Timer Settings")]
-    public float roundTime = 120f; // 2 minutes
+    public float roundTime = 120f;
     private float timeRemaining;
     private bool roundActive = false;
 
@@ -23,7 +23,7 @@ public class HoopGameManager : MonoBehaviour
     [Header("Prize Spawn Point")]
     public Transform prizeSpawnPoint;
 
-    [Header("UI (Optional)")]
+    [Header("UI")]
     public TextMeshProUGUI scoreText;
     public TextMeshProUGUI timerText;
 
@@ -42,11 +42,10 @@ public class HoopGameManager : MonoBehaviour
     {
         if (!roundActive) return;
 
-        // Countdown timer
         timeRemaining -= Time.deltaTime;
 
         if (timerText != null)
-            timerText.text = "Time: " + Mathf.Ceil(timeRemaining).ToString();
+            timerText.text = $"Time: {Mathf.CeilToInt(timeRemaining)}";
 
         if (timeRemaining <= 0f)
             EndRound();
@@ -57,10 +56,10 @@ public class HoopGameManager : MonoBehaviour
         if (!roundActive) return;
 
         score += pointsPerBasket;
-        Debug.Log("Current Score: " + score);
+        Debug.Log($"Basket scored! Current Score: {score}");
 
         if (scoreText != null)
-            scoreText.text = "Score: " + score;
+            scoreText.text = $"Score: {score}";
     }
 
     public void StartRound()
@@ -70,10 +69,12 @@ public class HoopGameManager : MonoBehaviour
         roundActive = true;
 
         if (scoreText != null)
-            scoreText.text = "Score: " + score;
+            scoreText.text = $"Score: {score}";
 
         if (timerText != null)
-            timerText.text = "Time: " + Mathf.Ceil(timeRemaining).ToString();
+            timerText.text = $"Time: {Mathf.CeilToInt(timeRemaining)}";
+
+        Debug.Log("Basketball round started!");
     }
 
     private void EndRound()
@@ -86,7 +87,6 @@ public class HoopGameManager : MonoBehaviour
     {
         GameObject prizeToGive = null;
 
-        // Assign prize based on total score
         if (score <= 2)
             prizeToGive = commonPrize;
         else if (score <= 4)
@@ -97,9 +97,14 @@ public class HoopGameManager : MonoBehaviour
             prizeToGive = bonusPrize;
 
         if (prizeToGive != null && prizeSpawnPoint != null)
+        {
             Instantiate(prizeToGive, prizeSpawnPoint.position, Quaternion.identity);
-
-        Debug.Log("Round ended! Prize awarded: " + prizeToGive.name);
+            Debug.Log($"Round ended! Score: {score}, Prize: {prizeToGive.name}");
+        }
+        else
+        {
+            Debug.LogWarning("No prize awarded - check prize prefab assignments!");
+        }
     }
 }
 

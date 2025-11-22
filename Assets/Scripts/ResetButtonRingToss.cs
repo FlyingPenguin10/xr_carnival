@@ -3,21 +3,13 @@ using UnityEngine;
 public class VRResetButtonRingToss : MonoBehaviour
 {
     public RingTossGameManager gameManager;
-    private bool isPressed = false;
-
-    private void OnTriggerEnter(Collider other)
+    
+    public void PressButton()
     {
-        if (isPressed) return;
-        isPressed = true;
-
         if (gameManager != null)
         {
             gameManager.ResetGame();
+            Debug.Log("Ring Toss game reset!");
         }
-    }
-
-    private void OnTriggerExit(Collider other)
-    {
-        isPressed = false;
     }
 }

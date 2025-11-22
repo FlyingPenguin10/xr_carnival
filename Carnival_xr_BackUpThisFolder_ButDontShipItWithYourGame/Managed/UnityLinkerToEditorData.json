@@ -2,6 +2,47 @@
   "report": {
     "modules": [
       {
+        "name": "AI",
+        "dependencies": [
+          {
+            "name": "NavMeshAgent",
+            "scenes": [
+              "Assets/Scenes/xr_carnival.unity"
+            ],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
+            "name": "NavMeshData",
+            "scenes": [
+              "Assets/Scenes/xr_carnival.unity"
+            ],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
+            "name": "NavMeshObstacle",
+            "scenes": [],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
+            "name": "NavMeshProjectSettings",
+            "scenes": [],
+            "dependencyType": 1,
+            "icon": null
+          },
+          {
+            "name": "NavMeshSettings",
+            "scenes": [
+              "Assets/Scenes/xr_carnival.unity"
+            ],
+            "dependencyType": 1,
+            "icon": null
+          }
+        ]
+      },
+      {
         "name": "AndroidJNI",
         "dependencies": []
       },
@@ -35,6 +76,14 @@
           {
             "name": "AnimatorOverrideController",
             "scenes": [],
+            "dependencyType": 0,
+            "icon": null
+          },
+          {
+            "name": "Avatar",
+            "scenes": [
+              "Assets/Scenes/xr_carnival.unity"
+            ],
             "dependencyType": 0,
             "icon": null
           },
@@ -503,6 +552,12 @@
             "scenes": [],
             "dependencyType": 1,
             "icon": null
+          },
+          {
+            "name": "Required by AI Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.ai"
           },
           {
             "name": "Required by AndroidJNI Module",
@@ -1054,6 +1109,12 @@
       {
         "name": "SharedInternals",
         "dependencies": [
+          {
+            "name": "Required by AI Module",
+            "scenes": [],
+            "dependencyType": 2,
+            "icon": "package/com.unity.modules.ai"
+          },
           {
             "name": "Required by AndroidJNI Module",
             "scenes": [],

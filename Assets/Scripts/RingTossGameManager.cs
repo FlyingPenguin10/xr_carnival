@@ -11,6 +11,9 @@ public class RingTossGameManager : MonoBehaviour
     public GameObject prizePrefab;
     public Transform prizeSpawnPoint;
 
+    [Header("Pegs")]
+    public PegRingDetector[] pegs;
+
     private HashSet<GameObject> ringsScored = new HashSet<GameObject>();
     private bool prizeGiven = false;
 
@@ -23,6 +26,11 @@ public class RingTossGameManager : MonoBehaviour
         {
             rings[i] = ringObjects[i].GetComponent<Rigidbody>();
         }
+
+        if (ringStartPositions.Length != rings.Length)
+        {
+            Debug.LogError($"Ring start positions ({ringStartPositions.Length}) don't match number of rings ({rings.Length})!");
+        }
     }
 
     public void ResetGame()
@@ -30,27 +38,36 @@ public class RingTossGameManager : MonoBehaviour
         ResetRings();
         ringsScored.Clear();
         prizeGiven = false;
+
+        foreach (PegRingDetector peg in pegs)
+        {
+            if (peg != null)
+            {
+                peg.ResetDetector();
+            }
+        }
+
+        Debug.Log("Ring Toss game reset!");
     }
 
     private void ResetRings()
     {
-        for (int i = 0; i < rings.Length; i++)
+        for (int i = 0; i < rings.Length && i < ringStartPositions.Length; i++)
         {
-            rings[i].linearVelocity = Vector3.zero; // Updated from velocity to linearVelocity
+            rings[i].linearVelocity = Vector3.zero;
             rings[i].angularVelocity = Vector3.zero;
             rings[i].transform.position = ringStartPositions[i].position;
             rings[i].transform.rotation = ringStartPositions[i].rotation;
         }
     }
 
-    // Called by PegRingDetector
     public void RingScored(GameObject ring)
     {
         if (prizeGiven) return;
 
         ringsScored.Add(ring);
+        Debug.Log($"Rings scored: {ringsScored.Count}/{rings.Length}");
 
-        // All 3 rings scored?
         if (ringsScored.Count >= rings.Length)
         {
             GivePrize();
@@ -59,7 +76,11 @@ public class RingTossGameManager : MonoBehaviour
 
     private void GivePrize()
     {
-        Instantiate(prizePrefab, prizeSpawnPoint.position, prizeSpawnPoint.rotation);
-        prizeGiven = true;
+        if (prizePrefab != null && prizeSpawnPoint != null)
+        {
+            Instantiate(prizePrefab, prizeSpawnPoint.position, prizeSpawnPoint.rotation);
+            prizeGiven = true;
+            Debug.Log("All rings scored! Prize awarded!");
+        }
     }
 }

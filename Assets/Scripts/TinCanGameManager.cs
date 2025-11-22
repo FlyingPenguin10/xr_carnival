@@ -14,9 +14,12 @@ public class TinCanGameManager : MonoBehaviour
     public Transform prizeSpawnPoint;
     private bool prizeGiven = false;
 
+    [Header("Win Condition Settings")]
+    public float knockedAngleThreshold = 45f;
+    public float minKnockedHeight = 0.1f;
+
     private void Start()
     {
-        // Collect all cans and balls by tag
         GameObject[] canObjects = GameObject.FindGameObjectsWithTag("Can");
         GameObject[] ballObjects = GameObject.FindGameObjectsWithTag("Ball");
 
@@ -28,6 +31,16 @@ public class TinCanGameManager : MonoBehaviour
 
         for (int i = 0; i < ballObjects.Length; i++)
             balls[i] = ballObjects[i].GetComponent<Rigidbody>();
+
+        if (canStartPositions.Length != cans.Length)
+        {
+            Debug.LogError($"Can start positions ({canStartPositions.Length}) don't match number of cans ({cans.Length})!");
+        }
+
+        if (ballStartPositions.Length != balls.Length)
+        {
+            Debug.LogError($"Ball start positions ({ballStartPositions.Length}) don't match number of balls ({balls.Length})!");
+        }
     }
 
     private void Update()
@@ -35,17 +48,16 @@ public class TinCanGameManager : MonoBehaviour
         CheckWinCondition();
     }
 
-    // Called by the physical VR button
     public void ResetGame()
     {
-        resetCans();
-        resetBalls();
+        ResetCans();
+        ResetBalls();
         prizeGiven = false;
     }
 
-    private void resetCans()
+    private void ResetCans()
     {
-        for (int i = 0; i < cans.Length; i++)
+        for (int i = 0; i < cans.Length && i < canStartPositions.Length; i++)
         {
             cans[i].linearVelocity = Vector3.zero;
             cans[i].angularVelocity = Vector3.zero;
@@ -54,9 +66,9 @@ public class TinCanGameManager : MonoBehaviour
         }
     }
 
-    private void resetBalls()
+    private void ResetBalls()
     {
-        for (int i = 0; i < balls.Length; i++)
+        for (int i = 0; i < balls.Length && i < ballStartPositions.Length; i++)
         {
             balls[i].linearVelocity = Vector3.zero;
             balls[i].angularVelocity = Vector3.zero;
@@ -69,25 +81,33 @@ public class TinCanGameManager : MonoBehaviour
     {
         if (prizeGiven) return;
 
-        bool allDown = true;
+        int knockedCount = 0;
 
         foreach (Rigidbody can in cans)
         {
-            // Can is considered knocked down if it's tilted more than 45 degrees
-            if (Vector3.Dot(can.transform.up, Vector3.up) > 0.7f)
+            float angle = Vector3.Angle(can.transform.up, Vector3.up);
+            bool isTipped = angle > knockedAngleThreshold;
+            bool isFallen = can.transform.position.y < (canStartPositions[0].position.y - minKnockedHeight);
+
+            if (isTipped || isFallen)
             {
-                allDown = false;
-                break;
+                knockedCount++;
             }
         }
 
-        if (allDown)
+        if (knockedCount >= cans.Length)
+        {
             GivePrize();
+        }
     }
 
     private void GivePrize()
     {
-        Instantiate(prizePrefab, prizeSpawnPoint.position, prizeSpawnPoint.rotation);
-        prizeGiven = true;
+        if (prizePrefab != null && prizeSpawnPoint != null)
+        {
+            Instantiate(prizePrefab, prizeSpawnPoint.position, prizeSpawnPoint.rotation);
+            prizeGiven = true;
+            Debug.Log("All cans knocked down! Prize awarded!");
+        }
     }
 }
