@@ -97,17 +97,36 @@ public class TinCanGameManager : MonoBehaviour
 
         if (knockedCount >= cans.Length)
         {
+            Debug.Log($"All {cans.Length} cans knocked down! Giving prize...");
             GivePrize();
         }
     }
 
     private void GivePrize()
     {
+        prizeGiven = true;
+        
         if (prizePrefab != null && prizeSpawnPoint != null)
         {
             Instantiate(prizePrefab, prizeSpawnPoint.position, prizeSpawnPoint.rotation);
-            prizeGiven = true;
             Debug.Log("All cans knocked down! Prize awarded!");
         }
+        else
+        {
+            Debug.LogWarning("Prize prefab or spawn point not assigned!");
+        }
+        
+        if (confettiFX != null)
+        {
+            confettiFX.Play();
+            Debug.Log("Confetti FX played!");
+        }
+        else
+        {
+            Debug.LogWarning("Confetti FX not assigned!");
+        }
     }
+    
+    [Header("Visual Effects")]
+    public ParticleSystem confettiFX;
 }
