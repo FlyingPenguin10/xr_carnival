@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 
 public class StickPullGame : MonoBehaviour
 {
@@ -12,6 +12,8 @@ public class StickPullGame : MonoBehaviour
 
     [Header("Spawn Settings")]
     public Transform prizeSpawnPoint;
+    
+    private GameObject currentPrize;
 
     private void Awake()
     {
@@ -21,6 +23,9 @@ public class StickPullGame : MonoBehaviour
     public void OnStickPulled(string color)
     {
         Debug.Log($"Stick pulled! Color: {color}");
+        
+        DespawnCurrentPrize();
+        
         GameObject prizePrefab = null;
 
         switch (color)
@@ -34,7 +39,7 @@ public class StickPullGame : MonoBehaviour
             case "Gold":
                 prizePrefab = legendaryPrize;
                 break;
-            case "Green": // 🟩 New color
+            case "Green":
                 prizePrefab = bonusPrize;
                 break;
             default:
@@ -44,7 +49,17 @@ public class StickPullGame : MonoBehaviour
 
         if (prizePrefab != null && prizeSpawnPoint != null)
         {
-            Instantiate(prizePrefab, prizeSpawnPoint.position, Quaternion.identity);
+            currentPrize = Instantiate(prizePrefab, prizeSpawnPoint.position, Quaternion.identity);
+            Debug.Log($"{color} stick prize spawned!");
+        }
+    }
+    
+    private void DespawnCurrentPrize()
+    {
+        if (currentPrize != null)
+        {
+            Destroy(currentPrize);
+            Debug.Log("Previous prize despawned!");
         }
     }
 }

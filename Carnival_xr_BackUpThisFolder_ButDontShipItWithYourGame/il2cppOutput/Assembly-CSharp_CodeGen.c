@@ -55,6 +55,18 @@ extern void U3CMovementRoutineU3Ed__17_MoveNext_m98CCEC55F965BB4D21C08ECDC74BBCA
 extern void U3CMovementRoutineU3Ed__17_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m93BDE90C6C6AF2A58A6157F5FF97329080B883F2 (void);
 extern void U3CMovementRoutineU3Ed__17_System_Collections_IEnumerator_Reset_mE612178AFAE602DA5B6CBAD7A7CBF440AF81104D (void);
 extern void U3CMovementRoutineU3Ed__17_System_Collections_IEnumerator_get_Current_m2426A42D5F910DEEEBA2C718A7AA4F867D18AD6D (void);
+extern void ArcadeMachineScreen_Start_mCE867D6D62D0593D156125DEEA4CF56C84164770 (void);
+extern void ArcadeMachineScreen_SetupEmissiveScreen_mF1B2CF70750E29E1895E7F1792FD2AA6B1E93077 (void);
+extern void ArcadeMachineScreen_OnScreenPressed_m791E188782A5FB1099239E6E60C9E0CEADD15333 (void);
+extern void ArcadeMachineScreen_FlashScreen_m42386D6BB28274FFFE66FBE0E9CB8851EB78966B (void);
+extern void ArcadeMachineScreen_FlashCoroutine_mF46E3B7249F13701659988EDA541A03BBC2A5051 (void);
+extern void ArcadeMachineScreen__ctor_m16F54BACB01048BD40172B8B287B4A2915788273 (void);
+extern void U3CFlashCoroutineU3Ed__9__ctor_m258A12069CFA88262415FC917C8E65C3A4E62942 (void);
+extern void U3CFlashCoroutineU3Ed__9_System_IDisposable_Dispose_mD8B6C79B375F793A39C17B5E06737F9FF7B26DBC (void);
+extern void U3CFlashCoroutineU3Ed__9_MoveNext_mF728F89FE96223D3D856F6EB08834444B3886CD8 (void);
+extern void U3CFlashCoroutineU3Ed__9_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m734C01923DB4C13EF54280EBD6DECFBAD2AFD72E (void);
+extern void U3CFlashCoroutineU3Ed__9_System_Collections_IEnumerator_Reset_m205A5DF51587572266A89CCE7BF9E8A2717E2D98 (void);
+extern void U3CFlashCoroutineU3Ed__9_System_Collections_IEnumerator_get_Current_m423D26C4E2020F80666AFE09676420FB61295A5B (void);
 extern void Balloon_Start_mCD4C88738C46E1E4F43655FE2391C27F781872ED (void);
 extern void Balloon_OnCollisionEnter_m35FB464AF12403DD34384F6CB8B8675FD3765F50 (void);
 extern void Balloon_Pop_m6D1E5E12E3DFF50650E3CB6A33472EDFC8A74968 (void);
@@ -611,7 +623,7 @@ extern void ThirdPersonController_OnDrawGizmosSelected_mCD3D7F711815BC95C166CB8E
 extern void ThirdPersonController_OnFootstep_mFE54F581AB0F72FC34208BCB6ABF77311BCC3D02 (void);
 extern void ThirdPersonController_OnLand_mAF1A04288C4B0ED39ACA52599F18D059F78D41C8 (void);
 extern void ThirdPersonController__ctor_mA2ECE265C51A281DA13F2344E30363399DD64321 (void);
-static Il2CppMethodPointer s_methodPointers[604] = 
+static Il2CppMethodPointer s_methodPointers[616] = 
 {
 	AIController_Start_m63E1AE7212868C3C62F4D1316C8E8B4D588FA5A3,
 	AIController_Update_m40C0A5E877F3D65A09EE5777F293286E27FE2545,
@@ -661,6 +673,18 @@ static Il2CppMethodPointer s_methodPointers[604] =
 	U3CMovementRoutineU3Ed__17_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m93BDE90C6C6AF2A58A6157F5FF97329080B883F2,
 	U3CMovementRoutineU3Ed__17_System_Collections_IEnumerator_Reset_mE612178AFAE602DA5B6CBAD7A7CBF440AF81104D,
 	U3CMovementRoutineU3Ed__17_System_Collections_IEnumerator_get_Current_m2426A42D5F910DEEEBA2C718A7AA4F867D18AD6D,
+	ArcadeMachineScreen_Start_mCE867D6D62D0593D156125DEEA4CF56C84164770,
+	ArcadeMachineScreen_SetupEmissiveScreen_mF1B2CF70750E29E1895E7F1792FD2AA6B1E93077,
+	ArcadeMachineScreen_OnScreenPressed_m791E188782A5FB1099239E6E60C9E0CEADD15333,
+	ArcadeMachineScreen_FlashScreen_m42386D6BB28274FFFE66FBE0E9CB8851EB78966B,
+	ArcadeMachineScreen_FlashCoroutine_mF46E3B7249F13701659988EDA541A03BBC2A5051,
+	ArcadeMachineScreen__ctor_m16F54BACB01048BD40172B8B287B4A2915788273,
+	U3CFlashCoroutineU3Ed__9__ctor_m258A12069CFA88262415FC917C8E65C3A4E62942,
+	U3CFlashCoroutineU3Ed__9_System_IDisposable_Dispose_mD8B6C79B375F793A39C17B5E06737F9FF7B26DBC,
+	U3CFlashCoroutineU3Ed__9_MoveNext_mF728F89FE96223D3D856F6EB08834444B3886CD8,
+	U3CFlashCoroutineU3Ed__9_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m734C01923DB4C13EF54280EBD6DECFBAD2AFD72E,
+	U3CFlashCoroutineU3Ed__9_System_Collections_IEnumerator_Reset_m205A5DF51587572266A89CCE7BF9E8A2717E2D98,
+	U3CFlashCoroutineU3Ed__9_System_Collections_IEnumerator_get_Current_m423D26C4E2020F80666AFE09676420FB61295A5B,
 	Balloon_Start_mCD4C88738C46E1E4F43655FE2391C27F781872ED,
 	Balloon_OnCollisionEnter_m35FB464AF12403DD34384F6CB8B8675FD3765F50,
 	Balloon_Pop_m6D1E5E12E3DFF50650E3CB6A33472EDFC8A74968,
@@ -1218,7 +1242,7 @@ static Il2CppMethodPointer s_methodPointers[604] =
 	ThirdPersonController_OnLand_mAF1A04288C4B0ED39ACA52599F18D059F78D41C8,
 	ThirdPersonController__ctor_mA2ECE265C51A281DA13F2344E30363399DD64321,
 };
-static const int32_t s_InvokerIndices[604] = 
+static const int32_t s_InvokerIndices[616] = 
 {
 	14323,
 	14323,
@@ -1262,6 +1286,18 @@ static const int32_t s_InvokerIndices[604] =
 	14129,
 	14323,
 	14129,
+	10860,
+	14323,
+	13932,
+	14129,
+	14323,
+	14129,
+	14323,
+	14323,
+	14323,
+	14323,
+	14129,
+	14323,
 	10860,
 	14323,
 	13932,
@@ -1829,7 +1865,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	604,
+	616,
 	s_methodPointers,
 	0,
 	NULL,

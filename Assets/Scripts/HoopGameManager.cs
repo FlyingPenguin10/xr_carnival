@@ -26,6 +26,10 @@ public class HoopGameManager : MonoBehaviour
     [Header("UI")]
     public TextMeshProUGUI scoreText;
     public TextMeshProUGUI timerText;
+    
+    [Header("Basketball Reset")]
+    public Transform[] basketballStartPositions;
+    private Rigidbody[] basketballs;
 
     private void Awake()
     {
@@ -35,7 +39,24 @@ public class HoopGameManager : MonoBehaviour
 
     private void Start()
     {
+        FindBasketballs();
         StartRound();
+    }
+    
+    private void FindBasketballs()
+    {
+        GameObject[] basketballObjects = GameObject.FindGameObjectsWithTag("Basketball");
+        basketballs = new Rigidbody[basketballObjects.Length];
+        
+        for (int i = 0; i < basketballObjects.Length; i++)
+        {
+            basketballs[i] = basketballObjects[i].GetComponent<Rigidbody>();
+        }
+        
+        if (basketballStartPositions.Length != basketballs.Length)
+        {
+            Debug.LogWarning($"Basketball start positions ({basketballStartPositions.Length}) don't match number of basketballs ({basketballs.Length})!");
+        }
     }
 
     private void Update()
@@ -67,6 +88,8 @@ public class HoopGameManager : MonoBehaviour
         score = 0;
         timeRemaining = roundTime;
         roundActive = true;
+        
+        ResetBasketballs();
 
         if (scoreText != null)
             scoreText.text = $"Score: {score}";
@@ -75,6 +98,24 @@ public class HoopGameManager : MonoBehaviour
             timerText.text = $"Time: {Mathf.CeilToInt(timeRemaining)}";
 
         Debug.Log("Basketball round started!");
+    }
+    
+    private void ResetBasketballs()
+    {
+        if (basketballs == null || basketballStartPositions == null) return;
+        
+        for (int i = 0; i < basketballs.Length && i < basketballStartPositions.Length; i++)
+        {
+            if (basketballs[i] != null && basketballStartPositions[i] != null)
+            {
+                basketballs[i].linearVelocity = Vector3.zero;
+                basketballs[i].angularVelocity = Vector3.zero;
+                basketballs[i].transform.position = basketballStartPositions[i].position;
+                basketballs[i].transform.rotation = basketballStartPositions[i].rotation;
+            }
+        }
+        
+        Debug.Log("Basketballs reset to starting positions!");
     }
 
     private void EndRound()
