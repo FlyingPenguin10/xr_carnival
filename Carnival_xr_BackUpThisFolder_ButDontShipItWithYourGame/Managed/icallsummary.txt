@@ -339,6 +339,9 @@ UnityEngine.AnimationCurve::get_preWrapMode_Injected
 UnityEngine.Animations.AnimationLayerMixerPlayable::SetSingleLayerOptimizationInternal
 UnityEngine.Animator::get_hasBoundPlayables_Injected
 UnityEngine.Animator::StringToHash_Injected
+UnityEngine.Animator::get_runtimeAnimatorController_Injected
+UnityEngine.Animator::get_speed_Injected
+UnityEngine.Animator::GetAnimatorStateInfo_Injected
 UnityEngine.Animator::ResetTriggerString_Injected
 UnityEngine.Animator::SetBoolID_Injected
 UnityEngine.Animator::SetBoolString_Injected
@@ -346,6 +349,10 @@ UnityEngine.Animator::SetFloatID_Injected
 UnityEngine.Animator::SetFloatString_Injected
 UnityEngine.Animator::SetTriggerID_Injected
 UnityEngine.Animator::SetTriggerString_Injected
+UnityEngine.Animator::GetCurrentAnimatorClipInfo_Injected
+UnityEngine.Animator::get_cullingMode_Injected
+UnityEngine.Animator::get_updateMode_Injected
+UnityEngine.AnimatorClipInfo::InstanceIDToAnimationClipPPtr_Injected
 UnityEngine.Application::get_isBatchMode
 UnityEngine.Application::get_isFocused
 UnityEngine.Application::get_isPlaying
@@ -1213,6 +1220,7 @@ UnityEngine.Renderer::set_shadowCastingMode_Injected
 UnityEngine.Renderer::set_smallMeshCulling_Injected
 UnityEngine.Renderer::set_sortingLayerID_Injected
 UnityEngine.Renderer::set_sortingOrder_Injected
+UnityEngine.Renderer::GetMaterialArray_Injected
 UnityEngine.Renderer::GetSharedMaterialArray_Injected
 UnityEngine.Rendering.AsyncGPUReadback::Request_Internal_GraphicsBuffer_1_Injected
 UnityEngine.Rendering.AsyncGPUReadback::Request_Internal_GraphicsBuffer_2_Injected
